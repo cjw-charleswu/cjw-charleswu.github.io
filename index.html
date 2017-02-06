@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="/static/favicon.ico">
@@ -55,8 +55,26 @@
   </head>
 
   <body style="text-align:center;">
-    <h1 >Full paper accepted to <a href="https://chi2017.acm.org/">CHI'17</a>!</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6QLHA7hC_Kc" frameborder="1" allowfullscreen></iframe>
-    <p style="margin: 20px;font-size:10px;color:grey">Building new website... &copy; Chi-Jui Wu 2017</p>
+    <div class="container">
+      <div id="content" class="row">
+          <h1 >Full paper accepted to <a href="https://chi2017.acm.org/">CHI'17</a>!</h1>
+          <iframe id="video" src="https://www.youtube.com/embed/6QLHA7hC_Kc" allowfullscreen></iframe>
+          <p style="margin: 20px;font-size:10px;color:grey">Building new website... &copy; Chi-Jui Wu 2017</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var content_width = $("#content").width();
+        var content_height = $("#content").height();
+        if (content_width >= 560) {
+          $("#video").width(560);
+          $("#video").height(315);
+        } else {
+          $("#video").width(content_width);
+          $("#video").height(315 * content_width / 560);
+        }
+      });
+    </script>
   </body>
 </html>
