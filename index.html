@@ -1,80 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/static/favicon.ico">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="/static/favicon.ico">
 
-    <title>Chi-Jui Wu</title>
+        <title>Chi-Jui Wu</title>
 
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <!-- Theme -->
+        <!-- <link rel="stylesheet" href="/static/lumen.bootstrap.min.css"> -->
 
-    <!-- Boostrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <!-- Font Awesome-->
+        <script src="https://use.fontawesome.com/120527499a.js"></script>
 
-    <!-- Theme -->
-    <link rel="stylesheet" href="/static/lumen.bootstrap.min.css">
+        <style type="text/css">
+            #m_navbar {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
 
-    <style type="text/css">
-      body {
-        padding-top: 20px;
-        padding-bottom: 20px;
-      }
+            div.c-wrapper{
+                width: 100%;
+                margin: auto;
+            }
 
-      .crop img {
-          max-width: 70%
-      }
+            body {
+                color: #5a5a5a;
+                font-size: 10pt;
+            }
 
-      .smallimg img {
-          /*width: 100%;*/
-          display: inline-block;
-      }
+            .list-group-item {
+                float: left;
+                border: 0 !important;
+                margin: 0px;
+                padding: 0px;
+            }
 
-      .header,
-      .marketing,
-      .footer {
-        padding-right: 15px;
-        padding-left: 15px;
-      }
+            .section {
+                margin-top: 3rem;
+            }
 
-      .jumbotron {
-        background: url("/static/img/jumbotron.png");
-        background-position: center center;
-        background-size: cover;
-      }
-    </style>
-  </head>
+            .divider {
+                margin-top: 1rem;
+                margin-bottom: 2rem;
+            }
 
-  <body style="text-align:center;">
-    <div class="container">
-      <div id="content" class="row">
-          <h1 >Full paper accepted to <a href="https://chi2017.acm.org/">CHI'17</a>!</h1>
-          <iframe id="video" src="https://www.youtube.com/embed/6QLHA7hC_Kc" allowfullscreen></iframe>
-          <p style="margin: 20px;font-size:10px;color:grey">Building new website... &copy; Chi-Jui Wu 2017</p>
-      </div>
+            .img-project {
+                display: block;
+                width: 100%;
+                height: auto;
+                margin: auto;
+            }
+
+            .card {
+                float: left;
+                width: 33.333%;
+                padding: .75rem;
+                margin-bottom: 2rem;
+                border: 0;
+            }
+
+            .card > img {
+                height: auto;
+                width: 356px;
+                margin: auto;
+            }
+
+            .avatar {
+                width: 10em;
+                border-radius: 100%;
+            }
+
+            .borderless td, .borderless th{
+                border: none;
+            }
+
+            .table > tbody > tr > td {
+                width: 33%;
+            }
+
+            .tr-project td {
+                vertical-align: middle;
+            }
+
+            .overview-badge {
+                width:20px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+          
+        <!-- Navigation -->
+        <nav class="navbar navbar-light navbar-toggleable-md" id="m_navbar">
+        <a class="navbar-brand" href="#">
+          <!-- <img src="/static/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
+        </a>
+        <div class="collapse navbar-collapse justify-content-end" id="containerNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Teaching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Life</a>
+            </li>
+          </ul>
+        </div>
+        </nav>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Full paper accepted at <a href="https://chi2017.acm.org/">CHI'17</a>!</h1>
+            <p class="lead">EagleSense: Tracking People and Devices in Interactive Spaces using Real-Time Top-View Depth-Sensing</p>
+            <hr class="my-4">
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/6QLHA7hC_Kc" frameborder="0" allowfullscreen></iframe></p>
+<!--             <p>Nam lorem velit, ultricies sed cursus eget, tristique ut magna. Integer orci neque, convallis et fermentum eget, venenatis a ante. Pellentesque semper, nunc at rhoncus interdum, enim dui convallis ante, at pulvinar quam nisi at tellus. In imperdiet sagittis viverra. Curabitur volutpat interdum quam, sed vestibulum sapien euismod eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed feugiat lacinia sapien, a maximus nibh fringilla eu. Vestibulum auctor nunc id velit luctus, non commodo risus convallis. Aliquam lacinia nisl ligula, semper ultricies dolor facilisis nec. Mauris nisl lectus, laoreet sit amet cursus sit amet, fermentum eget lacus. Donec eu cursus arcu, sed congue lorem. Vivamus scelerisque, leo sit amet pretium feugiat, massa urna semper diam, vitae aliquam metus elit et lorem. Nunc eget tortor tristique, semper justo sed, pellentesque nunc. Vivamus massa lacus, tristique et erat nec, lobortis lobortis tellus. Cras eget mauris sit amet orci maximus iaculis.</p>
+            <p><a class="btn btn-primary btn-lg disabled" href="#" role="button">Donate</a></p> -->
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section">About Chi-Jui</h2><hr class="divider">
+            </div>
+
+            <div class="col-md-12">
+                <img class="avatar" style="margin-bottom:10px" src="/assets/chijuiwu.png">
+            </div>
+
+            <div class="col-md-6">
+                <p class="text-justify">I am a Human-Computer Interaction researcher. My research interests include sensing technologies, mobile devices, ubiquitous computing, proxemic interaction, and machine learning. I build novel supporting toolkits for group collaborations and multi-device interactions, and leverage machine intelligence to enhance existing sensing capabilities within interactive spaces. Recently, I have developed a new tracking infrastructure that enables HCI researchers to build and evaluate proxemic-aware, activity and device-centric interfaces. This work has been accepted to a top-tier conference (CHI).</p>
+
+                <p class="text-justify">Currently, I am an English teaching assisstant at Wanrong Junior High School, Hualien, Taiwan for substitute military service, expected to complete my service in Januaray, 2018. I have a Master of Research in Computational Statistics and Machine Learning from University College London and a Bachelor of Science in Computer Science from University of St Andrews. During my studies, I worked closely with <a href="http://www.nicolaimarquardt.com/">Professor. Nicolai Marquardt</a> and <a href="http://http://www.stevenhouben.be/">Professor. Steven Houben</a> at UCL Interaction Centre and <a href="https://sachi.cs.st-andrews.ac.uk/people/faculty/david-harris-birtill/">Professor. David Harris-Birtill</a> at St Andrews HCI Research Group.</p>
+
+                <p><a href="/cv/CJW-CV.pdf" target="_blank">Download CV.</a></p>
+
+                <p><a href="https://twitter.com/hellochijui"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i>@hellochijui</a></p>
+                <p><a href="mailto:chijui@chijuiwu.space"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i> chijui@chijuiwu.space</a></p>
+            </div>
+
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <span class="badge badge-default">12 / 2016</span> &nbsp; &nbsp; &nbsp;
+                        <span class="overview-badge"><i class="fa fa-bookmark" aria-hidden="true"></i></span> &nbsp;
+                        <span>Full paper (EagleSense) accepted to CHI'17.</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-default">11 / 2016</span> &nbsp; &nbsp; &nbsp;
+                        <span class="overview-badge"><i class="fa fa-bookmark" aria-hidden="true"></i></span> &nbsp;
+                        <span>Full paper (Out of Sight) accepted to PUC.</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-default">11 / 2016</span> &nbsp; &nbsp; &nbsp;
+                        <span class="overview-badge"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span> &nbsp;
+                        <span>Graduated with Distinction from UCL.</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-default">08 / 2016</span> &nbsp; &nbsp; &nbsp;
+                        <span class="overview-badge"><i class="fa fa-usd" aria-hidden="true"></i></span> &nbsp;
+                        <span>Awarded SIGCHI Student Travel Grant for ISS'16.</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-default">06 / 2015</span> &nbsp; &nbsp; &nbsp;
+                        <span class="overview-badge"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span> &nbsp;
+                        <span>Graduated with First-Class Honours from St Andrews.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section">Research</h2><hr class="divider">
+            </div>
+
+            <div class="col-md-12">
+                <table class="table borderless">
+                  <tbody>
+                    <tr class="text-center tr-project">
+                        <td><img class="img-project" src="/projects/eaglesense_figure1.jpg" ></td>
+                        <td><img class="img-project" src="/projects/out-of-sight_figure1.png" ></td>
+                        <td><img class="img-project" src="/projects/recompute_figure1.png" ></td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <h4 class="card-title">EagleSense</h4>
+                        <p class="card-text">
+                            <a href="https://github.com/cjw-charleswu/eaglesense" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a> | <a href="https://youtu.be/6QLHA7hC_Kc" target="_blank"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a> | <a><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
+                        </p>
+                        </td>
+                      <td>
+                        <h4 class="card-title">Out of Sight</h4>
+                        <p class="card-text">
+                            <a href="https://github.com/cjw-charleswu/kinect2kit" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a> | <a href="https://youtu.be/gUs8tlfv_tQ" target="_blank"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a> | <a href="http://link.springer.com/article/10.1007/s00779-016-0997-6" target="_blank"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
+                        </p></td>
+                      <td>
+                        <h4 class="card-title">Recompute</h4>
+                        <p class="card-text">
+                            <a href="https://github.com/cjw-charleswu/recompute" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a> | <a href="http://recomputation.org/" target="_blank"><i class="fa fa-chrome fa-lg" aria-hidden="true"></i></a> | <a href="https://github.com/cjw-charleswu/Recompute/blob/master/report.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
+                        </p></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p class="card-text text-justify">
+                            EagleSense is a system infrastructure for tracking people and devices in interactive spaces using real-time top-view depth-sensing. It enables HCI researchers to build new proxemic and multi-device interactions. Our results show that the system can recognize six different human postures and activities with 90% accuracy at 30 FPS.
+                        </p></td>
+                      <td>
+                        <p class="card-text text-justify">
+                            Out of Sight is a toolkit that extends the Kinect v2 SDK for tracking occluded human joint positions. It combines the skeleton stream of multiple Kinects using a coordinate transformation algorithm to track the position of people during occlusion. It enables applications to "see through" obstructions. The tracking accuracy is within 16cm. 
+                        </p></td>
+                      <td>
+                        <p class="card-text text-justify">
+                            Recomputation is the process of creating a working environment for a piece of computer program, so that it can be referenced, maintained, and deployed in the future. Recompute is a web application which automates the process of recomputation. It takes a GitHub repository URL as input and creates a virtual machine in which the program is rebuilt. Anyone can download the virtual machine and run the program in any place.
+                        </p></td>
+                    </tr>
+
+                    <tr style="font-size: 8pt;">
+                      <td>
+                        <p><i><b>Chi-Jui Wu</b>, Steven Houben, Nicolai Marquardt.</i></br>
+                        Published at ACM CHI Conference on Human Factors in Computing Systems, 2017.</p></td>
+                      <td>
+                        <p><i><b>Chi-Jui Wu</b>, Aaron Quigley, David Harris-Birtill.</i></br>
+                        Published at Personal and Ubiquitous Computing.</p></td>
+                      <td><p>Supervised by <i>Ian Gent</i>.</p></td>
+                    </tr>
+                    
+                    <tr class="text-center tr-project">
+                      <td><img class="img-project" src="/projects/aware_ui.png" ></td>
+                      <td><img class="img-project" src="" ></td>
+                      <td><img class="img-project" src="" ></td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <h4 class="card-title">Group Collaboration</h4>
+                        <p class="card-text">
+                        </p>
+                        </td>
+                      <td>
+                        <h4 class="card-title"></h4>
+                        <p class="card-text">
+                        </p></td>
+                      <td>
+                        <h4 class="card-title"></h4>
+                        <p class="card-text">
+                        </p></td>
+                    </tr>
+                    <tr>
+                      <td><p class="card-text text-justify">
+                        The project studies whether depth-sensing data visualization can amplify user's ability to detect visual notifications and increase their awareness of other surrounding users. It measures user's speed and accuracy at solving a task that requires the awareness of other users' spatial location.
+                      </p></td>
+                      <td><p class="card-text text-justify"></p></td>
+                      <td><p class="card-text text-justify"></p></td>
+                    </tr>
+
+                    <tr style="font-size: 8pt;">
+                      <td><p>Supervised by <i>Aaron Quigley, Per Ola Kristensson</i>.</p></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>© <a href="mailto:chijui@chijuiwu.space">Chi-Jui Wu</a></p>
+            </div>
+        </div>
+
     </div>
 
-    <script type="text/javascript">
-      $(document).ready(function() {
-        var content_width = $("#content").width();
-        var content_height = $("#content").height();
-        if (content_width >= 560) {
-          $("#video").width(560);
-          $("#video").height(315);
-        } else {
-          $("#video").width(content_width);
-          $("#video").height(315 * content_width / 560);
-        }
-      });
-    </script>
+    <!-- Jquery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script> -->
+
+    <!-- Boostrap v4-->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<!--     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <!-- CSS
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"> -->
   </body>
 </html>
