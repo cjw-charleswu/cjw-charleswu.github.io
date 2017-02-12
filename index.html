@@ -10,9 +10,6 @@
 
         <title>Chi-Jui Wu</title>
 
-        <!-- Theme -->
-        <!-- <link rel="stylesheet" href="/static/lumen.bootstrap.min.css"> -->
-
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
@@ -51,13 +48,6 @@
                 margin-bottom: 2rem;
             }
 
-            .img-project {
-                display: block;
-                width: 100%;
-                height: auto;
-                margin: auto;
-            }
-
             .card {
                 float: left;
                 width: 33.333%;
@@ -89,8 +79,22 @@
                 vertical-align: middle;
             }
 
+            .img-project {
+                display: block;
+                width: 100%;
+                height: auto;
+                margin: auto;
+            }
+
             .overview-badge {
                 width:20px;
+            }
+
+            .project-collaborators > td {
+                padding-top: 0;
+                font-size: 8pt;
+                border-right: 1px solid rgba(0,0,0,.1);
+                border-left: 1px solid rgba(0,0,0,.1);
             }
 
         </style>
@@ -102,15 +106,14 @@
         <!-- Navigation -->
         <nav class="navbar navbar-light navbar-toggleable-md" id="m_navbar">
         <a class="navbar-brand" href="#">
-          <!-- <img src="/static/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
         </a>
         <div class="collapse navbar-collapse justify-content-end" id="containerNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Research</a>
+              <a class="nav-link" href="#research">Research</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Teaching</a>
@@ -123,15 +126,35 @@
         </nav>
 
         <div class="jumbotron">
-            <h1 class="display-4">Full paper accepted at <a href="https://chi2017.acm.org/">CHI'17</a>!</h1>
-            <p class="lead">EagleSense: Tracking People and Devices in Interactive Spaces using Real-Time Top-View Depth-Sensing</p>
+            <h1 class="display-4">Full paper accepted at <a href="https://chi2017.acm.org/">CHI'17</a>! <br>
+                Please help me go to Denver! 
+                <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#funding_readmore">Read More</button>
+                <button type="button" class="btn btn-success" disabled>Donate (disabled)</button>
+            </h1>
+
+            <p class="lead"><b>Paper:</b> EagleSense: Tracking People and Devices in Interactive Spaces using Real-Time Top-View Depth-Sensing
+                <a href="/projects/eaglesense_paper.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            </p>
+            
+            <div id="funding_readmore" class="text-justify collapse">
+                <p>My name is Chi-Jui Wu, and I am also known as Charles. I have recently graduated from University College London (UK) with a Master of Research in Computational Statistics and Machine Learning. With the support of my awesome supervisors and many sleepless nights, I am very honoured to have my Master's thesis work accepted to CHI, a very prestigious international conference in Human Computer Interaction (HCI) research.</p>
+
+                <p>HCI is about studying, designing, building, and evaluating interactions between computer systems and human agents. HCI research empowers individuals and groups to become more efficient in their everyday task and to interact with technologies in novel ways. This includes developing natural interfaces between us and the ubiquitous, heterogeneous multi-device ecology. EagleSense is a novel non-invasive tracking system for making sense of an interactive space through a bird's eye-view depth camera. It recognizes, in real time, people's position, orientation, and activity, including their use of mobile devices (See video). EagleSense can support new cross-device applications as a part of small-group activities to leverage the tracking information of surrounding people and devices. It will also be employed in my future research for the design of novel cross-device interactions.</p>
+
+                <p>EagleSense is my first conference publication, and I would really like to present my work at CHI. I would like to use this opportunity to speak to other professors about potential PhD positions. Unfortunately, I would have to spend the majority of my savings to attend CHI. I live in Taiwan, and mandatory military service - being at the lowest job ladder - only pays $196 per month. I had to decline my Student Volunteer spot at CHI, because I am still unsure whether my application for leave would pass (I just enrolled in military service in late December). There is a possibility that UCL is able to provide some funding. However, I would like to ask you to make any small donation to cover my travel fees. My goal is to raise <u>$1800</u>, the amount of SIGCHI student travel grant in 2017 . Please share my webpage on social media, such as <a href="https://www.facebook.com/sharer/sharer.php?u=chijuiwu.space&quote=Send%20Chi-Jui%20to%20CHI%2717.%20Donate%20@%20http://chijuiwu.space." target="_blank">Facebook</a> or <a href="https://twitter.com/intent/tweet?text=Send%20Chi-Jui%20to%20CHI'17.%20Donate%20@&url=http://chijuiwu.space&hashtags=ChiJuiToCHI17&url=chijuiwu.space" target="_blank">Twitter</a>. Also feel free to email me at <a href="mailto:chijui@chijuiwu.space" target="_blank">chijui@chijuiwu.space</a> if you have any question or want to discuss my research.</p>
+
+
+                <p class="small">*Donation mechanism will become available soon !</p>
+            </div>
+
             <hr class="my-4">
-            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/6QLHA7hC_Kc" frameborder="0" allowfullscreen></iframe></p>
+            <p style="text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/6QLHA7hC_Kc" frameborder="0" allowfullscreen></iframe></p>
+
 <!--             <p>Nam lorem velit, ultricies sed cursus eget, tristique ut magna. Integer orci neque, convallis et fermentum eget, venenatis a ante. Pellentesque semper, nunc at rhoncus interdum, enim dui convallis ante, at pulvinar quam nisi at tellus. In imperdiet sagittis viverra. Curabitur volutpat interdum quam, sed vestibulum sapien euismod eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed feugiat lacinia sapien, a maximus nibh fringilla eu. Vestibulum auctor nunc id velit luctus, non commodo risus convallis. Aliquam lacinia nisl ligula, semper ultricies dolor facilisis nec. Mauris nisl lectus, laoreet sit amet cursus sit amet, fermentum eget lacus. Donec eu cursus arcu, sed congue lorem. Vivamus scelerisque, leo sit amet pretium feugiat, massa urna semper diam, vitae aliquam metus elit et lorem. Nunc eget tortor tristique, semper justo sed, pellentesque nunc. Vivamus massa lacus, tristique et erat nec, lobortis lobortis tellus. Cras eget mauris sit amet orci maximus iaculis.</p>
             <p><a class="btn btn-primary btn-lg disabled" href="#" role="button">Donate</a></p> -->
         </div>
 
-        <div class="row">
+        <div id="about" class="row">
             <div class="col-md-12">
                 <h2 class="section">About Chi-Jui</h2><hr class="divider">
             </div>
@@ -143,7 +166,7 @@
             <div class="col-md-6">
                 <p class="text-justify">I am a Human-Computer Interaction researcher. My research interests include sensing technologies, mobile devices, ubiquitous computing, proxemic interaction, and machine learning. I build novel supporting toolkits for group collaborations and multi-device interactions, and leverage machine intelligence to enhance existing sensing capabilities within interactive spaces. Recently, I have developed a new tracking infrastructure that enables HCI researchers to build and evaluate proxemic-aware, activity and device-centric interfaces. This work has been accepted to a top-tier conference (CHI).</p>
 
-                <p class="text-justify">Currently, I am working as an English teaching assisstant at Wanrong Junior High School, Hualien, Taiwan for substitute military service, expected to complete my service in Januaray, 2018. I have a Master of Research in Computational Statistics and Machine Learning from University College London and a Bachelor of Science in Computer Science from University of St Andrews. During my studies, I worked closely with <a href="http://www.nicolaimarquardt.com/">Professor Nicolai Marquardt</a> and <a href="http://http://www.stevenhouben.be/">Professor Steven Houben</a> at UCL Interaction Centre and <a href="https://sachi.cs.st-andrews.ac.uk/people/faculty/david-harris-birtill/">Professor David Harris-Birtill</a> at St Andrews HCI Research Group.</p>
+                <p class="text-justify">Currently, I am working as an English teaching assistant at Wanrong Junior High School, Hualien, Taiwan for substitute military service, expected to complete my service in January, 2018. I have a Master of Research in Computational Statistics and Machine Learning from University College London and a Bachelor of Science in Computer Science from University of St Andrews. During my studies, I worked closely with <a href="http://www.nicolaimarquardt.com/">Professor Nicolai Marquardt</a> and <a href="http://http://www.stevenhouben.be/">Professor Steven Houben</a> at UCL Interaction Centre and <a href="https://sachi.cs.st-andrews.ac.uk/people/faculty/david-harris-birtill/">Professor David Harris-Birtill</a> at St Andrews HCI Research Group.</p>
 
                 <p><a href="/cv/CJW-CV.pdf" target="_blank"><i class="fa fa-user-circle" aria-hidden="true"></i> Curriculum Vitae</a> | 
                 <a href="https://twitter.com/hellochijui" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i> @hellochijui</a> | 
@@ -182,7 +205,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div id="research" class="row">
             <div class="col-md-12">
                 <h2 class="section">Research</h2><hr class="divider">
             </div>
@@ -198,20 +221,26 @@
 
                     <tr>
                       <td>
-                        <h4 class="card-title">EagleSense</h4>
+                        <h5 class="card-title">EagleSense</h5>
                         <p class="card-text">
-                            <a href="https://github.com/cjw-charleswu/eaglesense" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a> | <a href="https://youtu.be/6QLHA7hC_Kc" target="_blank"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a> | <a><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
+                            <a href="https://github.com/cjw-charleswu/eaglesense" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a> | 
+                            <a href="https://youtu.be/6QLHA7hC_Kc" target="_blank"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a> | 
+                            <a href="/projects/eaglesense_paper.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
                         </p>
                         </td>
                       <td>
-                        <h4 class="card-title">Out of Sight</h4>
+                        <h5 class="card-title">Out of Sight</h5>
                         <p class="card-text">
-                            <a href="https://github.com/cjw-charleswu/kinect2kit" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a> | <a href="https://youtu.be/gUs8tlfv_tQ" target="_blank"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a> | <a href="http://link.springer.com/article/10.1007/s00779-016-0997-6" target="_blank"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
+                            <a href="https://github.com/cjw-charleswu/kinect2kit" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a> | 
+                            <a href="https://youtu.be/gUs8tlfv_tQ" target="_blank"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a> | 
+                            <a href="/projects/out-of-sight_paper.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
                         </p></td>
                       <td>
-                        <h4 class="card-title">Recompute</h4>
+                        <h5 class="card-title">Recompute</h5>
                         <p class="card-text">
-                            <a href="https://github.com/cjw-charleswu/recompute" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a> | <a href="http://recomputation.org/" target="_blank"><i class="fa fa-chrome fa-lg" aria-hidden="true"></i></a> | <a href="https://github.com/cjw-charleswu/Recompute/blob/master/report.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
+                            <a href="https://github.com/cjw-charleswu/recompute" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a> | 
+                            <a href="http://recomputation.org/" target="_blank"><i class="fa fa-chrome fa-lg" aria-hidden="true"></i></a> | 
+                            <a href="/projects/recompute_report.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
                         </p></td>
                     </tr>
                     <tr>
@@ -225,11 +254,11 @@
                         </p></td>
                       <td>
                         <p class="card-text text-justify">
-                            Recomputation is the process of creating a working environment for a piece of computer program, so that it can be referenced, maintained, and deployed in the future. Recompute is a web application which automates the process of recomputation. It takes a GitHub repository URL as input and creates a virtual machine, within which the computer program is rebuilt from source. Anyone can download the virtual machine and run the program from anywhere.
+                            Recomputation is the process of creating a working environment for a piece of computer program, so that it can be referenced, maintained, and deployed in the future. Recompute is a web application which automates the process of recomputation. It takes a GitHub repository URL as input and creates a virtual machine, within which the program is rebuilt from source. Anyone can download the virtual machine and run the program from anywhere.
                         </p></td>
                     </tr>
 
-                    <tr style="font-size: 8pt;">
+                    <tr class="project-collaborators">
                       <td>
                         <p><i><b>Chi-Jui Wu</b>, Steven Houben, Nicolai Marquardt.</i></br>
                         Published at ACM CHI Conference on Human Factors in Computing Systems, 2017.</p></td>
@@ -247,16 +276,16 @@
 
                     <tr>
                       <td>
-                        <h4 class="card-title">Group Collaboration</h4>
+                        <h5 class="card-title">Group Collaboration</h5>
                         <p class="card-text">
                         </p>
                         </td>
                       <td>
-                        <h4 class="card-title"></h4>
+                        <h5 class="card-title"></h5>
                         <p class="card-text">
                         </p></td>
                       <td>
-                        <h4 class="card-title"></h4>
+                        <h5 class="card-title"></h5>
                         <p class="card-text">
                         </p></td>
                     </tr>
@@ -268,7 +297,7 @@
                       <td><p class="card-text text-justify"></p></td>
                     </tr>
 
-                    <tr style="font-size: 8pt;">
+                    <tr class="project-collaborators">
                       <td><p>Supervised by <i>Aaron Quigley, Per Ola Kristensson</i>.</p></td>
                       <td></td>
                       <td></td>
@@ -287,19 +316,10 @@
 
     </div>
 
-    <!-- Jquery -->
-    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script> -->
-
     <!-- Boostrap v4-->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-<!--     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-
-    <!-- CSS
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"> -->
   </body>
 </html>
