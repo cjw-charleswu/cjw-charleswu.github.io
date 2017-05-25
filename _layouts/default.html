@@ -8,14 +8,6 @@
 
     <title class="text-center">EagleSense</title>
 
-    <!-- p5.js -->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.17/p5.min.js"></script>-->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.17/addons/p5.dom.min.js"></script>-->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.17/addons/p5.sound.min.js"></script>-->
-
-    <!-- d3.js -->
-    <script src="//d3js.org/d3.v3.min.js"></script>
-
     <!-- Octicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.4.1/octicons.min.css">
 
@@ -35,9 +27,14 @@
     <link href="{{ 'assets/flatly.bootstrap.min.css' | relative_url }}" rel="stylesheet">
 
     <style>
-        html, body, h1, h2 {
-            /*font-family: "helvetica";*/
-        }
+      body {
+        margin-top: 40px;
+      }
+
+      .vspace {
+        margin-top: 1.33em;
+      }
+
 
         .navbar {
         margin-bottom: 21px;
@@ -79,33 +76,117 @@
             max-width: 100%;
             height: auto;
         }
+        
+            #m_navbar {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            div.c-wrapper{
+                width: 100%;
+                margin: auto;
+            }
+
+            body {
+                color: #5a5a5a;
+                font-size: 10pt;
+            }
+
+            .list-group-item {
+                float: left;
+                border: 0 !important;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .section {
+                margin-top: 3rem;
+            }
+
+            .divider {
+                margin-top: 1rem;
+                margin-bottom: 2rem;
+            }
+
+            .card {
+                float: left;
+                width: 33.333%;
+                padding: .75rem;
+                margin-bottom: 2rem;
+                border: 0;
+            }
+
+            .card > img {
+                height: auto;
+                width: 356px;
+                margin: auto;
+            }
+
+            .avatar {
+                width: 10em;
+                border-radius: 100%;
+            }
+
+            .borderless td, .borderless th{
+                border: none;
+            }
+
+            .table > tbody > tr > td {
+                width: 33%;
+            }
+
+            .tr-project td {
+                vertical-align: middle;
+            }
+
+            .img-project {
+                display: block;
+                width: 100%;
+                height: auto;
+                margin: auto;
+            }
+
+            .overview-badge {
+                width:20px;
+            }
+
+            .project-collaborators > td {
+                padding-top: 0;
+                font-size: 8pt;
+                border-right: 1px solid rgba(0,0,0,.1);
+                border-left: 1px solid rgba(0,0,0,.1);
+            }
     </style>
 </head>
 
 <body>
-<!--
-<div class="bs-component" id="navbar">
-    <div class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/"><i class="fa fa-eye fa-fw"></i>&nbsp; EagleSense</a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li {% if request.uri=="/" %} class="active" {% end %}><a href="/"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a></li>
-                    <li {% if request.uri=="/tracking" %} class="active" {% end %}><a href="/tracking"><i class="fa fa-users fa-fw"></i>&nbsp; Tracking</a></li>
-                    <li {% if request.uri=="/opt-in-out" %} class="active" {% end %}><a href="/opt-in-out"><i class="fa fa-hand-pointer-o fa-fw"></i>&nbsp; Opt-in/Opt-out</a></li>
-                    <li {% if request.uri=="/data" %} class="active" {% end %}><a href="/data"><i class="fa fa-area-chart fa-fw"></i>&nbsp; Data</a></li>
-                    <li><a target="_blank" href="https://github.com/cjw-charleswu/eaglesense"><i class="octicon octicon-mark-github fa-fw"></i>&nbsp; GitHub</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>-->
 
-<div class="container" id="container">
-  {{ content }}
-</div>
+  <div class="container" id="container">
+
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="display-2 font-weight-bold" style="margin-top:0px">Chi-Jui Wu</h1>
+      </div>
+      <div class="col-md-6">
+        <div class="list-group">
+        <h4 class="text-right" style="margin:0px;"><a href="#" class="text-warning font-weight-bold">Research</a></h4>
+        <h4 class="text-right" style="margin:0px;"><a href="#" class="text-warning font-weight-bold">Curriculum Vitae</a></h4>
+        <h4 class="text-right" style="margin:0px;"><a href="#" class="text-warning font-weight-bold">Blog</a></h4>
+        </div>
+      </div>
+    </div><hr class="divider">
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="lead">New blog post! <a href="https://medium.com/@chijuiwu/my-journey-to-chi-2017-e420dedc2cf5" target="_blank" class="text-warning">My Journey to CHI2017</a>.</p>
+      </div>
+    </div>
+
+    <p class="vspace"><br></p>
+
+    {{ content }}
+
+  </div>
 
 </body>
 </html>
