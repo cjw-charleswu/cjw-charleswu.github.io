@@ -2,8 +2,9 @@ layouts_dir:  _layouts
 includes_dir: _includes
 collections:
   projects:
-    output: true
-    permalink: /:collection/:name
+    reconfigurable-interactive-spaces:
+      output: true
+      permalink: /:collection/:name
 
 # Build settings
 markdown: kramdown
