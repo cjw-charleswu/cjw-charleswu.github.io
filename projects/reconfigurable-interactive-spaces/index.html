@@ -11,6 +11,17 @@ layout: default
 <h1 class="display-4">Theories and Concepts</h1>
 
 <div class="row-fluid">
+    <ul>
+    {% for member in projects.reconfigurable-interactive-spaces.rw %}
+    <li>
+        <a href="https://github.com/{{ member.github }}">
+        {{ member }}
+        </a>
+    </li>
+    {% endfor %}
+    </ul>
+
+
     <table class="table table-bordered" style="font-size:14px; font-family:Verdana,Helvetica; color:black;">
     <thead class="thead-inverse">
     <tr>
@@ -23,9 +34,9 @@ layout: default
     <tr>
         <td>
             <img src="{{ 'projects/reconfigurable-interactive-spaces/figures/proxemic-interaction.png' | relative_url }}" class="center-block img-fluid-50">
-            <img src="{{ 'projects/reconfigurable-interactive-spaces/figures/proxemic-formations.PNG' | relative_url }}" class="center-block img-fluid-50">
-            <img src="{{ 'projects/reconfigurable-interactive-spaces/figures/proxemic-spaces.PNG' | relative_url }}" class="center-block img-fluid-50">
-            <img src="{{ 'projects/reconfigurable-interactive-spaces/figures/proxemic-dimensions.PNG' | relative_url }}" class="center-block img-fluid-50">
+            <img src="{{ 'projects/reconfigurable-interactive-spaces/figures/proxemic-formations.png' | relative_url }}" class="center-block img-fluid-50">
+            <img src="{{ 'projects/reconfigurable-interactive-spaces/figures/proxemic-spaces.png' | relative_url }}" class="center-block img-fluid-50">
+            <img src="{{ 'projects/reconfigurable-interactive-spaces/figures/proxemic-dimensions.png' | relative_url }}" class="center-block img-fluid-50">
         </td>
         <td>
             <p><strong><u>Overview</u></strong> <br/>
