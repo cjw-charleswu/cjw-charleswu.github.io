@@ -1,12 +1,11 @@
 layouts_dir:  _layouts
 includes_dir: _includes
+data_dir: research
 collections:
-  projects:
-    reconfigurable-interactive-spaces:
-      output: true
-      permalink: /:collection/:name
+  research:
+    output: true
+    permalink: /:collection/:name
 
-# Build settings
 markdown: kramdown
 theme: minima
 gems:
@@ -15,4 +14,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - education
-  - *.yml
