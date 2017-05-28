@@ -1,0 +1,94 @@
+<div class="container">
+
+<h1 class="display-2">{{ include.project }}s</h1>
+<p class="vspace"><br></p>
+
+<h1 class="display-4">Theories and Concepts</h1>
+
+<div class="row-fluid">
+
+{% assign theories_concepts = include.project_dir.notes.rw.["Theories and Concepts"] %}
+{% for work in theories_concepts %}
+    <table class="table table-bordered table-responsive" style="font-size:14px; font-family:Helvetica; color:black;">
+    <thead class="thead-inverse">
+    <tr>
+        <th><h5 style="font-family:Helvetica;">{{ work["Name"] }}</h4></th>
+        <th><h5 style="font-family:Helvetica;">Summary</h4></th>
+        <th><h5 style="font-family:Helvetica;">Notes</h4></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td style="width:30%">
+            {% for fig in work["Figures"] %}
+                <img src="{{ '/research/reconfigurable-interactive-spaces/figures/' | append: fig }}" class="center-block img-responsive" style="margin-top:10px; margin-bottom:10px;">
+            {% endfor %}
+        </td>
+
+        <td style="width:50%">
+            {% if work["Papers"] %}
+            <p><strong><u>Papers</u></strong><br/>
+            {% assign n_papers = work["Papers"] | size | minus: 1 %}
+            {% for i in (0..n_papers) %}
+                {{ work["Papers"][i]["Title"] }} <br/>
+                [{{ work["Papers"][i]["Authors"] }}]
+                {% if i < n_papers %}
+                    <br/><br/>
+                {% endif %}
+            {% endfor %}<br/><br/></p>
+            {% endif %}
+
+            {% if work["Overview"] %}
+            <p><strong><u>Overview</u></strong><br/>
+            {% assign n_overviews = work["Overview"] | size | minus: 1 %}
+            {% for i in (0..n_overviews) %}
+                - {{ work["Overview"][i] }}
+                {% if i < n_overviews %}
+                    <br/>
+                {% endif %}
+            {% endfor %}<br/><br/></p>
+            {% endif %}
+
+            {% if work["Applications and Scenarios"] %}
+            <p><strong><u>Applications and Scenarios</u></strong><br/>
+            {% assign n_applications = work["Applications and Scenarios"] | size | minus: 1 %}
+            {% for i in (0..n_applications) %}
+                - {{ work["Applications and Scenarios"][i] }}
+                {% if i < n_applications %}
+                    <br/>
+                {% endif %}
+            {% endfor %}<br/><br/></p>
+            {% endif %}
+
+            {% if work["Key Challenges"] %}
+            <p><strong><u>Key Challenges</u></strong><br/>
+            {% assign n_challenges = work["Key Challenges"] | size | minus: 1 %}
+            {% for i in (0..n_challenges) %}
+                {{ work["Key Challenges"][i]["Title"] }} <br>
+                
+                {% assign n_notes = work["Key Challenges"][i]["Notes"] | size | minus: 1 %}
+                {% for j in (0..n_notes) %}
+                - {{ work["Key Challenges"][i]["Notes"][j] }}
+                    {% if j < n_notes %}
+                        <br/>
+                    {% endif %}
+                {% endfor %}
+                {% if i < n_challenges %}
+                    <br/><br/>
+                {% endif %}
+            {% endfor %}<br/><br/></p>
+            {% endif %}
+
+        </td>
+        
+        <td style="width:20%">
+            <p>This is cool stuff.</p>
+        </td>
+    </tr>
+    </tbody>
+    </table>
+{% endfor %}
+
+</div>
+
+</div>
