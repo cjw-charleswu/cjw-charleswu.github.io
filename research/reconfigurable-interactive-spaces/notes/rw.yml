@@ -1,5 +1,5 @@
 Theories and Concepts:
-  - Name: "Proxemic Interaction"
+  - Name: "Proxemic Interaction (Greenberg et al.)"
 
     Figures:
       - "proxemic-interaction.png"
@@ -9,11 +9,28 @@ Theories and Concepts:
 
     Papers:
       - Title: "Proxemic interactions: the new ubicomp?"
+        Link: "http://dl.acm.org/citation.cfm?id=1897250"
         Authors: "Greenberg et al., Interactions'11"
-      - Title: "Informing the Design of Proxemic Interactions "
+
+      - Title: "Informing the Design of Proxemic Interactions"
+        Link: "http://ieeexplore.ieee.org/abstract/document/6127852/"
         Authors: "Marquardt and Greenberg, Pervasive Computing'12"
-      - Title: "Proxemic interaction: designing for a proximity and orientation-aware environment "
+
+      - Title: "Proxemic interaction: designing for a proximity and orientation-aware environment"
+        Link: "http://dl.acm.org/citation.cfm?id=1936676"
         Authors: "Ballendat et al., ITS'10"
+
+      - Title: "Dark patterns in proxemic interactions: a critical perspective"
+        Link: "http://dl.acm.org/citation.cfm?id=2598541"
+        Authors: "Greenberg et al., DIS'14"
+
+      - Title: "Making Sense of Sensing Systems: Five Questions for Designers and Researchers"
+        Link: "http://dl.acm.org/citation.cfm?id=503450"
+        Authors: "Belllotti et al., CHI'02"
+      
+      - Title: "The infrastructure problem in HCI"
+        Link: "http://dl.acm.org/citation.cfm?id=1753390"
+        Authors: "Edwards et al., CHI'10"
 
     Overview:
       - "interaction mediated by 5 proxemic dimensions: distance, orientation, movement, identity, location"
@@ -24,8 +41,8 @@ Theories and Concepts:
       - "grounded by social theories"
     
     Applications and Scenarios:
-      - "reacting to proxemic dimensions (media player, public displays)"
-      - "spatially visualizing ubicomp spaces (supporting device discovery, interaction possibilities and spontaneous interactions)"
+      - "systems reacting to proxemic dimensions (Ballendat's media player, proxemic-aware displays, surfaces, and installations, spatially-aware mobile devices supporting cross-device interaction and small-group activities)"
+      - "spatially visualizing ubicomp spaces (supporting device discovery, conveying interaction possibilities, and enabling spontaneous interactions)"
 
     Key Challenges:
       - Title: "1. Revealing interaction possibilities"
@@ -49,9 +66,70 @@ Theories and Concepts:
           - "output modalities (sound, speech, perception, movement)"
       - Title: "5. Avoiding and Correcting Mistakes"
         Notes:
-            - "more user-control (mechanisms for correcting errors and misinterprations of e.g., sensor data)"
+            - "more user-control (mechanisms for correcting errors and misinterprations of e.g., from the use sensing technologies)"
+            - "inverting actions (stepping out of the interaction zone)"
+            - "undoing actions / overriding the system (towards direct manipulation)"
+            - "using proxemic safeguards (requiring certain proxemic relationships for actions with a high impact)"
+      - Title: "6. Managing Privacy and Security"
+        Notes:
+            - "protect privacy-sensitive information and handle access to information"
+            - "not get in the way of doing things (points 1-5)"
+            - "proxemity-dependent authentication"
+            - "distance-dependent information disclosure"
+            - "proxemic-aware privacy mechanisms (considering orientation, identity, and location)"
+            - "considering people's expectations (levels of privacy for everyone involved, their social relationships, balancing privacy through proxemics)"
+
+    So What:
+      - "<strong>GREAT WORK!!!</strong> New design thinking for ubicomp interactive systems and cross-device interaction!!!"
+      - "towards <strong>ad hoc</strong> device ecologies - activity, space, and time - and <strong>reconfigurable</strong> interactive spaces"
+      - "<strong>identity</strong> - what about social relationships? implications for proxemic interaction design (proxemic social contact)?"
+      - "<strong>cultural differences</strong> (concepts of personal spaces and space invasion) not discussed"
+      - "<strong>deliberatly violating expectations</strong> of proxemic interaction in certain applications (e.g., close physical interaction or human interaction/activity)"
+      - "<strong>social concerns</strong> about privacy, errors, distraction, and intrusion"
+      - "<strong>dark patterns</strong> (Greenberg et al., DIS'14'): captive audience, attention grabber, bait and switch, making personal information public, we never forget, disguised data collection, social network of proxemic contacts or unintended social relationships, and the milk factor. Opt-in and opt-out mechanisms? New user-defined interaction possibilities?"
+      - "<strong>proxemic interaction challeges</strong> (Greenberg et al., DIS'14'): opt-in/opt-out choices, physical space is imbued with dual meanings, ownership of the physical space is ambiguous, attention is inherently sought after (being in a space but opted out of the interactive system), accidental proxemics (interaction with context-aware systems), balancing between implicit and explicit interaction, making users aware of what is happening, "
+      - "<strong>design implications</strong> for the Physical Web and IoT. Cloud vs. local infrastructures."
+      - "Proxemic theory also applies to the dis-abled (visually impaired/blind people have good spatial awareness, they know whether the other person talking is facing them, and more) but most cross-device interactions still rely heavily on visual cues. Would be very interesting to work on <strong>accessibility issues</strong> in cross-device interaction (This is a big topic, perhaps a PhD by itself) so it'd require collaboration. I think the big problem is helping them connect with people, feel loved, do essential/meaningful work, and enhance their own abilities/interests (ability-based design), etc (somewhat universal to all humans). Technologies (e.g., cross-device interaction) are just tools, so creating the right tool for the right purpose/problem is important (inclusive design)."
 
   - Name: Gradual Engagement
 
-Interaction Techniques:
-  - Stiching:
+Discovering Devices:
+  - Name: "Sensing and Visualizing Spatial Relations of Mobile Devices"
+
+Connecting Devices:
+  - Name: "Bumping (Ken Hickley)"
+    Figures:
+      - "bumping-overview-1.png"
+      - "bumping-overview-2.png"
+      - "bumping-feedback.png"
+
+    Papers:
+      - Title: "Synchronous gestures for multiple persons and computers"
+        Link: "http://dl.acm.org/citation.cfm?id=964713"
+        Authors: "Ken Hinckley, UIST'03"
+
+    Overview:
+      - "dynamic display tiling via bumping (social metaphor: clinking glass)"
+      - "synchronizing the two accelerometers across a wireless network"
+      - "audio + visual feedback"
+      - "enabling mutual sharing of information"
+      - "'pouring' information from one device to another (social metaphor: pouring drink into glass)"
+    
+    Applications and Scenarios:
+      - "proxemic information sharing and exchange"
+      - "ad hoc collaboration"
+
+    Key Challenges:
+      - Title: "1. Extension to more than two devices (hundreds)"
+
+    So What:
+      - "synchronous gestures cool"
+
+  - Name: "Connecting devices for collaborative interactions"
+
+Small-Group Cross-Device Interaction:
+  - Name: "Stiching"
+
+Room-Scale Cross-Device Interaction:
+  - Name: "Pick-and-Drop"
+
