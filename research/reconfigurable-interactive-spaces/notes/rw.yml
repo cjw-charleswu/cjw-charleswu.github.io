@@ -1,219 +1,311 @@
 Theories and Concepts:
-  - Name: "Proxemic Interaction"
-
-    Figures:
-      - "proxemic-interaction.png"
-      - "proxemic-formations.png"
-      - "proxemic-spaces.png"
-      - "proxemic-dimensions.png"
-
-    Papers:
-      - Title: "Proxemic interactions: the new ubicomp?"
-        Link: "http://dl.acm.org/citation.cfm?id=1897250"
-        Authors: "Greenberg et al., Interactions'11"
-
-      - Title: "Informing the Design of Proxemic Interactions"
-        Link: "http://ieeexplore.ieee.org/abstract/document/6127852/"
-        Authors: "Marquardt and Greenberg, Pervasive Computing'12"
-
-      - Title: "Proxemic interaction: designing for a proximity and orientation-aware environment"
-        Link: "http://dl.acm.org/citation.cfm?id=1936676"
-        Authors: "Ballendat et al., ITS'10"
-
-      - Title: "Dark patterns in proxemic interactions: a critical perspective"
-        Link: "http://dl.acm.org/citation.cfm?id=2598541"
-        Authors: "Greenberg et al., DIS'14"
-
-      - Title: "Making Sense of Sensing Systems: Five Questions for Designers and Researchers"
-        Link: "http://dl.acm.org/citation.cfm?id=503450"
-        Authors: "Belllotti et al., CHI'02"
-      
-      - Title: "The infrastructure problem in HCI"
-        Link: "http://dl.acm.org/citation.cfm?id=1753390"
-        Authors: "Edwards et al., CHI'10"
-
-    Overview:
-      - "interaction mediated by 5 proxemic dimensions: distance, orientation, movement, identity, location"
-      - "fixed and semi-fixed features"
-      - "compensation, balance, and privacy"
-      - "4 proxemic zones: intimate, personal, social, public (supporting different input modalities and interactions"
-      - "3 action spaces: o-space, p-space, r-space"
-      - "grounded by social theories"
+ - Name: "Proxemic Interaction"
+ 
+   Figures:
+     - "proxemic-interaction.png"
+     - "proxemic-formations.png"
+     - "proxemic-spaces.png"
+     - "proxemic-dimensions.png"
+ 
+   Papers:
+     - Title: "Proxemic interactions: the new ubicomp?"
+       Link: "http://dl.acm.org/citation.cfm?id=1897250"
+       Authors: "Greenberg et al., Interactions'11"
+ 
+     - Title: "Informing the Design of Proxemic Interactions"
+       Link: "http://ieeexplore.ieee.org/abstract/document/6127852/"
+       Authors: "Marquardt and Greenberg, Pervasive Computing'12"
+ 
+     - Title: "Proxemic interaction: designing for a proximity and orientation-aware environment"
+       Link: "http://dl.acm.org/citation.cfm?id=1936676"
+       Authors: "Ballendat et al., ITS'10"
+ 
+     - Title: "Dark patterns in proxemic interactions: a critical perspective"
+       Link: "http://dl.acm.org/citation.cfm?id=2598541"
+       Authors: "Greenberg et al., DIS'14"
+ 
+     - Title: "Making Sense of Sensing Systems: Five Questions for Designers and Researchers"
+       Link: "http://dl.acm.org/citation.cfm?id=503450"
+       Authors: "Belllotti et al., CHI'02"
     
-    Applications and Scenarios:
-      - "systems reacting to proxemic dimensions (Ballendat's media player, proxemic-aware displays, surfaces, and installations, spatially-aware mobile devices supporting cross-device interaction and small-group activities)"
-      - "spatially visualizing ubicomp spaces (supporting device discovery, conveying interaction possibilities, and enabling spontaneous interactions)"
-
-    Key Challenges:
-      - Title: "1. Revealing interaction possibilities"
-        Notes:
-        - "Weiser: most profound technologies disappear…"
-        - "transitioning from background to foreground interaction"
-        - "directing user's attention (metaphor: greeting)"
-      - Title: "2. Directing Actions"
-        Notes:
-          - "multimodal input (speech, gesture, gaze, and touch, etc) as actions to the system or just a part of a person's activity?"
-          - "directing user's attention (metaphor: greeting)"
-          - "motion cues (and understanding the entire physical space)"
-      - Title: "3. Establishing Connections"
-        Notes:
-          - "supporting interaction needs while safeguarding privacy and security (personal, private, and public relationships)"
-          - "different form factors demand different mobilities"
-          - "progressive (discrete or continuous) connection and interaction"
-      - Title: "4. Providing Feedback"
-        Notes:
-          - "application status (or errors) and its interpretation of user input, accounting for users’ attention"
-          - "output modalities (sound, speech, perception, movement)"
-      - Title: "5. Avoiding and Correcting Mistakes"
-        Notes:
-            - "more user-control (mechanisms for correcting errors and misinterprations of e.g., from the use sensing technologies)"
-            - "inverting actions (stepping out of the interaction zone)"
-            - "undoing actions / overriding the system (towards direct manipulation)"
-            - "using proxemic safeguards (requiring certain proxemic relationships for actions with a high impact)"
-      - Title: "6. Managing Privacy and Security"
-        Notes:
-            - "protect privacy-sensitive information and handle access to information"
-            - "not get in the way of doing things (points 1-5)"
-            - "proxemity-dependent authentication"
-            - "distance-dependent information disclosure"
-            - "proxemic-aware privacy mechanisms (considering orientation, identity, and location)"
-            - "considering people's expectations (levels of privacy for everyone involved, their social relationships, balancing privacy through proxemics)"
-
-    So What:
-      - "<strong>GREAT WORK!!!</strong> New design thinking for ubicomp interactive systems and cross-device interaction!!!"
-      - "towards <strong>ad hoc</strong> device ecologies - activity, space, and time - and <strong>reconfigurable</strong> interactive spaces"
-      - "<strong>identity</strong> - what about social relationships? implications for proxemic interaction design (proxemic social contact)?"
-      - "<strong>cultural differences</strong> (concepts of personal spaces and space invasion) not discussed"
-      - "<strong>deliberatly violating expectations</strong> of proxemic interaction in certain applications (e.g., close physical interaction or human interaction/activity)"
-      - "<strong>social concerns</strong> about privacy, errors, distraction, and intrusion"
-      - "<strong>dark patterns</strong> (Greenberg et al., DIS'14'): captive audience, attention grabber, bait and switch, making personal information public, we never forget, disguised data collection, social network of proxemic contacts or unintended social relationships, and the milk factor. Opt-in and opt-out mechanisms? New user-defined interaction possibilities?"
-      - "<strong>proxemic interaction challeges</strong> (Greenberg et al., DIS'14'): opt-in/opt-out choices, physical space is imbued with dual meanings, ownership of the physical space is ambiguous, attention is inherently sought after (being in a space but opted out of the interactive system), accidental proxemics (interaction with context-aware systems), balancing between implicit and explicit interaction, making users aware of what is happening, "
-      - "<strong>design implications</strong> for the Physical Web and IoT. Cloud vs. local infrastructures."
-      - "Proxemic theory also applies to the dis-abled (visually impaired/blind people have good spatial awareness, they know whether the other person talking is facing them, and more) but most cross-device interactions still rely heavily on visual cues. Would be very interesting to work on <strong>accessibility issues</strong> in cross-device interaction (This is a big topic, perhaps a PhD by itself) so it'd require collaboration. I think the big problem is helping them connect with people, feel loved, do essential/meaningful work, and enhance their own abilities/interests (ability-based design), etc (somewhat universal to all humans). Technologies (e.g., cross-device interaction) are just tools, so creating the right tool for the right purpose/problem is important (inclusive design)."
-
-  - Name: Gradual Engagement
-
+     - Title: "The infrastructure problem in HCI"
+       Link: "http://dl.acm.org/citation.cfm?id=1753390"
+       Authors: "Edwards et al., CHI'10"
+ 
+   Overview:
+     - "interaction mediated by 5 proxemic dimensions: distance, orientation, movement, identity, location"
+     - "fixed and semi-fixed features"
+     - "compensation, balance, and privacy"
+     - "4 proxemic zones: intimate, personal, social, public (supporting different input modalities and interactions"
+     - "3 action spaces: o-space, p-space, r-space"
+     - "grounded by social theories"
+  
+   Applications and Scenarios:
+     - "systems reacting to proxemic dimensions (Ballendat's media player, proxemic-aware displays, surfaces, and installations, spatially-aware mobile devices supporting cross-device interaction and small-group activities)"
+     - "spatially visualizing ubicomp spaces (supporting device discovery, conveying interaction possibilities, and enabling spontaneous interactions)"
+ 
+   Key Challenges:
+     - Title: "1. Revealing interaction possibilities"
+       Notes:
+       - "Weiser: most profound technologies disappear…"
+       - "transitioning from background to foreground interaction"
+       - "directing user's attention (metaphor: greeting)"
+     - Title: "2. Directing Actions"
+       Notes:
+         - "multimodal input (speech, gesture, gaze, and touch, etc) as actions to the system or just a part of a person's activity?"
+         - "directing user's attention (metaphor: greeting)"
+         - "motion cues (and understanding the entire physical space)"
+     - Title: "3. Establishing Connections"
+       Notes:
+         - "supporting interaction needs while safeguarding privacy and security (personal, private, and public relationships)"
+         - "different form factors demand different mobilities"
+         - "progressive (discrete or continuous) connection and interaction"
+     - Title: "4. Providing Feedback"
+       Notes:
+         - "application status (or errors) and its interpretation of user input, accounting for users’ attention"
+         - "output modalities (sound, speech, perception, movement)"
+     - Title: "5. Avoiding and Correcting Mistakes"
+       Notes:
+           - "more user-control (mechanisms for correcting errors and misinterpretations of e.g., from the use sensing technologies)"
+           - "inverting actions (stepping out of the interaction zone)"
+           - "undoing actions / overriding the system (towards direct manipulation)"
+           - "using proxemic safeguards (requiring certain proxemic relationships for actions with a high impact)"
+     - Title: "6. Managing Privacy and Security"
+       Notes:
+           - "protect privacy-sensitive information and handle access to information"
+           - "not get in the way of doing things (points 1-5)"
+           - "proximity-dependent authentication"
+           - "distance-dependent information disclosure"
+           - "proxemic-aware privacy mechanisms (considering orientation, identity, and location)"
+           - "considering people's expectations (levels of privacy for everyone involved, their social relationships, balancing privacy through proxemics)"
+ 
+   So What:
+     - "<strong>GREAT WORK!!!</strong> New design thinking for ubicomp interactive systems and cross-device interaction!!!"
+     - "towards <strong>ad hoc</strong> device ecologies - activity, space, and time - and <strong>reconfigurable</strong> interactive spaces"
+     - "<strong>identity</strong> - what about social relationships? implications for proxemic interaction design (proxemic social contact)?"
+     - "<strong>cultural differences</strong> (concepts of personal spaces and space invasion) not discussed"
+     - "<strong>deliberately violating expectations</strong> of proxemic interaction in certain applications (e.g., close physical interaction or human interaction/activity)"
+     - "<strong>social concerns</strong> about privacy, errors, distraction, and intrusion"
+     - "<strong>dark patterns</strong> (Greenberg et al., DIS'14'): captive audience, attention grabber, bait and switch, making personal information public, we never forget, disguised data collection, social network of proxemic contacts or unintended social relationships, and the milk factor. Opt-in and opt-out mechanisms? New user-defined interaction possibilities?"
+     - "<strong>proxemic interaction challenges</strong> (Greenberg et al., DIS'14'): opt-in/opt-out choices, physical space is imbued with dual meanings, ownership of the physical space is ambiguous, attention is inherently sought after (being in a space but opted out of the interactive system), accidental proxemics (interaction with context-aware systems), balancing between implicit and explicit interaction, making users aware of what is happening, "
+     - "<strong>design implications</strong> for the Physical Web and IoT. Cloud vs. local infrastructures."
+     - "Proxemic theory also applies to the dis-abled (visually impaired/blind people have good spatial awareness, they know whether the other person talking is facing them, and more) but most cross-device interactions still rely heavily on visual cues. Would be very interesting to work on <strong>accessibility issues</strong> in cross-device interaction (This is a big topic, perhaps a PhD by itself) so it'd require collaboration. I think the big problem is helping them connect with people, feel loved, do essential/meaningful work, and enhance their own abilities/interests (ability-based design), etc (somewhat universal to all humans). Technologies (e.g., cross-device interaction) are just tools, so creating the right tool for the right purpose/problem is important (inclusive design)."
+ 
+ - Name: Gradual Engagement
+ 
+ - Name: Vogel's 4 Discrete Interaction Zones
+ 
+ - Name: Media for Thinking the Unthinkable
+ 
 Discovering Devices:
-  - Name: "Sensing and Visualizing Spatial Relations of Mobile Devices"
-
+ - Name: "Sensing and Visualizing Spatial Relations of Mobile Devices"
+ 
 Connecting Devices:
-  - Name: "Bumping"
+ - Name: "Bumping"
+
+   Figures:
+     - "bumping-overview-1.png"
+     - "bumping-overview-2.png"
+     - "bumping-feedback.png"
+ 
+   Papers:
+     - Title: "Synchronous gestures for multiple persons and computers"
+       Link: "http://dl.acm.org/citation.cfm?id=964713"
+       Authors: "Ken Hinckley, UIST'03"
+ 
+   Overview:
+     - "dynamic display tiling via bumping (social metaphor: clinking glass)"
+     - "synchronizing the two accelerometers across a wireless network"
+     - "audio + visual feedback"
+     - "enabling mutual sharing of information"
+     - "'pouring' information from one device to another (social metaphor: pouring drink into glass)"
+  
+   Applications and Scenarios:
+     - "proxemic information sharing and exchange"
+     - "ad hoc collaboration"
+ 
+   Key Challenges:
+     - Title: "1. Extension to more than two devices (hundreds)"
+     - Title: "2. Accidental interaction"
+ 
+   So What:
+     - "combining physical and digital interaction"
+     - "synchronous gestures based on human-human communication and body language (e.g., shaking hands, bowing)"
+     - "enabling connection between unmodified devices"
+     - "requiring physical mobility"
+ 
+ - Name: "Shaking (Holmquist et al.)"
+
+   Figures:
+     - "smart-its-board.png"
+     - "smart-its-architecture.png"
+ 
+   Papers:
+     - Title: "Smart-Its Friends: A Technique for Users to Easily Establish Connections between Smart Artefacts"
+       Link: "https://link.springer.com/chapter/10.1007/3-540-45427-6_10"
+       Authors: "Holmquist, Mattern, Schiele, Alahuhta, Beigl, Gellersen, Ubicomp'01"
+ 
+   Overview:
+     - "spatial proximity to context proximity"
+     - "context as information about the system environment obtained through sensors, and artefact- or application-specific information resulting from further abstraction"
+     - "implicit: individual contexts are within certain proximity"
+     - "explicit: user-controlled actions (contexts)"
+     - "connection based on context-matching"
+     - "holding two devices together, briefly waving or shaking them"
+     - "audio feedback (beep sound) when devices become connected or disconnected"
+  
+   Applications and Scenarios:
+     - "context-proxemic connection"
+ 
+   So What:
+     - "dynamically creating a logical proximity relation and communication channels"
+     - "end-user programming of smart artefacts (e.g., using gestures and sounds)"
+     - "modifier objects that change the behaviour of other artefacts (e.g., changing parameters, input and output modalities) - like physical tokens for different functions - enabling end-users to access complicated functionality in the invisible or 'disappearing' interfaces"
+ 
+ - Name: "SyncTap"
+
+   Figures:
+     - "synctap-setup.png"
+     - "synctap-hypercursor.png"
+     - "synctap-camera.png"
+     - "synctap-printer.png"
+ 
+   Papers:
+     - Title: "Smart-Its Friends: A Technique for Users to Easily Establish Connections between Smart Artefacts"
+       Link: "https://link.springer.com/chapter/10.1007%2F978-3-540-45233-1_9?LI=true"
+       Authors: "Rekimoto, Ayatsuka, Kohno, MobileHCI'03"
+ 
+   Overview:
+     - "connect heterogeneous devices by simultaneously pressing a sync button (human-controllable) on each device"
+     - "send multicast packets containing press and release timing across the network"
+     - "collision detection"
+     - "secure communication"
+     - "ad hoc connection"
+     - "alternative: synchronizing sensor values (sound)"
+ 
+   Applications and Scenarios:
+     - "printing a document from PDA"
+     - "showing presentation on a meeting room display"
+     - "controlling TV using PDA"
+     - "secure information transfer across computers"
+ 
+   So What:
+     - "requiring physical proximity"
+ 
+ - Name: "BlueTable"
+
+   Figures:
+     - "bluetable-visible-light-modulation.png"
+     - "bluetable-photo-sharing.png"
+     - "bluetable-photo-transfer.png"
+     - "bluetable-calendar.png"
+ 
+   Papers:
+     - Title: "BlueTable: connecting wireless mobile devices on interactive surfaces using vision-based handshaking"
+       Link: "http://dl.acm.org/citation.cfm?id=1268539&CFID=768851948&CFTOKEN=25913417"
+       Authors: "Andy Wilson and Raman Sarin, GI'07"
+ 
+   Overview:
+     - "connection between mobile devices and interactive surface"
+     - "physically resting one's device on a surface to establish connection (users immediately understand this)"
+     - "connection is broken when the device is removed"
+     - "computer vision and bluetooth handshaking -> blue halo projection indicating connection"
+     - "tracking and connecting multiple devices"
+     - "enabling novel cross-device interaction techniques"
+ 
+   Applications and Scenarios:
+     - "photo sharing (selecting and dragging)"
+     - "augmenting mobile device's screen (showing photos on a large display)"
+     - "cross-device interaction on an interactive surface"
+ 
+   So What:
+     - "mixing display and user interface (exchange between devices of different display sizes can support the choices based on users' privacy needs')"
+     - "supporting disruptive-less collaborative interactions (due to its transparent nature)"
+     - "leveraging ad hoc device ecologies"
+     - "multi-device interaction visualization"
+     - "enabling logical and direct connection between devices on the interactive surface"
+ 
+Small-Group Cross-Device Interaction:
+  - Name: "Stitching"
+
     Figures:
-      - "bumping-overview-1.png"
-      - "bumping-overview-2.png"
-      - "bumping-feedback.png"
+      - "stiching-1.png"
+      - "stiching-2.png"
+      - "stiching-commands.png"
+      - "stiching-lasso.png"
+      - "stiching-traditional.png"
+      - "stiching-lift.png"
+      - "stiching-hold.png"
+      - "stiching-transfer.png"
 
     Papers:
-      - Title: "Synchronous gestures for multiple persons and computers"
-        Link: "http://dl.acm.org/citation.cfm?id=964713"
-        Authors: "Ken Hinckley, UIST'03"
+      - Title: "Stitching: pen gestures that span multiple displays"
+        Link: "http://dl.acm.org/citation.cfm?id=989866"
+        Authors: "Hinckley, Ramos, Guimbretiere, Baudisch, Smith, AVI'04"
+      - Title: "Synchronous Gestures in Multi-Display Environments"
+        Link: "http://www.tandfonline.com/doi/abs/10.1080/07370020902739288"
+        Authors: "Ramos, Hinckley, Wilson, Sarin, HCI'09"
 
     Overview:
-      - "dynamic display tiling via bumping (social metaphor: clinking glass)"
-      - "synchronizing the two accelerometers across a wireless network"
-      - "audio + visual feedback"
-      - "enabling mutual sharing of information"
-      - "'pouring' information from one device to another (social metaphor: pouring drink into glass)"
-    
+      - "stiching: pen gestures that span multiple displays"
+      - "pen stroke syncrhonized via wireless network communication and recognized as a unitary act performed by one user"
+      - "prefix and postfix local menus"
+      - "cooperative stitching (one-to-many stiching in small colocated groups): sender initiates and each recipient accepts"
+      - "support for actions at different proxemic distances (geometry and location information at close distances)"
+      - "one-to-many connections use a variety of proxemic distances and physical orientations"
+
     Applications and Scenarios:
-      - "proxemic information sharing and exchange"
-      - "ad hoc collaboration"
+      - "cross-device information-handling"
+      - "ad hoc collaborative activities"
 
     Key Challenges:
-      - Title: "1. Extension to more than two devices (hundreds)"
-      - Title: "2. Accidental interaction"
+      - Title: "Design Questions for Ad Hoc Multi-Device Environments"
+      - Title: "1. Connection: How is a connection established?"
+      - Title: "2. Command: What is required? What is the connection used for?"
+      - Title: "3. Operands: What is shared?"
+      - Title: "4. Geometry: What is the spatial relationship and orientation between devices and people"
+      - Title: "5. Coexistence: How does a connection mechanism coexist with traditional interactions or naturally occurring user behaviours"
+      - Title: "6. Proxemics: Does a connection mechanism make use or affect users' share of the physical space? Also interaction techniques."
+      - Title: "7. Privacy: How does a user avoid undesired connections? Can the user control what content is shared? How does either user back out of an operation at any point, or veto a connection that is no longer desired? Opt-in vs. opt-out."
+      - Title: "8. One vs. Many: Ad hoc interaction techniques for one-to-one, one-to-many connections, or both. What types of collaboration are most important to support in a given application or user task/activity"
 
     So What:
-      - "combining physical and digital interaction"
-      - "synchronous gestures based on human-human communication and body language (e.g., shaking hands, bowing)"
-      - "enabling connection between unmodified devices"
-      - "requiring physical mobility"
-
-  - Name: "Shaking (Holmquist et al.)"
-    Figures:
-      - "smart-its-board.png"
-      - "smart-its-architecture.png"
-
-    Papers:
-      - Title: "Smart-Its Friends: A Technique for Users to Easily Establish Connections between Smart Artefacts"
-        Link: "https://link.springer.com/chapter/10.1007/3-540-45427-6_10"
-        Authors: "Holmquist, Mattern, Schiele, Alahuhta, Beigl, Gellersen, Ubicomp'01"
-
-    Overview:
-      - "spatial proximity to context proximity"
-      - "context as information about the system environment obtained through sensors, and artefact- or application-specific information resulting from further abstraction"
-      - "implicit: individual contexts are within certin proximity"
-      - "explicit: user-controlled actions (contexts)"
-      - "connection based on context-matching"
-      - "holding two devices together, briefly waving or shaking them"
-      - "audio feedback (beep sound) when devices become connected or disconnected"
-    
-    Applications and Scenarios:
-      - "context-proxemic connection"
-
-    So What:
-      - "dynamically creating a logical proximity relation and communication channels"
-      - "end-user programming of smart artefacts (e.g., using gestures and sounds)"
-      - "modifier objects that change the behaviour of other artefacts (e.g., changing parameters, input and output modalities) - like physical tokens for different functions - enabling end-users to access complicated functionality in the invisible or 'disappearing' interfaces"
-
-  - Name: "SyncTap"
-    Figures:
-      - "synctap-setup.png"
-      - "synctap-hypercursor.png"
-      - "synctap-camera.png"
-      - "synctap-printer.png"
-
-    Papers:
-      - Title: "Smart-Its Friends: A Technique for Users to Easily Establish Connections between Smart Artefacts"
-        Link: "https://link.springer.com/chapter/10.1007%2F978-3-540-45233-1_9?LI=true"
-        Authors: "Rekimoto, Ayatsuka, Kohno, MobileHCI'03"
-
-    Overview:
-      - "connect heterogeneous devices by simultaneously pressing a sync button (human-controllable) on each device"
-      - "send multicast packets containing press and release timing across the network"
-      - "collision detection"
-      - "secure communication"
-      - "ad hoc connection"
-      - "alternative: synchronizing sensor values (sound)"
-
-    Applications and Scenarios:
-      - "printing a document from PDA"
-      - "showing presentation on a meeting room display"
-      - "controlling TV using PDA"
-      - "secure infomration transfer across computers"
-
-    So What:
-      - "requiring physical proximity"
-
-  - Name: "BlueTable"
-    Figures:
-      - "bluetable-visible-light-modulation.png"
-      - "bluetable-photo-sharing.png"
-      - "bluetable-photo-transfer.png"
-      - "bluetable-calendar.png"
-
-    Papers:
-      - Title: "BlueTable: connecting wireless mobile devices on interactive surfaces using vision-based handshaking"
-        Link: "http://dl.acm.org/citation.cfm?id=1268539&CFID=768851948&CFTOKEN=25913417"
-        Authors: "Andy Wilson and Raman Sarin, GI'07"
-
-    Overview:
-      - "connection between mobile devices and interactive surface"
-      - "physicall resting one's device on a surface to establish connection (users immediately understand this)"
-      - "computer vision and bluetooth handshaking -> blue halo projection indicating connection"
-      - "enabling novel cross-device interaction techniques"
-
-    Applications and Scenarios:
-      - "ohoto sharing"
-      - "augmenting mobile device's screen"
-      - "cross-device interaction"
-
-    So What:
-      - ""
-
-Small-Group Cross-Device Interaction:
-  - Name: "Stiching"
-
+      - "synchronous gestures!! express naturally a spontaneous wireless connection between specific proxmial (collocated) interactive displays"
+      - "participating devices in collaborative interaction can identify distinct input patterns, combined to form an implicit sensor network"
+      - "connection-action phrasing (e.g., cross-device commands such as copy, move, expand/zoon, open app)"
+      - "sociological issues of shared space: users are hesitant to remain in the personal space of antoher user's device'"
+      - "user remains in control of the device"
+      - "straightforward and tangible direct manipulation"
+      - "relax the constraints of intimate physical proximity and fixed relative position/orientation"
+      - "natural metaphors for synchronizing social activity - designs that fit into or become a part of an user's task or workflow (physical and social metaphors)"
+      - "balance between social protocol (coordination at distance) and graphical feedback (awareness to the participating users)"
+      - "integrate privacy and security into a task's workflow and be applicable at the appropriate proxemic distance (people's sense of property and ownership)"
+ 
 Room-Scale Cross-Device Interaction:
   - Name: "Pick-and-Drop"
 
+    Figures:
+      - "pick-and-drop-concept.png"
+      - "pick-and-drop-tablet.png"
+      - "pick-and-drop-drawing.png"
+      - "pick-and-drop-collaboration.png"
+
+    Papers:
+      - Title: "Pick-and-drop: a direct manipulation technique for multiple computer environments"
+        Link: "http://dl.acm.org/citation.cfm?id=263505"
+        Authors: "Jun Rekimoto, UIST'97"
+
+    Overview:
+      - "pick up an object on a display and drop it on another display (social metaphor: chopsticks)"
+      - "unique pen ID and associated data"
+
+    Applications and Scenarios:
+      - "information transfer across devices"
+      - "pallete computer"
+      - "anonymous displays (temporal work buffers) as spatial interface"
+      - "data transfer between computers and non-digital objects"
+
+    So What:
+      - "intuitive data transfer (more natural)"
+      - "visibility is important in collaborative settings"
+      - "we are living in a fusion of physical (real and virtual computer) worlds"
