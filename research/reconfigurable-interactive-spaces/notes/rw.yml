@@ -1,5 +1,5 @@
 Theories and Concepts:
-  - Name: "Proxemic Interaction (Greenberg et al.)"
+  - Name: "Proxemic Interaction"
 
     Figures:
       - "proxemic-interaction.png"
@@ -34,7 +34,7 @@ Theories and Concepts:
 
     Overview:
       - "interaction mediated by 5 proxemic dimensions: distance, orientation, movement, identity, location"
-      - "fixed and semifixed features"
+      - "fixed and semi-fixed features"
       - "compensation, balance, and privacy"
       - "4 proxemic zones: intimate, personal, social, public (supporting different input modalities and interactions"
       - "3 action spaces: o-space, p-space, r-space"
@@ -97,7 +97,7 @@ Discovering Devices:
   - Name: "Sensing and Visualizing Spatial Relations of Mobile Devices"
 
 Connecting Devices:
-  - Name: "Bumping (Ken Hickley)"
+  - Name: "Bumping"
     Figures:
       - "bumping-overview-1.png"
       - "bumping-overview-2.png"
@@ -121,11 +121,95 @@ Connecting Devices:
 
     Key Challenges:
       - Title: "1. Extension to more than two devices (hundreds)"
+      - Title: "2. Accidental interaction"
 
     So What:
-      - "synchronous gestures cool"
+      - "combining physical and digital interaction"
+      - "synchronous gestures based on human-human communication and body language (e.g., shaking hands, bowing)"
+      - "enabling connection between unmodified devices"
+      - "requiring physical mobility"
 
-  - Name: "Connecting devices for collaborative interactions"
+  - Name: "Shaking (Holmquist et al.)"
+    Figures:
+      - "smart-its-board.png"
+      - "smart-its-architecture.png"
+
+    Papers:
+      - Title: "Smart-Its Friends: A Technique for Users to Easily Establish Connections between Smart Artefacts"
+        Link: "https://link.springer.com/chapter/10.1007/3-540-45427-6_10"
+        Authors: "Holmquist, Mattern, Schiele, Alahuhta, Beigl, Gellersen, Ubicomp'01"
+
+    Overview:
+      - "spatial proximity to context proximity"
+      - "context as information about the system environment obtained through sensors, and artefact- or application-specific information resulting from further abstraction"
+      - "implicit: individual contexts are within certin proximity"
+      - "explicit: user-controlled actions (contexts)"
+      - "connection based on context-matching"
+      - "holding two devices together, briefly waving or shaking them"
+      - "audio feedback (beep sound) when devices become connected or disconnected"
+    
+    Applications and Scenarios:
+      - "context-proxemic connection"
+
+    So What:
+      - "dynamically creating a logical proximity relation and communication channels"
+      - "end-user programming of smart artefacts (e.g., using gestures and sounds)"
+      - "modifier objects that change the behaviour of other artefacts (e.g., changing parameters, input and output modalities) - like physical tokens for different functions - enabling end-users to access complicated functionality in the invisible or 'disappearing' interfaces"
+
+  - Name: "SyncTap"
+    Figures:
+      - "synctap-setup.png"
+      - "synctap-hypercursor.png"
+      - "synctap-camera.png"
+      - "synctap-printer.png"
+
+    Papers:
+      - Title: "Smart-Its Friends: A Technique for Users to Easily Establish Connections between Smart Artefacts"
+        Link: "https://link.springer.com/chapter/10.1007%2F978-3-540-45233-1_9?LI=true"
+        Authors: "Rekimoto, Ayatsuka, Kohno, MobileHCI'03"
+
+    Overview:
+      - "connect heterogeneous devices by simultaneously pressing a sync button (human-controllable) on each device"
+      - "send multicast packets containing press and release timing across the network"
+      - "collision detection"
+      - "secure communication"
+      - "ad hoc connection"
+      - "alternative: synchronizing sensor values (sound)"
+
+    Applications and Scenarios:
+      - "printing a document from PDA"
+      - "showing presentation on a meeting room display"
+      - "controlling TV using PDA"
+      - "secure infomration transfer across computers"
+
+    So What:
+      - "requiring physical proximity"
+
+  - Name: "BlueTable"
+    Figures:
+      - "bluetable-visible-light-modulation.png"
+      - "bluetable-photo-sharing.png"
+      - "bluetable-photo-transfer.png"
+      - "bluetable-calendar.png"
+
+    Papers:
+      - Title: "BlueTable: connecting wireless mobile devices on interactive surfaces using vision-based handshaking"
+        Link: "http://dl.acm.org/citation.cfm?id=1268539&CFID=768851948&CFTOKEN=25913417"
+        Authors: "Andy Wilson and Raman Sarin, GI'07"
+
+    Overview:
+      - "connection between mobile devices and interactive surface"
+      - "physicall resting one's device on a surface to establish connection (users immediately understand this)"
+      - "computer vision and bluetooth handshaking -> blue halo projection indicating connection"
+      - "enabling novel cross-device interaction techniques"
+
+    Applications and Scenarios:
+      - "ohoto sharing"
+      - "augmenting mobile device's screen"
+      - "cross-device interaction"
+
+    So What:
+      - ""
 
 Small-Group Cross-Device Interaction:
   - Name: "Stiching"

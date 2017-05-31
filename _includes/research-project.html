@@ -8,18 +8,30 @@
     {% assign rw = include.project_dir.notes.rw %}
 
     {% for section in rw %}
-        <h1 class="display-4">{{ section[0] }}</h1>
+        <h1 class="display-4">{{ section[0] | upcase }}</h1>
         
         {% for work in section[1] %}
             <table class="table table-bordered " style="font-size:14px; font-family:Helvetica; color:black;">
             <thead class="thead-inverse">
             <tr>
-                <th class="col-md-8"><h5 style="font-family:Helvetica;">{{ work["Name"] }}</h4></th>
-                <th class="col-md-4"><h5 style="font-family:Helvetica;"></h4></th>
+                <th colspan="2" class="col-md-8">
+                    <h3 style="font-family:Helvetica;margin-top:5px;margin-bottom:5px;"><strong>{{ work["Name"] | upcase }}</strong></h3>
+                    {% if work["Papers"] %}
+                    {% assign n_papers = work["Papers"] | size | minus: 1 %}
+                    <p>
+                        {% for i in (0..n_papers) %}
+                             {% if work["Papers"][i]["Link"] %}<a href='{{ work["Papers"][i]["Link"] }}' target="_blank">{{ work["Papers"][i]["Title"] }}</a>{% endif %} | {{ work["Papers"][i]["Authors"] }}
+                            {% if i < n_papers %}
+                                <br/>
+                            {% endif %}
+                        {% endfor %}
+                    </p>
+                    {% endif %}
+                </th>
             </tr>
             </thead>
             <tbody>
-                
+
             <tr>
                 <td colspan="2">
                     {% for fig in work["Figures"] %}
@@ -29,8 +41,8 @@
             </tr>
 
             <tr class="thead-inverse">
-                <th class="col-md-8"><h5 style="font-family:Helvetica;">What's new?</h4></th>
-                <th class="col-md-4"><h5 style="font-family:Helvetica;">What's next?</h4></th>
+                <th class="col-md-7"><h5 style="font-family:Helvetica;margin-top:5px;margin-bottom:5px;"><strong>What's new?</strong></h4></th>
+                <th class="col-md-5"><h5 style="font-family:Helvetica;margin-top:5px;margin-bottom:5px;"><strong>What's good and bad? What's next?</strong></h4></th>
             </tr>
 
             <tr>
@@ -43,7 +55,8 @@
                         {% if i < n_overviews %}
                             <br/>
                         {% endif %}
-                    {% endfor %}<br/><br/></p>
+                    {% endfor %}
+                    <br/><br/></p>
                     {% endif %}
 
                     {% if work["Applications and Scenarios"] %}
@@ -54,61 +67,44 @@
                         {% if i < n_applications %}
                             <br/>
                         {% endif %}
-                    {% endfor %}<br/><br/></p>
+                    {% endfor %}
+                    <br/><br/></p>
                     {% endif %}
 
                     {% if work["Key Challenges"] %}
                     <p><strong><u>Key Challenges</u></strong><br/>
                     {% assign n_challenges = work["Key Challenges"] | size | minus: 1 %}
                     {% for i in (0..n_challenges) %}
-                        {{ work["Key Challenges"][i]["Title"] }} <br>
+                        {{ work["Key Challenges"][i]["Title"] }}
                         
                         {% assign n_notes = work["Key Challenges"][i]["Notes"] | size | minus: 1 %}
                         {% for j in (0..n_notes) %}
-                        - {{ work["Key Challenges"][i]["Notes"][j] }}
-                            {% if j < n_notes %}
-                                <br/>
-                            {% endif %}
+                        <br/>- {{ work["Key Challenges"][i]["Notes"][j] }}
                         {% endfor %}
+                        
                         {% if i < n_challenges %}
                             <br/><br/>
                         {% endif %}
-                    {% endfor %}<br/><br/></p>
+                    {% endfor %}
+                    </p>
                     {% endif %}
 
                 </td>
                 
                 <td>
                     {% if work["So What"] %}
+                    <p>
                     {% assign n_sowhat = work["So What"] | size | minus: 1 %}
                     {% for i in (0..n_sowhat) %}
                         - {{ work["So What"][i] }}
                         {% if i < n_sowhat %}
                             <br/><br/>
                         {% endif %}
-                    {% endfor %}<br/><br/></p>
-                    {% endif %}
-                </td>
-            </tr>
-
-            <tr class="thead-inverse">
-                <th class="col-md-8"><h5 style="font-family:Helvetica;">Papers</h4></th>
-                <th class="col-md-4"><h5 style="font-family:Helvetica;"></h4></th>
-            </tr>
-
-            <tr>
-                <td colspan="2">
-                    {% if work["Papers"] %}
-                    {% assign n_papers = work["Papers"] | size | minus: 1 %}
-                    {% for i in (0..n_papers) %}
-                        {{ work["Papers"][i]["Title"] }} {% if work["Papers"][i]["Link"] %}| <a href='{{ work["Papers"][i]["Link"] }}' target="_blank">paper</a>{% endif %} | {{ work["Papers"][i]["Authors"] }}
-                        {% if i < n_papers %}
-                            <br/>
-                        {% endif %}
                     {% endfor %}</p>
                     {% endif %}
                 </td>
             </tr>
+
             </tbody>
             </table>
         {% endfor %}
