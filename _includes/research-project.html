@@ -34,61 +34,56 @@
 
             <tr>
                 <td colspan="2">
+                    <div class="row">
                     {% for fig in work["Figures"] %}
-                        <img class="col-md-3" src="{{ '/research/reconfigurable-interactive-spaces/figures/' | append: fig }}" class="center-block img-responsive">
+                        <div class="col-md-3">
+                            <img src="{{ '/research/reconfigurable-interactive-spaces/figures/' | append: fig }}" class="center-block img-responsive">
+                        </div>
                     {% endfor %}
+                    </div>
                 </td>
             </tr>
 
             <tr class="thead-inverse">
-                <th class="col-md-7"><h5 style="font-family:Helvetica;margin-top:5px;margin-bottom:5px;"><strong>What's new?</strong></h4></th>
-                <th class="col-md-5"><h5 style="font-family:Helvetica;margin-top:5px;margin-bottom:5px;"><strong>What's good and bad? What's next?</strong></h4></th>
+                <th class="col-md-8"><h5 style="font-family:Helvetica;margin-top:5px;margin-bottom:5px;"><strong>OVERVIEW</strong></h4></th>
+                <th class="col-md-4"><h5 style="font-family:Helvetica;margin-top:5px;margin-bottom:5px;"><strong>WHAT'S GOOD AND BAD? WHAT'S NEXT?</strong></h4></th>
             </tr>
 
             <tr>
                 <td>
-                    {% if work["Overview"] %}
-                    <p><strong><u>Overview</u></strong><br/>
-                    {% assign n_overviews = work["Overview"] | size | minus: 1 %}
-                    {% for i in (0..n_overviews) %}
-                        - {{ work["Overview"][i] }}
-                        {% if i < n_overviews %}
-                            <br/>
+                    {% for subsection in work %}
+                        {% assign subsection_name = subsection[0] %}
+                        {% if subsection_name == "Name" or subsection_name == "Papers" or subsection_name == "Figures" or subsection_name == "So What" %}
+                        {% continue %}
                         {% endif %}
-                    {% endfor %}
-                    <br/><br/></p>
-                    {% endif %}
 
-                    {% if work["Applications and Scenarios"] %}
-                    <p><strong><u>Applications and Scenarios</u></strong><br/>
-                    {% assign n_applications = work["Applications and Scenarios"] | size | minus: 1 %}
-                    {% for i in (0..n_applications) %}
-                        - {{ work["Applications and Scenarios"][i] }}
-                        {% if i < n_applications %}
-                            <br/>
+                        {% if subsection_name != "Grand Challenges" %}
+                            {% if subsection_name != "Overview" %}
+                                <p><strong><u>{{ subsection_name | upcase }}</u></strong><br/>
+                            {% endif %}
+                            {% assign n_points = work[subsection_name] | size | minus: 1 %}
+                            {% for i in (0..n_points) %}
+                                - {{ work[subsection_name][i] }}
+                                {% if i < n_points %}
+                                    <br/>
+                                {% endif %}
+                            {% endfor %}
+                            <br/><br/></p>
+                        {% else %}
+                            <p><strong><u>GRAND CHALLENGES</u></strong><br/>
+                            {% assign challenges = work[subsection_name] %}
+                            {% for challenge in challenges %}
+                                <strong>{{ challenge[0] }}</strong>
+                                {% assign n_notes = challenge[1] | size | minus: 1 %}
+                                {% for j in (0..n_notes) %}
+                                    <br/>- {{ challenge[1][j] }}
+                                {% endfor %}
+                                <br/><br/>
+                            {% endfor %}
+                            </p>
                         {% endif %}
+                        <hr class="divider">
                     {% endfor %}
-                    <br/><br/></p>
-                    {% endif %}
-
-                    {% if work["Key Challenges"] %}
-                    <p><strong><u>Key Challenges</u></strong><br/>
-                    {% assign n_challenges = work["Key Challenges"] | size | minus: 1 %}
-                    {% for i in (0..n_challenges) %}
-                        {{ work["Key Challenges"][i]["Title"] }}
-                        
-                        {% assign n_notes = work["Key Challenges"][i]["Notes"] | size | minus: 1 %}
-                        {% for j in (0..n_notes) %}
-                        <br/>- {{ work["Key Challenges"][i]["Notes"][j] }}
-                        {% endfor %}
-                        
-                        {% if i < n_challenges %}
-                            <br/><br/>
-                        {% endif %}
-                    {% endfor %}
-                    </p>
-                    {% endif %}
-
                 </td>
                 
                 <td>
@@ -108,6 +103,9 @@
             </tbody>
             </table>
         {% endfor %}
+                     
+        <hr style="margin-top:50px;margin-bottom:50px;">   
+        
     {% endfor %}
 
 </div>
