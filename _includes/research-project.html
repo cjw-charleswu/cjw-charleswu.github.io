@@ -73,7 +73,7 @@
                             <p><strong><u>GRAND CHALLENGES</u></strong><br/>
                             {% assign challenges = work[subsection_name] %}
                             {% for challenge in challenges %}
-                                <strong>{{ challenge[0] }}</strong>
+                                <u>{{ challenge[0] }}</u>
                                 {% assign n_notes = challenge[1] | size | minus: 1 %}
                                 {% for j in (0..n_notes) %}
                                     <br/>- {{ challenge[1][j] }}
