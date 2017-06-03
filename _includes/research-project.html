@@ -4,21 +4,28 @@
 <div class="container">
     <h2 class="display-2">{{ include.project }}</h2>
     
-    <h3><span class="label label-primary"><u>Problem</u></span></h3>
+    <h3><span class="label label-info"><u>Goal</u></span></h3>
+    <p>
+    {% for pt in p["Goal"] %}
+        - {{ pt }} <br/>
+    {% endfor %}
+    </p>
+
+    <h3><span class="label label-danger"><u>Problem</u></span></h3>
     <p>
     {% for pt in p["Problem"] %}
         - {{ pt }} <br/>
     {% endfor %}
     </p>
 
-    <h3><span class="label label-primary"><u>Research Questions</u></span></h3>
+    <h3><span class="label label-warning"><u>Research Questions</u></span></h3>
     <p>
     {% for pt in p["Research Questions"] %}
         - {{ pt }} <br/>
     {% endfor %}
     </p>
     
-    <h3><span class="label label-primary"><u>Contributions</u></span></h3>
+    <h3><span class="label label-success"><u>Contributions</u></span></h3>
     <p>
     {% for pt in p["Contributions"] %}
         - {{ pt }} <br/>
