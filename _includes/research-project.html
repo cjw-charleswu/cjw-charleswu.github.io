@@ -1,14 +1,44 @@
+{% assign p = include.project_dir.notes.problem %}
+{% assign rw = include.project_dir.notes.rw %}
+
 <div class="container">
-    <h1 class="display-2">{{ include.project }}</h1>
+    <h2 class="display-2">{{ include.project }}</h2>
     
+    <h3><span class="label label-primary"><u>Problem</u></span></h3>
+    <p>
+    {% for pt in p["Problem"] %}
+        - {{ pt }} <br/>
+    {% endfor %}
+    </p>
+
+    <h3><span class="label label-primary"><u>Research Questions</u></span></h3>
+    <p>
+    {% for pt in p["Research Questions"] %}
+        - {{ pt }} <br/>
+    {% endfor %}
+    </p>
+    
+    <h3><span class="label label-primary"><u>Contributions</u></span></h3>
+    <p>
+    {% for pt in p["Contributions"] %}
+        - {{ pt }} <br/>
+    {% endfor %}
+    </p>
+
+    <h3><span class="label label-primary"><u>Related Work</u></span></h3>
+    <p>
+    {% for section in rw %}
+        - <a href="#{{ section[0] | upcase }}">{{ section[0]}}</a> <br/>
+    {% endfor %}
+    </p>
+
     <p class="vspace"><br></p>
 </div>
 
 <div class="container-fluid">
-    {% assign rw = include.project_dir.notes.rw %}
 
     {% for section in rw %}
-        <h1 class="display-4">{{ section[0] | upcase }}</h1>
+        <h1 class="display-4" id="{{ section[0] | upcase }}">{{ section[0] | upcase }}</h1>
         
         {% for work in section[1] %}
             <table class="table table-bordered " style="font-size:14px; font-family:Helvetica; color:black;">

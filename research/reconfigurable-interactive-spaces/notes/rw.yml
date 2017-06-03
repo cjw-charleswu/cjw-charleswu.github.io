@@ -35,7 +35,7 @@ Theories and Concepts:
     Overview:
       - "<u>interaction mediated by proxemics</u>"
       - "<u>interactive spaces</u> consisting of fixed and semi-fixed features (ecologies of digital artefacts)"
-    
+
     Framework:
       - "<u>5 proxemic dimensions</u>: distance, orientation, movement, identity, location"
       - "<u>4 proxemic zones</u>: intimate, personal, social, public (supporting different input modalities and interactions)"
@@ -87,7 +87,6 @@ Theories and Concepts:
       - "<u>proxemic interaction challenges</u> (Greenberg et al., DIS'14'): opt-in/opt-out choices, physical space is imbued with dual meanings, ownership of the physical space is ambiguous, attention is inherently sought after (being in a space but opted out of the interactive system), accidental proxemics (interaction with context-aware systems), balancing between implicit and explicit interaction, making users aware of what is happening, "
       - "<u>design implications</u> for the Physical Web and IoT. Cloud vs. local infrastructures."
       - "Proxemic theory also applies to the dis-abled (visually impaired/blind people have good spatial awareness, they know whether the other person talking is facing them, and more) but most cross-device interactions still rely heavily on visual cues. Would be very interesting to work on <u>accessibility issues</u> in cross-device interaction (This is a big topic, perhaps a PhD by itself) so it'd require collaboration. I think the big problem is helping them connect with people, feel loved, do essential/meaningful work, and enhance their own abilities/interests (ability-based design), etc (somewhat universal to all humans). Technologies (e.g., cross-device interaction) are just tools, so creating the right tool for the right purpose/problem is important (inclusive design)."
- 
   - Name: Gradual Engagement
 
     Figures:
@@ -99,16 +98,15 @@ Theories and Concepts:
       - "gradual-proximity-icons.png"
       - "proximity-dependent-reveal.png"
       - "gradual-portal-drag.png"
-      
+    
     Papers:
       - Title: "Gradual engagement: facilitating information exchange between digital devices as a function of proximity"
         Link: "http://dl.acm.org/citation.cfm?id=2396642&CFID=769150068&CFTOKEN=31024167"
         Authors: "Marquardt, Ballendat, Boring, Greenberg, Hinckley, ITS'12"
- 
     Overview:
       - "<u>device ecologies</u>: <u>which</u> devices can communicate, <u>what</u> information they contain, and <u>how</u> information can be exchanged"
       - "<u>gradual engagement design pattern</u> generalizes prior work in proxemic interactions and informs future system designs"
-      - "gradually engage users by discolosing connectivity and information exchange capabilities as a function of <u>inter-device proximity</u>"
+      - "gradually engage users by disclosing connectivity and information exchange capabilities as a function of <u>inter-device proximity</u>"
       - "<u>awareness</u>, <u>reveal</u>, and <u>interactions</u> for transferring content between devices"
       - "gradually engaging <u>foreground</u> and <u>background</u> activities"
       - "considering fine-grained <u>proxemic relationships</u> between multiple devices allowing seamless transitions from <u>awareness</u> to <u>information transfer</u>"
@@ -118,7 +116,7 @@ Theories and Concepts:
       - "what other devices are present, how they can connect with personal devices, and how to notify users about their presence and established connections"
       - "proxemics-dependent awareness"
       - "dynamic notifications about device presence and location"
-    
+
     Reveal of Exchangeable Content:
       - "what their content can be accessed on other devices for information transfer, how to progressively reveal a device's available content as a function of proximity"
       - "proximity-dependent progressive reveal"
@@ -153,7 +151,7 @@ Theories and Concepts:
       - "<u>GREAT WORK!!!</u> New design framework looking at which, what, and how of information exchange between devices through the lens of proxemics"
       - "however devices are assumed already connected, and both people and devices are Vicon-tracked. What is the minimum setup for ad hoc interaction? How to design <u>outdoor interactive spaces</u>?"
       - "built for interactive displays. How about gradually engaging f-formations of small and large groups? How to design technologies to support these new kinds of <u>spontaneous walk-up-and-use scenarios</u>? What would the entire interaction phases look like?"
-      - "Is there an <u>advanced mode</u> where users can perform information transfer gestures at a distance (explictly breaking the intended flow of interaction)?"
+      - "Is there an <u>advanced mode</u> where users can perform information transfer gestures at a distance (explicitly breaking the intended flow of interaction)?"
 
   - Name: Interactive Public Ambient Displays
 
@@ -173,7 +171,7 @@ Theories and Concepts:
         Authors: "Vogel and Balakrishnan, UIST'04"
 
     Overview:
-      - "<u>design principles</u> and an <u>interaction framework</u> for shareable, interactive public ambient displays that support the transition from implicit to explicit interaction with both public and personal information"
+      - "<u>design principles</u> and an <u>interaction framework</u> for sharable, interactive public ambient displays that support the transition from implicit to explicit interaction with both public and personal information"
       - "<u>4 discrete interaction phases</u>"
 
     Design:
@@ -183,7 +181,7 @@ Theories and Concepts:
       - "<u>Short-Duration Fluid Interaction</u>: interaction for supporting short duration activities - initiating and ending an interaction should be fast and seamless"
       - "<u>Immediate Usability</u>: learning by exploration"
       - "<u>Shared Use</u>: share the system either individually or collaboratively"
-      - "<u>Combining Public and Personal Informaiton</u>"
+      - "<u>Combining Public and Personal Information</u>"
       - "<u>Privacy</u>: explicit interaction to hide notifications and minimize their implicit interaction"
 
     Framework:
@@ -218,8 +216,8 @@ Theories and Concepts:
 
     So What:
       - "<u>GREAT WORK!!!</u> New design framework and interaction techniques for interacting with large shared displays!!!"
-      - "<u>visual cues</u> are powerful. I think <u>audio</u> and <u>tacile</u> feedback are also important - but how to design them for multi-device environments? How to effectively combine on-display visualizations with floor and other peripheral visualziations?"
-      - "I really like <u>different phases of interaction</u>. What are the different phases of reconfiguration of interactive spaces? I also like the idea of <u>ambientness</u> (I think ambient animations/visualizations are really cool) and <u>proxmity reveal</u>. How to create immersive, ambient visualizations for the entire interactive space (something like RoomAlive but for interaction wtih ad hoc device ecologies)?"
+      - "<u>visual cues</u> are powerful. I think <u>audio</u> and <u>tacile</u> feedback are also important - but how to design them for multi-device environments? How to effectively combine on-display visualizations with floor and other peripheral visualizations?"
+      - "I really like <u>different phases of interaction</u>. What are the different phases of reconfiguration of interactive spaces? I also like the idea of <u>ambientness</u> (I think ambient animations/visualizations are really cool) and <u>proximity reveal</u>. How to create immersive, ambient visualizations for the entire interactive space (something like RoomAlive but for interaction with ad hoc device ecologies)?"
       - "How can we design cross-device interaction such that it's as <u>fluid</u> as <u>walking</u> up to a display for interaction and <u>turning away</u> to signal the end of interaction?"
       - "What's the <u>cost</u> of learning cross-device interaction techniques?"
 
@@ -229,7 +227,7 @@ Theories and Concepts:
       - Title: "Media for Thinking the Unthinkable"
         Link: "https://www.youtube.com/watch?v=oUaOucZRlmE"
         Authors: "Bret Victor, talk at the MIT Media Lab 2013."
-    
+
     Figures:
       - "media-system-theory.png"
       - "media-paper.png"
@@ -245,7 +243,7 @@ Theories and Concepts:
       - "media as tool (representations)"
       - "there could be unthinkable thoughts...but we could build <u>tools</u>!!"
       - "<u>solving</u> vs. <u>searching</u>"
-      - "<u>abstract over a family of systems</u> - seeing and interacting with the behaviour of the netire system (and multiple representations of the behaviour) enables making comparisons, recognizing things, and making adjustments"
+      - "<u>abstract over a family of systems</u> - seeing and interacting with the behaviour of the entire system (and multiple representations of the behaviour) enables making comparisons, recognizing things, and making adjustments"
       - "<u>playing with the data</u> (direct manipulation of the visualization itself) - seeing how the data change through the pipeline"
       - "thinking visually instead of thinking in a language (geometrically vs. algebraically)"
       - "<u>tinkering</u> -> <u>engineering</u> -> <u>science</u>"
@@ -255,6 +253,8 @@ Theories and Concepts:
       - "<u>What is the new medium for understanding systems?</u>"
       - "get away from 'pencil-and-paper' thinking!!!"
       - "seeing inside, seeing across time, and seeing across possibilities"
+ 
+
 
 Discovering Devices:
   - Name: "RELATE"
@@ -294,7 +294,7 @@ Discovering Devices:
 
     Relative Positioning System:
       - "<u>spatially-bounded discovery</u>: immediate interaction range of the user"
-      - "<u>location-limited channel</u>: RF and ultrasound sensing systems allowing users to verify the autenticity of a device"
+      - "<u>location-limited channel</u>: RF and ultrasound sensing systems allowing users to verify the authenticity of a device"
       - "<u>infrastructure-less</u>: peer-to-peer network supporting spontaneous interaction between RELATE-enabled devices in any environment, <u>indoors and outdoors</u>"
       - "<u>fine-grained positioning in real-time</u>"
 
@@ -312,7 +312,7 @@ Discovering Devices:
       - "devices and services represented as <u>Relate Gateways</u> arranged <u>around edge of the screen</u> (physical metaphor: compass)"
       - "gateways support drag-and-drop operations and buttons to open various service menus"
       - "gateways support two modes: <u>scanning</u> (all visible devices are shown) and <u><u>conditional</u></u> (devices in close proximity for direct use)"
-      - "displayed <u>interaction zones</u> around devices beased on user distance, orientation, and movement"
+      - "displayed <u>interaction zones</u> around devices based on user distance, orientation, and movement"
 
     Wizard of Oz Study of the Relate Gateways Interface:
       - "human operator provides the relative device positions: to remove <u>fluctuating sensor performance</u> and instead focus on the <u>usability of the gateway concept</u>"
@@ -326,20 +326,19 @@ Discovering Devices:
       - "dynamic association of devices"
 
     Grand Challenges:
-      1. Further Study on the Usability of Spatial References and Interfac Designs:
+      1. Further Study on the Usability of Spatial References and Interface Designs:
       2. Assessment of Scalability from both Sensing and Sense-Making Perspectives:
-      3. Robust Spatial Interaction and Visualization Models wrt Limitations of Underlying Sensing Systems: 
+      3. Robust Spatial Interaction and Visualization Models wrt Limitations of Underlying Sensing Systems:
 
     So What:
       - "<u>Exactly what I had in mind!!</u> but I could probably do better (map visualization) - although best to think about other directions / bigger visions"
       - "Also used the idea of <u>portals</u> for cross-device interaction"
       - "RELATE sensing devices <u>packaged as USB add-ons cool!!</u> Good to think about how to distribute technologies (or run systems) most effortlessly"
-      - "How to represent <u>interaction possiblities of devices</u> (what kind of techniques are supported) in addition to just the physical location of devices?"
+      - "How to represent <u>interaction possibilities of devices</u> (what kind of techniques are supported) in addition to just the physical location of devices?"
       - "How about <u>projecting the spatial references onto the environment</u> + halo-like visualization (<u>immersive environments for various device configurations and activities</u>) - sounds like a cool project but not sure whether there's enough research novelty / contribution"
-
+ 
 Connecting Devices:
   - Name: "Bumping"
-
     Figures:
       - "bumping-overview-1.png"
       - "bumping-overview-2.png"
@@ -371,7 +370,6 @@ Connecting Devices:
       - "requires physical mobility. How about enabling connection between <u>unmodified devices</u>?"
 
   - Name: "Shaking (Holmquist et al.)"
-
     Figures:
       - "smart-its-board.png"
       - "smart-its-architecture.png"
@@ -399,7 +397,6 @@ Connecting Devices:
       - "<u>modifier objects</u> that change the behaviour of other artefacts (e.g., changing parameters, input and output modalities) - like <u>physical tokens</u> for different functions - enabling end-users to access complicated functionality in the <u>invisible or disappearing interfaces</u>"
 
   - Name: "SyncTap"
-
     Figures:
       - "synctap-setup.png"
       - "synctap-hypercursor.png"
@@ -430,7 +427,6 @@ Connecting Devices:
       - "also requires physical proximity"
 
   - Name: "BlueTable"
-
     Figures:
       - "bluetable-visible-light-modulation.png"
       - "bluetable-photo-sharing.png"
@@ -463,7 +459,6 @@ Connecting Devices:
       - "supporting <u>disruptive-less</u> collaborative interactions (due to its transparent nature)"
 
   - Name: "Associating Wireless Devices"
- 
     Figures:
       - "associating-devices-fig1.png"
       - "associating-devices-plastics.png"
@@ -489,7 +484,7 @@ Connecting Devices:
       - "<u>what people intuitively do to associate a group of devices</u>: <u>elicitation study of device association techniques</u> from groups of non-technical people"
       - "<u>mobility and physicality of devices</u> influence how people perceive group association"
       - "analyzed techniques based on the <u>roles</u> that users assume wrt device association"
-      - "<u>user-defined techniques for group association</u>: subjective ratings and popularity scores, a taxonmy of techniques based on user actions"
+      - "<u>user-defined techniques for group association</u>: subjective ratings and popularity scores, a taxonomy of techniques based on user actions"
       - "<u>users' rationale and behaviours</u>: how different form factors and affordances influence people's perception in group association"
       - "<u>a framework of roles users play in group association</u>: new perspectives for analyzing how the participation of users influence device association"
 
@@ -498,11 +493,11 @@ Connecting Devices:
       - "others: voice, image, token, biometric, tactile, audio, drawing"
 
     Techniques for Group Association:
-      - "no particular order: biometric, brain, button, device touch, drawing, eye, gesture, hologram, image, proximity, search-and-select, services, tactile, token, voice"
+      - "biometric, brain, button, device touch, drawing, eye, gesture, hologram, image, proximity, search-and-select, services, tactile, token, voice"
 
     User-Defined Action Studies (Guessability Study):
       - "participants presented with the end effect of an action and asked to perform its cause - enabling ordinary users to define gestures for a variety of input functions and activities"
-      - "<u>users cannot reliquish the possession of their devices to another user</u>"
+      - "<u>users cannot relinquish the possession of their devices to another user</u>"
       - "plastic prop devices used: <u>tiny computers, mobile phone, tablet, flexible computer, and situated display</u>"
       - "participants with non-technical background (e.g., no computer science majors)"
       - "<u>49 distinguishable techniques</u>"
@@ -516,7 +511,7 @@ Connecting Devices:
       - "mobile phones are used like a <u>remote controller</u> (also search-and-select with mobile phones)"
       - "all tablets + a situated display: <u>align the tablets towards the display</u> (barcode or snap a picture)"
       - "flexible computers: <u>sandwich</u> and <u>stacking</u>, <u>pointing not favoured</u> - the flexible form factor does not support a pointing direction - or <u>roll-and-point</u> when a situated display is included"
-    
+
     General Patterns:
       - "mobile devices: <u>physical contact</u> and <u>stacking</u> (<u>mobility</u> allows the action of bringing devices to touch and release); <u>physical contact is instantaneous</u>"
       - "situated display: <u>pointing</u>, <u>barcode</u>, and <u>snap a picture</u>; display as <u>the central unit</u> (people prefer to operate on the largest interface, the display is shared, and spatial manipulation of the display is impossible, so <u>users manipulate their mobile devices to accommodate the display</u>)"
@@ -524,7 +519,7 @@ Connecting Devices:
       - "flexible computers: left and right sides are most frequently used, no one used the bottom area; <u>bending requires the relative spatial positions of nearby devices</u>"
 
     Roles of End-Users in Device Association:
-      - "<u>guidance</u>: steering the devices into <u>finding one another</u> to form a group; real-world experience like scaning the barcode. Examples: <u>throwing</u>, <u>pointing</u>, <u>snap a picture</u>, <u>swiping</u>, <u>physical contact</u>, <u>close proximity</u>, <u>stacking devices</u>."
+      - "<u>guidance</u>: steering the devices into <u>finding one another</u> to form a group; real-world experience like scanning the barcode. Examples: <u>throwing</u>, <u>pointing</u>, <u>snap a picture</u>, <u>swiping</u>, <u>physical contact</u>, <u>close proximity</u>, <u>stacking devices</u>."
       - "<u>input</u>: devices as <u>an instrument for capturing information</u> (generated by the input action, e.g., shape/gesture) for device association; actions that can be performed on individual devices like connecting the dots on Android devices. Examples: <u>asynchronous presses</u>, <u>shaking</u>, <u>voice command</u>, <u>pick an option</u>, <u>draw a symbol</u>."
       - "<u>enrolment</u>: devices as <u>nameable and identifiable objects</u> with an enrolled identity; identities can be unique like the owner's biometrics. Examples: <u>face recognition</u>, <u>social network</u>, <u>fingerprint</u>, <u>emailing/texting</u>, <u>web service</u>."
 
@@ -535,11 +530,13 @@ Connecting Devices:
       - "participants assume <u>personal devices are personalized</u> - requires trust of devices"
       - "<u>guidance embraces reality-based interaction</u>"
       - "<u>user roles demand particular user attention</u>: guidance-based techniques require attention to the <u>location of the target devices</u>, input-based techniques require attention to <u>users' own devices</u>, enrolment-based techniques require attention to the <u>identities of the target devices</u>"
-    
+
     So What:
       - "<u>Kind of what I wanted to do too!!!</u> I guess at least kind of what's in my head are CHI-worthy :)"
-      - "<u>Really like this work!!!</u> It's good. Nice layout of interaction patterns and end-user roles."
-      - "Also learned about <u>guessability study</u>. I like it. Could be applied to something for <u>cross-device / device ecologies concepts</u>? Need more thoughts."
+      - "<u>Really like this work!!!</u> It's good. Clever ideas and beautiful props. Nice layout of interaction patterns and end-user roles."
+      - "I like <u>guessability study</u>. Could it be applied to something for <u>cross-device / device ecologies concepts</u>? Need more thoughts."
+      - "I think there's a concept gap - a person associates multiple devices by performing multiple <u>one-to-one</u> techniques but proposes <u>one-to-many</u> (or <u>collaborative</u>) techniques when they are in a group. How can a single person associate multiple devices using <u>many-to-many</u> techniques on their own?"
+      - "What if there are <u>multiple ways</u> of associating devices, <u>like multiple ways of bringing papers together</u>? How can a group coordinate which technique to use? How can technologies support this decision process? Same for configuration work and cross-device interaction."
 
   - Name: Gestures for Connecting Mobile Phones, Public Displays, and Tabletops
 
@@ -547,11 +544,43 @@ Connecting Devices:
       - Title: "User-defined gestures for connecting mobile phones, public displays, and tabletops"
         Link: "http://dl.acm.org/citation.cfm?id=1851640"
         Authors: "Kray, Nesbitt, Dawson, Rohs, MobileHCI'10"
-    
 
 Small-Group Cross-Device Interaction:
-  - Name: "Stitching"
+  - Name: "Pick-and-Drop"
+    Figures:
+      - "pick-and-drop-concept.png"
+      - "pick-and-drop-tablet.png"
+      - "pick-and-drop-drawing.png"
+      - "pick-and-drop-collaboration.png"
 
+    Papers:
+      - Title: "Pick-and-drop: a direct manipulation technique for multiple computer environments"
+        Link: "http://dl.acm.org/citation.cfm?id=263505"
+        Authors: "Jun Rekimoto, UIST'97"
+
+    Overview:
+      - "pick up an object on a display and drop it on another display (social metaphor: chopsticks)"
+      - "unique pen ID and associated data (local network enabled)"
+
+    Applications and Scenarios:
+      - "information transfer across devices"
+      - "palette computer for supporting collaboration on a common workspace (e.g., a large interactive surface)"
+      - "anonymous displays (temporal work buffers) as a spatial interface"
+      - "data transfer between computers and non-digital objects such as paper"
+      - "a personalized pointing device for manipulating multiple devices in a networked environment"
+      - "seamlessly integrate personal workspaces with shared workspaces"
+
+    So What:
+      - "<u>Really inspiring work!!</u>"
+      - "<u>information-handling</u> across devices (e.g., direct manipulation techniques) is a long but recurring problem"
+      - "<u>intuitive</u> data transfer (more natural)"
+      - "<u>physical vs symbolic</u> (Pick-and-Drop is physical - it adds physicalness to user interfaces)"
+      - "<u>visibility</u> is important in collaborative settings"
+      - "we are living in a fusion of <u>physical</u> (real) and <u>virtual</u> (computer) worlds"
+      - "one of the most important roles of user interface design is to <u>balance the virtuality and physicalness</u> of the target area (virtual reality and tangible interaction)"
+      - "how about data associated to individual person or group but also allowing data to be transferred to a digital artefact? enabling a persistent <u>personal or group workspace across proxemics, spaces, and time</u>"
+ 
+  - Name: "Stitching"
     Figures:
       - "stiching-1.png"
       - "stiching-2.png"
@@ -572,9 +601,9 @@ Small-Group Cross-Device Interaction:
 
     Overview:
       - "stiching: pen gestures that span multiple displays"
-      - "pen stroke syncrhonized via wireless network communication and recognized as a unitary act performed by one user"
+      - "pen stroke synchronized via wireless network communication and recognized as a unitary act performed by one user"
       - "<u>prefix</u> and <u>postfix</u> local menus"
-      - "<u>cooperative stitching</u> (one-to-many stiching in small colocated groups): sender initiates and each recipient accepts"
+      - "<u>cooperative stitching</u> (one-to-many stiching in small collocated groups): sender initiates and each recipient accepts"
       - "support for actions at different proxemic distances (geometry and location information at close distances) and physical orientations"
 
     Applications and Scenarios:
@@ -600,19 +629,18 @@ Small-Group Cross-Device Interaction:
         - "Ad hoc interaction techniques for one-to-one, one-to-many connections, or both. What types of collaboration are most important to support in a given application or user task/activity"
 
     So What:
-      - "<u>SYNCHRONOUS GESTURES!!</u> Express naturally a spontaneous wireless connection between specific proxmial (collocated) interactive displays"
+      - "<u>SYNCHRONOUS GESTURES!!</u> Express naturally a spontaneous wireless connection between specific proximal (collocated) interactive displays"
       - "participating devices in collaborative interaction can identify <u>distinct input patterns</u>, combined to form an <u>implicit sensor network</u>"
       - "<u>connection-action</u> phrasing (e.g., cross-device commands such as copy, move, expand/zoon, open app)"
-      - "<u>sociological issues</u> of shared space: users are hesitant to remain in the personal space of antoher user's device'"
+      - "<u>sociological issues</u> of shared space: users are hesitant to remain in the personal space of another user's device'"
       - "user remains in control of the device"
       - "straightforward and tangible direct manipulation"
       - "<u>natural metaphors</u> for synchronizing social activity - designs that fit into or become a part of an user's <u>task</u> or <u>workflow</u> (physical and social metaphors)"
       - "relax the constraints of <u>intimate physical proximity</u> and <u>fixed relative position/orientation</u>"
       - "balance between <u>social protocol</u> (coordination at distance) and <u>graphical feedback</u> (awareness to the participating users)"
       - "integrate <u>privacy</u> and <u>security</u> into a task's workflow and be applicable at the appropriate proxemic distance (people's sense of property and ownership)"
-  
-  - Name: "F-formations of people and micro-mobility of devices"
 
+  - Name: "F-formations of people and micro-mobility of devices"
     Figures:
       - "group-together-fig1.png"
       - "group-together-system.png"
@@ -632,8 +660,8 @@ Small-Group Cross-Device Interaction:
       - "prototype tracking system (Kinect) sensing these social constructs"
       - "continuous cross-device animation"
       - "<u>multi-user interaction</u> in F-formations through tilting their tablet-towards the center of the formation (i.e., towards o-space)"
-      - "GroupTogether system consisting of <u>deph-sensing cameras</u>, <u>on-device sensors</u> (motion sensors and 8GHz band radio modules), and <u>fixed-location radios</u>"
-    
+      - "GroupTogether system consisting of <u>depth-sensing cameras</u>, <u>on-device sensors</u> (motion sensors and 8GHz band radio modules), and <u>fixed-location radios</u>"
+
     Interaction Techniques:
       - "collocated collaboration by leveraging the proxemics of people and of devices"
       - "tilt-to-preview"
@@ -643,7 +671,7 @@ Small-Group Cross-Device Interaction:
       - "hold-to-mirror"
 
     Design Study:
-      - "observational stuidy"
+      - "observational study"
       - "naturally occurring gestures and device movements - how people vary proxemic variables and proxemic relationships of device to people and device to device"
       - "cooperative, competitive, and co-present but individual work with handheld paper displays of different sizes (skates, readers, and phones)"
 
@@ -652,7 +680,7 @@ Small-Group Cross-Device Interaction:
       - "distance and shape of F-formations vary by task"
       - "movement of devices in and out of focal zone"
       - "incidental tilting"
-      - "pointing whilte tilting within the o-space"
+      - "pointing while tilting within the o-space"
       - "reorientation with gradation in response"
       - "avoid persistent spatial invasion"
       - "matching pose while side-by-side"
@@ -674,7 +702,7 @@ Small-Group Cross-Device Interaction:
       3. Simultaneously Share Items:
       4. A Variety of F-formation Types and Larger Groups of Users (3-5 People):
       5. Further Variations of the Techniques (Proxemic Variables):
-    
+
     So What:
       - "<u>Great work!!!</u> New sensor-based system to support cross-device interaction techniques"
       - "exploring more <u>micro-mobility techniques</u> (e.g., using device tilt and motion for context sensing)"
@@ -686,7 +714,6 @@ Small-Group Cross-Device Interaction:
       - "what are other <u>social constructs</u> that have not been considered?"
 
   - Name: "WatchConnect"
-
     Figures:
       - "watchconnect-fig1.png"
       - "watchconnect-watch.png"
@@ -704,7 +731,7 @@ Small-Group Cross-Device Interaction:
 
     Overview:
       - "from interaction with one device to interaction with entire device ecologies"
-      - "toolkit prototyping <u>cross-device smartwatch-centric</u> applications, consisting of both <u>hardware and software stacks</u> (an extendable hardware platofrm as a smartwatch), an <u>ui framework</u> and an existing <u>UI builder</u>, rich <u>input and output events</u> (using built-in sensor mappings)"
+      - "toolkit prototyping <u>cross-device smartwatch-centric</u> applications, consisting of both <u>hardware and software stacks</u> (an extendable hardware platform as a smartwatch), and <u>ui framework</u> and an existing <u>UI builder</u>, rich <u>input and output events</u> (using built-in sensor mappings)"
       - "interaction techniques showing the <u>versatility</u> and <u>design space</u> of the toolkit"
       - "<u>watch input space</u>: on, above, and in the watch interaction"
       - "<u>interactive surface input space</u>: interaction connector point, collision plane, and volume"
@@ -723,7 +750,7 @@ Small-Group Cross-Device Interaction:
       2. Support Collaborative Setups on Shared Surfaces:
       3. Include Other Devices to Create More Elaborate Ecologies:
       4. Deploy and Test the Toolkit with Designers:
-    
+
     So What:
       - "how to bring instruments on mobile devices or cross-device interaction scripting to new devices or displays (<u>without creating new applications</u>)?"
       - "<u>interaction on connection?</u>"
@@ -732,38 +759,108 @@ Small-Group Cross-Device Interaction:
       - "<u>instrumental interaction</u> is also very useful"
       - "exploiting hand postures and gestures (e.g, two-handed input) for new cross-device interaction"
 
+  - Name: "Duet"
+    Papers:
+     - Title: "Duet: exploring joint interactions on a smartphone and a smart watch"
+       Link: "http://dl.acm.org/citation.cfm?id=2556955"
+       Authors: "Chen, Grossman, Wigdor, Fitzmaurice, CHI'14"
+ 
+  - Name: "Conductor"
+    Papers:
+      - Title: "Conductor: enabling and understanding cross-device interaction"
+        Link: "http://dl.acm.org/citation.cfm?id=2557170"
+        Authors: "Hamilton, Wigdor, CHI'14"
+
 Room-Scale Cross-Device Interaction:
-  - Name: "Pick-and-Drop"
+  - Name: "Augmented Surfaces"
+
+    Papers:
+      - Title: "Augmented Surfaces: A Spatially Continuous Workspace for Hybrid Computing Environments"
+        Link: "http://dl.acm.org/citation.cfm?id=303113"
+        Authors: "Rekimoto, Saitoh, CHI'99"
+
+  - Name: "iLand"
 
     Figures:
-      - "pick-and-drop-concept.png"
-      - "pick-and-drop-tablet.png"
-      - "pick-and-drop-drawing.png"
-      - "pick-and-drop-collaboration.png"
+      - "iroom-visualization.png"
+      - "iroom-dynawall.png"
+      - "iroom-commchairs.png"
+      - "iroom-remote-annotation.png"
+      - "iroom-interactable.png"
+      - "iroom-interactable-technique.png"
+
+    Papers:
+      - Title: "i-LAND: an interactive landscape for creativity and innovation"
+        Link: "http://dl.acm.org/citation.cfm?id=303010"
+        Authors: "Streitz, Geibler, Holmer, Konomi, Muller-Tomfelde, Reischl, Rexroth, Seitz, Steinmetz, CHI'99"
+
+    Overview:
+      - "innovative workspaces (of the future) consisting of virtual information spaces and real architectural spaces"
+      - "for individuals and groups"
+      - "an interface to information which can be represented in many more different forms"
+
+    Integrated Design of Information and Architectural Spaces:
+      - "<u>information spaces</u>: information is created, stored, and communicated through digital artefacts; interfaces to information are realized as displays of desktop computers or via virtual reality gadgets"
+      - "<u>architectural spaces</u>: distribution and availability of physical objects, physical layout of the workspace; information and cooperation spaces; constraining group activities due to the flexibility of the furniture and access to multiple information devices"
+      - "physical objects and their placement in the architectural space provide valuable <u>affordances</u> for <u>organizing content information and meta information</u>"
+      - "these affordances should be <u>complemented by augmenting the physical environment by the rich information available in digital information spaces</u>"
+      - "presenting this <u>invisible information</u> via <u>dynamic physical objects</u> in correspondence with the <u>changing underlying digital information</u>"
+
+    New Work Practices:
+      - "work and cooperation characterized by a degree of <u>dynamics</u>, <u>flexibility</u>, and <u>mobility</u>"
+      - "<u>contents</u>, <u>participants</u>, <u>contexts</u>, <u>tasks</u>, <u>processes</u>, and <u>structures of collaboration</u> change frequently"
+      - "design of equally <u>dynamic, flexible, and mobile</u> work environments - <u>high spatial flexibility</u> and <u>mobility</u> of the information devices"
+
+    Applications and Scenarios:
+      - "innovative support tools for creative teams, working in the areas of strategic planning, identifying future trends, designing and marketing new products, etc"
+      - "<u>ad hoc communication and collaboration</u>: spontaneous sketching and annotating on interactive surfaces (storing and later modifying these creations)"
+      - "ways for subgroups to <u>split off during the meeting in the same workspace</u>: do their work, rejoin, and then immediately merge the result"
+      - "<u>flexible and reconfigurable (dynamically and on-demand)</u> components and resources: to meet the different requirements of changing team work situations (<u>the space is context-aware</u>)"
+
+    Technological Framework:
+      - "<u>Reactive Environments</u>: augmented reality and ubiquitous computing"
+
+    Empirical Study:
+      - "the room should provide opportunities for spontaneous encounters and informal communication (like a marketplace or a landscape)"
+      - "physical objects should be multifunctional and flexible"
+      - "support for <u>information gathering</u>, <u>creativity techniques</u> (for flexible configuration or tailoring of the underlying rules), <u>presentation styles</u>, <u>visualizations</u> inspiring and enhancing creative process, <u>communicating</u> and <u>experiencing content</u> (also via other channels: acoustic and tactile)"
+      - "<u>physical personal presence</u> is important"
+      - "computer should be in the background"
+      - "freedom in (re)configuring their physical and virtual environments"
+
+    Roomware Components:
+      - "<u>DynaWall</u> (interactive surfaces), <u>InteracTable</u> (tabletops), <u>CommChairs</u> (mobile and networked chairs with slate computers)"
+      - "DynaWall: <u>take and put</u> (pick and drop) and <u>shuffle</u> (throw and catch)"
+      - "<u>CommChair</u>: communicate and share information with people in other chairs, standing in front of the DynaWall or around the InteracTable; a private workspace but also can interact remotely on shared workspaces"
+      - "<u>InteracTable</u>: creation, display, discussion and annotation of information objects by a group standing around it; touch, pen and finger gestures enabled; gestures for rotating and shuffling information objects"
+      - "<u>passage</u>: ephemeral binding of content to a physical object"
+      - "some initial ideas about the use of proxemics (identity, location, orientation) for collaborative tasks"
+
+    So What:
+      - "<u>i-LAND</u> is what I thought as <u>large-scale interactive spaces</u> + sensing of people, devices, workflows and activities + peripheral visualization / feedback + user control (maybe there are multiple layers of an interactive space)"
+      - "This has actually become <u>a reality</u> now. Cool!"
+      - "I like the differentiation between <u>full group</u> and <u>subgroups</u>, with various device ecologies distributed in the same space"
+      - "and incorporating <u>tangible bits</u> into interactive spaces - I think it's super important to integrate both virtual and physical worlds (until it becomes indistinguishable from one another)"
+      - "another <u>very inspiring work!!!</u> I like how the old papers have really good ideas."
+
+  - Name: "Drag-and-Pop and Drag-and-Pick"
 
     Papers:
       - Title: "Pick-and-drop: a direct manipulation technique for multiple computer environments"
-        Link: "http://dl.acm.org/citation.cfm?id=263505"
-        Authors: "Jun Rekimoto, UIST'97"
+        Link: "https://books.google.com.tw/books?hl=en&lr=&id=PTg0fVYqgCcC&oi=fnd&pg=PA57&ots=O9SOAEkBsV&sig=j_vfYAp0TPDemaHEUxH329CPNCw&redir_esc=y#v=onepage&q&f=false"
+        Authors: "Baudisch, Cutrell, Robbins, Czerwinski, Tandler, Bederson, Zierlinger, Interact'03"
 
-    Overview:
-      - "pick up an object on a display and drop it on another display (social metaphor: chopsticks)"
-      - "unique pen ID and associated data (local network enabled)"
+  - Name: "Drag-and-Throw"
 
-    Applications and Scenarios:
-      - "information transfer across devices"
-      - "pallete computer for supporting collaboration on a common workspace (e.g., a large interactive surface)"
-      - "anonymous displays (temporal work buffers) as a spatial interface"
-      - "data transfer between computers and non-digital objects such as paper"
-      - "a personalized pointing device for manipulating multiple devices in a networked environment"
-      - "seamlessly integrate personal workspaces with shared workspaces"
+    Papers:
+      - Title: "Throwing Models for Large Displays"
+        Link: "https://hal.archives-ouvertes.fr/lirmm-00269751/"
+        Authors: "Mountaz Hascoet, HCI'03"
 
-    So What:
-      - "<u>Really inspiring work!!</u>"
-      - "<u>information-handling</u> across devices (e.g., direct manipulation techniques) is a long but recurring problem"
-      - "<u>intuitive</u> data transfer (more natural)"
-      - "<u>physical vs symbolic</u> (Pick-and-Drop is physical - it adds physicalness to user interfaces)"
-      - "<u>visibility</u> is important in collaborative settings"
-      - "we are living in a fusion of <u>physical</u> (real) and <u>virtual</u> (computer) worlds"
-      - "one of the most important roles of user interface design is to <u>balance the virtuality and physicalness</u> of the target area (virtual reality and tangible interaction)"
-      - "how about data associated to individual person or group but also allowing data to be transferred to a digital artefact? enabling a persistent <u>personal or group workspace across proxemics, spaces, and time</u>"
+  - Name: "CoReach"
+
+    Papers:
+      - Title: "CoReach: Cooperative Gestures for Data Manipulation on Wall-sized Displays"
+        Link: "http://dl.acm.org/citation.cfm?id=3025594"
+        Authors: "Liu, Chapuis, Beaudouin-Lafon, Lecolinet, CHI'17"
+
