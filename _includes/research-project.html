@@ -4,16 +4,16 @@
 <div class="container">
     <h2 class="display-2">{{ include.project }}</h2>
     
-    <h3><span class="label label-info"><u>Goal</u></span></h3>
+    <h3><span class="label label-info"><u>Goals</u></span></h3>
     <p>
-    {% for pt in p["Goal"] %}
+    {% for pt in p["Goals"] %}
         - {{ pt }} <br/><br/>
     {% endfor %}
     </p>
 
-    <h3><span class="label label-danger"><u>Problem</u></span></h3>
+    <h3><span class="label label-danger"><u>Problems</u></span></h3>
     <p>
-    {% for pt in p["Problem"] %}
+    {% for pt in p["Problems"] %}
         - {{ pt }} <br/><br/>
     {% endfor %}
     </p>
