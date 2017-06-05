@@ -1,6 +1,167 @@
 Theories and Concepts:
-  - Name: "Proxemic Interaction"
+  - Name: "Ubiquitous Computing"
+    Figures:
+      - "ubicomp-fig1.png"
+      - "ubicomp-tab.png"
+      - "ubicomp-pad.png"
+      - "ubicomp-board.png"
+      - "ubicomp-scratchpad.png"
+      - "ubicomp-badge.png"
+      - "ubicomp-locator.png"
+      - "ubicomp-network.png"
 
+    Papers:
+      - Title: "The computer for the 21st century"
+        Link: "https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf"
+        Authors: "Mark Weiser, Scientific American'91"
+      - Title: "Some computer science issues in ubiquitous computing"
+        Link: "http://dl.acm.org/citation.cfm?id=159617&CFID=944664637&CFTOKEN=26678684"
+        Authors: "Mark Weiser, Scientific American'91"
+      - Title: "Situated learning: Legitimate peripheral participation"
+        Link: "https://books.google.com.tw/books?hl=en&lr=&id=CAVIOrW3vYAC&oi=fnd&pg=PA11&dq=Situated+Learning:+Legitimate+Peripheral+Participation&ots=OBtEwq1Hzk&sig=_kXWuZA2XFXlswEetHbObfOW5yk&redir_esc=y#v=onepage&q=Situated%20Learning%3A%20Legitimate%20Peripheral%20Participation&f=false"
+        Authors: "Lave, Wenger, Cambridge University Press'91"
+      - Title: "Plans and situated actions: The problem of human-machine communication"
+        Link: "https://books.google.com.tw/books?hl=en&lr=&id=AJ_eBJtHxmsC&oi=fnd&pg=PR7&dq=Plans+and+situated+actions:+The+problem+of+humanmachine+communication&ots=KqPqlIJLOQ&sig=RuVe0sEAtbuK3PGRUQEY7omEpa0&redir_esc=y#v=onepage&q=Plans%20and%20situated%20actions%3A%20The%20problem%20of%20humanmachine%20communication&f=false"
+        Authors: "Lucy A. Suchman, Cambridge University Press'87"
+
+    Overview:
+      - "<i>The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it.</i>"
+      - "<i>Specialized elements of hardware and software connected by wires, radio waves and infrared, will be so ubiquitous that no one will notice their presence.</i>"
+      - "<i>There is more information available at our fingertips during a walk in the woods than in any computer system, yet people find a walk among trees relaxing and computers frustrating. Machines that fit the human environment instread of forcing humans to enter theirs will make using a computer as refreshing as talking a walk in the woods.</i>"
+      - "people primarily work in a world of shared situations and unexamined technological skills; theories: Situated Learning"
+      - "new kind of computer that is situated in the world of concrete information conveyers"
+      - "ubiquitous and natural like <u>writing</u> and <u>pen and paper</u> - silicon-based information technology is far from having become a part of the environment"
+      - "making computing an <u>integral, invisible</u> part of people's lives - such disappearance is a consequence of <u>human psychology</u> (phenomenon: <u>compiling</u>; <u>tacit dimension</u>; <u>visual invariants</u>; <u>horizon</u> and <u>ready-to-hand</u>; <u>periphery</u>)"
+      - "so that we can focus on our tasks, activities, and goals - people will simply use them unconsciously to accomplish everyday tasks"
+      - "ubiquitous computing and virtual reality at opposing ends of an information technology spectrum"
+
+    Ubiquitous Computers:
+      - "interconnected, location- and scale-aware devices come to be <u>invisible to common awareness</u> - not personal computers but as a pervasive part of everyday life"
+      - "<u>tabs (inch-scale post-it notes)</u>: e.g., active badges (enabling tracking of the people or objects) and radio receivers that link pads and other computer devices to the network"
+      - "<u>pads (foot-scale papers)</u>: scrap computers available everywhere (no individualized identity or importance) and are spread out on the table"
+      - "<u>boards (yard-scale displays)</u> displays, bulletin boards, white boards, or flip charts (enhanced human-computer interaction) in the home and office, supporting meeting rooms scenarios and collaboration (in collocated and remote spaces)"
+      - "these devices are just the beginning - the real power of ubiquitous computing emerges from the <u>interaction of all of them</u> (a pleasant and effective place to get things done)"
+      - "hardware and software <u>configurations can change on demand</u> while the devices are running"
+
+    Applications and Scenarios:
+      - "embedded virtuality: doors open only to the right person, rooms greet people by name, telephone calls are automatically forwarded to where the recipiient may be, computer terminals retrieve the preferences of whoever is sitting at them, and appointment diaries write themselves"
+      - "locating people and devices"
+      - "objects finding their way and machines doing their work automatically"
+      - "activity and task notifications on displays at convenient times, with audio and visual feedback"
+      - "shared virtual office: shared access to their location detectors, screen contents and location"
+      - "tab displays that be enlarged and minimized showing peripheral changes"
+      - "shared media and documents accessible and editable on a range of devices"
+      - "gestures used to point to devices and a variety of input techniques"
+      - "smart search"
+      - "user controlling the access of private information"
+
+    Grand Challenges:
+      1. Invisible computers:
+      2. Virtual reality:
+        - "the computer is not out of the way"
+        - "the goal of leaving the everyday physical world behind - at odds with Ubiquitous Computing's goal of better integrating the computer into human activities, since humans are of and in the everyday world"
+      3. Hardware Components:
+        - "low-power computing"
+        - "low-power high-bits/cubic meter communication"
+        - "pen devices"
+      4. Network Protocols:
+        - "wireless media access (to a physical medium)"
+        - "wide-band-width range"
+        - "real-time capabilities for multimedia over standard networks"
+        - "reliable packet routing"
+        - "short-range wireless, long-range wireless, and high speed wired networks supporting hundreds (even thousands) of devices in a room"
+      5. Interaction Substrates:
+        - "interaction techniques as well as input and output modalities for different form factors at room-scale"
+        - "window migration across multiple devices"
+        - "applications that peregrinate from computer to computer and space to space"
+        - "exploiting the unique capabilities of distributed computers and their physical locations"
+      6. Applications:
+        - "shareable media and tools - the number of shared items and users"
+        - "software modules can be readily added or removed, and operating systems can shrink and grow automatically to fit the changing needs of ubiquitous computation"
+        - "invisibility, integrating the physical and virtual, collaboration and information filtering"
+      7. Privacy of location:
+        - "preserving privacy"
+        - "user control"
+        - "social issues must be considered separately"
+      8. Computational Methods:
+        - "optimal cache sharing for portable computer architectures"
+
+    So What:
+      - "alright <u>Mike Weiser is my hero</u>"
+      - "developing <u>calm technology</u> (which informs but doesn't demand our focus or attention) is a key goal"
+      - "however the concept of <u>personal devices</u> is still engrained in our thinking (our smartphones are a personal extension of ourselves); we rarely use public, shared devices"
+      - "a good grounding for cross-device interaction and application scenarios"
+      - "cross-disciplinary work"
+      - "interaction techniques for ad hoc collaboration in device ecologies"
+      - "How do users of various abilities perceive interactive spaces? and interaction techniques for multi-device environments?"
+      - "How do users (or groups) spatially distribute devices in interactive spaces?"
+
+  - Name: "Context-Aware Computing"
+    Figures:
+      - "context-fig1.png"
+      - "context-viz.png"
+      - "ubicom-collocation.png"
+
+    Papers:
+      - Title: "Context-aware computing applications"
+        Link: "http://ieeexplore.ieee.org/abstract/document/4624429/"
+        Authors: "Schilit, Adams, Want, Mobile Computing Systems and Applications'94"
+      - Title: "Adaptation and Mobility in Wireless Information Systems"
+        Link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=295355"
+        Authors: "Randy H. Katz, Personal Communications'92"
+      - Title: "Towards a better understanding of context and context-awareness"
+        Link: "https://link.springer.com/chapter/10.1007/3-540-48157-5_29"
+        Authors: "Abowd, Dey, Brown, Davies, Smith, Steggles, HUC'99"
+
+    Overview:
+      - "<u>context</u>: any information that can be used to characterize <u>the situation of an entity</u>, where an entity can be a <u>person</u>, <u>place</u>, or <u>physical</u> or <u>computational object</u>."
+      - "<u>context-awareness</u>: the use of context to provide task-relevant information and/or services to a user - presentation of information and services, automatic execution of a service, and tagging of context to information for later retrieval"
+      - "systems that <u>examine and react</u> to an individual's <u>changing context</u> which spans <u>a multitude of situations and locations</u> covering the office, meeting room, home, airport, hotel, classroom, etc"
+      - "the user may <u>move from one location to another</u>, <u>joining and leaving groups of people</u>, and <u>frequently interacting with computers</u> while in <u>changing social sitatuions</u>"
+      - "<i>People and their machines should be able to access information and communicate with each other easily and securely, in any medium or combination of media - voice, data, image, video, or multimedia - any time, anywhere, in a timely, cost-effective way.</i>"
+      - "personalization of application and appliances"
+
+    Context-Aware Computing:
+      - "<u>adapts</u> to the location of use (<u>where you are</u>), the connection of nearby people (<u>who you are with</u>), hosts, and accessible devices (<u>what resources are nearby</u>)"
+      - "<u>examines the computing environment</u> and <u>reacts to changes</u> in the environment"
+      - "context also includes: lighting, noise level, network connectivity, communication costs and bandwidth, and even social situation"
+
+    Proximate Selection:
+      - "entering a <u>locus</u> and a <u>selection</u>"
+      - "<u>located-objects</u>: input and output devices, digital objects and services, and places"
+
+    Automatic Contextual Reconfiguration:
+      - "<u>reconfiguration</u>: adding new components, removing existing components, or altering the connections between components (servers, loadable device drivers, program modules, hardware elements, etc)"
+      - "<u>contextual reconfiguration</u>: context of use can bring about different <u>system configurations and adaptions</u>, enabling access of virtual objects as if they were physical and follow particular users from room to room"
+      - "context may be rapidly changing even during use! or incorrectly reported"
+
+    Contextual Information and Commands:
+      - "context can parameterize <u>contextual commands</u>"
+      - "for example, location-based filesystem that display directories based on user's location"
+      - "programs (user interface and commands) can also leverage contextual information"
+      - "potential for personal customization"
+
+    Context-Triggered Actions:
+      - "IF-THEN rules used to specify how context-aware systems should adapt"
+      - "actions <u>invoked automatically</u> according to these <u>specified rules</u>"
+      - "the <u>expressiveness</u> of the predicate language and the <u>accuracy</u> and <u>timeliness</u> of the underlying context information"
+
+    Grand Challenges:
+      1. Taxonomy:
+        - "uniform representation of context types"
+      2. Infrastructure:
+        - "to promote the design, implementation, and evolution of context-aware applications"
+      3. Discovery:
+        - "compelling context-aware applications that assist our everyday interactions w/ ubiquitous computation services"
+        - "focus on whole solution rather than on part solutions: people don't want X, they want solutions; bringing together technologies, including underlying database, information retreival, theoretical foundation, HCI issues, hard AI, distributed systems"
+
+    So What:
+      - "a good taxonomy of context-aware computing"
+      - "a natural synergy between ubiquitous computing and context-aware computing"
+      - "<u>reconfigurability</u> is menioned here!"
+      - "understanding what information is avaialble in interactive spaces"
+
+  - Name: "Proxemic Interaction"
     Figures:
       - "proxemic-interaction.png"
       - "proxemic-formations.png"
@@ -76,8 +237,8 @@ Theories and Concepts:
         - "considering people's expectations (levels of privacy for everyone involved, their social relationships, balancing privacy through proxemics)"
 
     So What:
-      - "<u>GREAT WORK!!!</u> New design thinking for ubicomp interactive systems and cross-device interaction!!!"
-      - "<u>REALLY COOL</u>"
+      - "<u>GREAT WORK!!!</u> <u>REALLY COOL</u> New design thinking for ubicomp interactive systems and cross-device interaction!!!"
+      - "I think proxemic interaction is a focus perspective of context-aware computing"
       - "towards <u>ad hoc device ecologies</u> - activity, space, and time - and <u>reconfigurable interactive spaces</u>"
       - "<u>identity</u> - what about social relationships? implications for proxemic interaction design (proxemic social contact)?"
       - "<u>cultural differences</u> (concepts of personal spaces and space invasion) not discussed"
