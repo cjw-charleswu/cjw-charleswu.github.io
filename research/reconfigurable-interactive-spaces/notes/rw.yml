@@ -39,7 +39,7 @@ Theories and Concepts:
       - "interconnected, location- and scale-aware devices come to be <u>invisible to common awareness</u> - not personal computers but as a pervasive part of everyday life"
       - "<u>tabs (inch-scale post-it notes)</u>: e.g., active badges (enabling tracking of the people or objects) and radio receivers that link pads and other computer devices to the network"
       - "<u>pads (foot-scale papers)</u>: scrap computers available everywhere (no individualized identity or importance) and are spread out on the table"
-      - "<u>boards (yard-scale displays)</u> displays, bulletin boards, white boards, or flip charts (enhanced human-computer interaction) in the home and office, supporting meeting rooms scenarios and collaboration (in collocated and remote spaces)"
+      - "<u>boards (yard-scale displays)</u> displays, bulletin boards, white boards, or flip charts (enhanced human-computer interaction) in the home and office (owned by spaces, not people), supporting meeting rooms scenarios and collaboration (in collocated and remote spaces)"
       - "these devices are just the beginning - the real power of ubiquitous computing emerges from the <u>interaction of all of them</u> (a pleasant and effective place to get things done)"
       - "hardware and software <u>configurations can change on demand</u> while the devices are running"
 
@@ -89,6 +89,7 @@ Theories and Concepts:
 
     So What:
       - "alright <u>Mike Weiser is my hero</u>"
+      - "ubicomp inspired a whole generation of researchers"
       - "developing <u>calm technology</u> (which informs but doesn't demand our focus or attention) is a key goal"
       - "however the concept of <u>personal devices</u> is still engrained in our thinking (our smartphones are a personal extension of ourselves); we rarely use public, shared devices"
       - "a good grounding for cross-device interaction and application scenarios"
@@ -161,6 +162,44 @@ Theories and Concepts:
       - "a natural synergy between ubiquitous computing and context-aware computing"
       - "<u>reconfigurability</u> is menioned here!"
       - "understanding what information is avaialble in interactive spaces"
+
+  - Name: "Beyond Weiser's Vision: Collective Computing"
+    Figures:
+
+    Papers:
+      - Title: "What next, ubicomp?: celebrating an intellectual disappearing act"
+        Link: "http://dl.acm.org/citation.cfm?id=2370222&CFID=771182031&CFTOKEN=74761071"
+        Authors: "Gregory D. Abowd, UbiComp'12"
+      - Title: "Beyond Weiser: From Ubiquitous to Collective Computing"
+        Link: "http://ieeexplore.ieee.org/document/7383147/"
+        Authors: "Gregory D. Abowd, Computer'16"
+
+    Overview:
+      - "<i>The most profound research topics are those that disappear</i>"
+      - "mainframes (many to one) -> personal computing (one to one) -> ubiquitous computing (one to many) -> collective computing (many to many)?"
+      - "<u>cloud</u>: distributed computing of storage and computation - don't need to worry about the device"
+      - "<u>crowd</u>: source information from a number of people and human computation"
+      - "<u>shroud</u>: covering of the physical world that provides connection of all the devices (internet of things and wearables)"
+      - "using the cloud to merge data from the shroud with intelligence from the crowd rapidly empowers the individual with specialized expertise beyond her training - the individual can harness on-demand expertise"
+
+    Ubiquitous Computing and Collecting Computing:
+      - "ubicomp: blurring the distinction between the physical and digital world"
+      - "the shroud as a connected layer of devices on people and things"
+      - "<u>mass fabrication of materials</u> with <u>embedded computational capabilities in everyday objects</u>"
+      - "disposable computing artefacts like post-it ntoes"
+
+    Computational Skin:
+      - "<u>surface of any object</u> being able to perform basic <u>computational operations</u> - store information, compute logical operations, communicate within and between surfaces through contact, sense and actuate, harvest their own power to perform the above"
+      - "rethink wireless communication"
+
+    Applications and Scenarios:
+      - "be you own {tour guide, health advisor, teacher, ...}"
+      - "Campus Life: tracking physical, mental, and academic performance - empowering students to be their own medical counselors"
+      - "<u>understanding individuals</u>, <u>communities</u>, and <u>organizations</u>"
+      - "<u>computational skins</u>: classrooms (maker's activities, exams, prototyping, collaboration), asset tracking (indoor localization), food safety, voting (paper + digital ballot), whole living spaces"
+
+    So What:
+      - ""
 
   - Name: "Proxemic Interaction"
     Figures:
