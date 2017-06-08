@@ -5,10 +5,10 @@ Theories and Concepts:
       - "ubicomp-tab.png"
       - "ubicomp-pad.png"
       - "ubicomp-board.png"
+      - "ubicom-weiser.png"
       - "ubicomp-scratchpad.png"
       - "ubicomp-badge.png"
       - "ubicomp-locator.png"
-      - "ubicomp-network.png"
 
     Papers:
       - Title: "The computer for the 21st century"
@@ -27,9 +27,9 @@ Theories and Concepts:
     Overview:
       - "<i>The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it.</i>"
       - "<i>Specialized elements of hardware and software connected by wires, radio waves and infrared, will be so ubiquitous that no one will notice their presence.</i>"
-      - "<i>There is more information available at our fingertips during a walk in the woods than in any computer system, yet people find a walk among trees relaxing and computers frustrating. Machines that fit the human environment instread of forcing humans to enter theirs will make using a computer as refreshing as talking a walk in the woods.</i>"
+      - "<i>There is more information available at our fingertips during a walk in the woods than in any computer system, yet people find a walk among trees relaxing and computers frustrating. Machines that fit the human environment instead of forcing humans to enter theirs will make using a computer as refreshing as taking a walk in the woods.</i>"
       - "people primarily work in a world of shared situations and unexamined technological skills; theories: Situated Learning"
-      - "new kind of computer that is situated in the world of concrete information conveyers"
+      - "new kind of computer that is situated in the world of concrete information conveyors"
       - "ubiquitous and natural like <u>writing</u> and <u>pen and paper</u> - silicon-based information technology is far from having become a part of the environment"
       - "making computing an <u>integral, invisible</u> part of people's lives - such disappearance is a consequence of <u>human psychology</u> (phenomenon: <u>compiling</u>; <u>tacit dimension</u>; <u>visual invariants</u>; <u>horizon</u> and <u>ready-to-hand</u>; <u>periphery</u>)"
       - "so that we can focus on our tasks, activities, and goals - people will simply use them unconsciously to accomplish everyday tasks"
@@ -39,12 +39,12 @@ Theories and Concepts:
       - "interconnected, location- and scale-aware devices come to be <u>invisible to common awareness</u> - not personal computers but as a pervasive part of everyday life"
       - "<u>tabs (inch-scale post-it notes)</u>: e.g., active badges (enabling tracking of the people or objects) and radio receivers that link pads and other computer devices to the network"
       - "<u>pads (foot-scale papers)</u>: scrap computers available everywhere (no individualized identity or importance) and are spread out on the table"
-      - "<u>boards (yard-scale displays)</u> displays, bulletin boards, white boards, or flip charts (enhanced human-computer interaction) in the home and office (owned by spaces, not people), supporting meeting rooms scenarios and collaboration (in collocated and remote spaces)"
+      - "<u>boards (yard-scale displays)</u> displays, bulletin boards, whiteboards, or flip charts (enhanced human-computer interaction) in the home and office (owned by spaces, not people), supporting meeting rooms scenarios and collaboration (in collocated and remote spaces)"
       - "these devices are just the beginning - the real power of ubiquitous computing emerges from the <u>interaction of all of them</u> (a pleasant and effective place to get things done)"
       - "hardware and software <u>configurations can change on demand</u> while the devices are running"
 
     Applications and Scenarios:
-      - "embedded virtuality: doors open only to the right person, rooms greet people by name, telephone calls are automatically forwarded to where the recipiient may be, computer terminals retrieve the preferences of whoever is sitting at them, and appointment diaries write themselves"
+      - "embedded virtuality: doors open only to the right person, rooms greet people by name, telephone calls are automatically forwarded to where the recipient may be, computer terminals retrieve the preferences of whoever is sitting at them, and appointment diaries write themselves"
       - "locating people and devices"
       - "objects finding their way and machines doing their work automatically"
       - "activity and task notifications on displays at convenient times, with audio and visual feedback"
@@ -57,7 +57,7 @@ Theories and Concepts:
 
     Grand Challenges:
       1. Invisible computers:
-        - "embedding technology into everday lives and practices"
+        - "embedding technology into everyday lives and practices"
       2. Virtual reality:
         - "the computer is not out of the way"
         - "the goal of leaving the everyday physical world behind - at odds with Ubiquitous Computing's goal of better integrating the computer into human activities, since humans are of and in the everyday world"
@@ -88,7 +88,7 @@ Theories and Concepts:
         - "optimal cache sharing for portable computer architectures"
 
     So What:
-      - "alright <u>Mike Weiser is my hero</u>"
+      - "alright <u>Mark Weiser is my hero</u>"
       - "ubicomp inspired a whole generation of researchers"
       - "developing <u>calm technology</u> (which informs but doesn't demand our focus or attention) is a key goal"
       - "however the concept of <u>personal devices</u> is still engrained in our thinking (our smartphones are a personal extension of ourselves); we rarely use public, shared devices"
@@ -102,6 +102,10 @@ Theories and Concepts:
     Figures:
       - "context-fig1.png"
       - "context-viz.png"
+      - "context-sketch.png"
+      - "context-toolkit.png"
+      - "context-toolkit-abstraction.png"
+      - "context-toolkit-application.png"
       - "ubicom-collocation.png"
 
     Papers:
@@ -114,19 +118,27 @@ Theories and Concepts:
       - Title: "Towards a better understanding of context and context-awareness"
         Link: "https://link.springer.com/chapter/10.1007/3-540-48157-5_29"
         Authors: "Abowd, Dey, Brown, Davies, Smith, Steggles, HUC'99"
+      - Title: "A conceptual framework and a toolkit for supporting the rapid prototyping of context-aware applications"
+        Link: "http://dl.acm.org/citation.cfm?id=1463110"
+        Authors: "Dey, Abowd, Salber, HCI'01"
 
     Overview:
-      - "<u>context</u>: any information that can be used to characterize <u>the situation of an entity</u>, where an entity can be a <u>person</u>, <u>place</u>, or <u>physical</u> or <u>computational object</u>."
-      - "<u>context-awareness</u>: the use of context to provide task-relevant information and/or services to a user - presentation of information and services, automatic execution of a service, and tagging of context to information for later retrieval"
-      - "systems that <u>examine and react</u> to an individual's <u>changing context</u> which spans <u>a multitude of situations and locations</u> covering the office, meeting room, home, airport, hotel, classroom, etc"
-      - "the user may <u>move from one location to another</u>, <u>joining and leaving groups of people</u>, and <u>frequently interacting with computers</u> while in <u>changing social sitatuions</u>"
-      - "<i>People and their machines should be able to access information and communicate with each other easily and securely, in any medium or combination of media - voice, data, image, video, or multimedia - any time, anywhere, in a timely, cost-effective way.</i>"
-      - "personalization of application and appliances"
+      - "<u>context</u>: any information that can be used to characterize <u>the situation of entities</u> (i.e., <u>person</u>, <u>place</u>, or <u>physical</u> or <u>computational object</u>) that are considered relevant to the interaction between a user and an application, including the user and the application themselves. Context is typically the location, identity and state of people, groups, and computational and physical objects"
+      - "context also includes: lighting, noise level, network connectivity, communication costs and bandwidth, and even social situation"
+      - "<u>goal of context acquisition</u>: determine what a user is trying to accomplish"
+      - "<u>categories of context</u>: identity, location, status (activity), and time"
+      - "<u>context-awareness</u>: the use of context to provide task-relevant information and/or services to a user"
+      - "<u>categories of context-aware functions</u>: presentation of information and services, automatic execution of services, and attaching context information for later retrieval"
+      - "<u>categories of contextual components</u>: context widgets acquire context information, interpreters transform and raise the level of abstraction of context information, aggregators gather context information related to an entity, services execute behaviours on the environment using acquired context, discoveries allow applications (and other components) to determine the capabilities of the environment and to take advantage of them."
 
     Context-Aware Computing:
+      - "<i>People and their machines should be able to access information and communicate with each other easily and securely, in any medium or combination of media - voice, data, image, video, or multimedia - any time, anywhere, in a timely, cost-effective way.</i>"
+      - "the user may <u>move from one location to another</u>, <u>joining and leaving groups of people</u>, and <u>frequently interacting with computers</u> while in <u>changing social situations</u>, leading to personalization of application and appliances"
+      - "systems that <u>examine and react</u> to an individual's <u>changing context</u> which spans <u>a multitude of situations and locations</u> covering the office, meeting room, home, airport, hotel, classroom, etc"
       - "<u>adapts</u> to the location of use (<u>where you are</u>), the connection of nearby people (<u>who you are with</u>), hosts, and accessible devices (<u>what resources are nearby</u>)"
       - "<u>examines the computing environment</u> and <u>reacts to changes</u> in the environment"
-      - "context also includes: lighting, noise level, network connectivity, communication costs and bandwidth, and even social situation"
+      - "<u>requirements</u>: separation of concerns (between application semantics and context acquisitions), context interpretation, transparent, distributed communications, constant availability of context acquisition, context storage and history, and resource discovery"
+      - "<u>context toolkit</u>: distributed communications using HTTP and XML, subscriptions, parallel asynchronous event handling, discovery, context services"
 
     Proximate Selection:
       - "entering a <u>locus</u> and a <u>selection</u>"
@@ -134,7 +146,7 @@ Theories and Concepts:
 
     Automatic Contextual Reconfiguration:
       - "<u>reconfiguration</u>: adding new components, removing existing components, or altering the connections between components (servers, loadable device drivers, program modules, hardware elements, etc)"
-      - "<u>contextual reconfiguration</u>: context of use can bring about different <u>system configurations and adaptions</u>, enabling access of virtual objects as if they were physical and follow particular users from room to room"
+      - "<u>contextual reconfiguration</u>: context of use can bring about different <u>system configurations and adaptations</u>, enabling access of virtual objects as if they were physical and follow particular users from room to room"
       - "context may be rapidly changing even during use! or incorrectly reported"
 
     Contextual Information and Commands:
@@ -155,13 +167,37 @@ Theories and Concepts:
         - "to promote the design, implementation, and evolution of context-aware applications"
       3. Discovery:
         - "compelling context-aware applications that assist our everyday interactions w/ ubiquitous computation services"
-        - "focus on whole solution rather than on part solutions: people don't want X, they want solutions; bringing together technologies, including underlying database, information retreival, theoretical foundation, HCI issues, hard AI, distributed systems"
+        - "focus on whole solution rather than on part solutions: people don't want X, they want solutions; bringing together technologies, including underlying database, information retrieval, theoretical foundation, HCI issues, hard AI, distributed systems"
 
     So What:
-      - "a good taxonomy of context-aware computing"
-      - "a natural synergy between ubiquitous computing and context-aware computing"
-      - "<u>reconfigurability</u> is menioned here!"
-      - "understanding what information is avaialble in interactive spaces"
+      - "good synergy with <u>ubiquitous computing</u>"
+      - "<u>activity</u>, <u>space</u>, and <u>time</u> are types of contextual information"
+      - "context can direct <u>reconfiguration</u>"
+      - "understanding <u>what information is available in interactive spaces</u>"
+      - "understanding <u>human intention and roles</u>"
+      - "<u>informing users</u> what they are doing"
+      - "allowing the user to <u>control contextual actions</u>"
+      - "<u>physical</u> virtual user interfaces"
+      - "<u>simple sensor to complex/smart interaction</u> or <u>complex mechanism to simple interaction</u>"
+
+  - Name: "Activity-Based Computing (ABC)"
+
+    Papers:
+      - Title: "Activity-based computing: support for mobility and collaboration in ubiquitous computing"
+        Link: "https://link.springer.com/article/10.1007/s00779-004-0335-2"
+        Authors: "Jakob E. Bardram, PUC'05"
+
+    Overview:
+      - "support human activity by managing its collection of work tasks on a computer"
+      - "support mobility by distributing activities across heterogeneous computing environments"
+      - "support asynchronous collaboration by allowing several people to participate in an activity"
+
+  - Name: "Time-Centric Computing"
+
+    Papers:
+      - Title: "Time-machine computing: a time-centric approach for the information environment"
+        Link: "http://dl.acm.org/citation.cfm?id=322582&CFID=771434929&CFTOKEN=65632290"
+        Authors: "Jun Rekimoto, UIST'99"
 
   - Name: "Beyond Weiser's Vision: Collective Computing"
     Figures:
@@ -186,7 +222,7 @@ Theories and Concepts:
       - "ubicomp: blurring the distinction between the physical and digital world"
       - "the shroud as a connected layer of devices on people and things"
       - "<u>mass fabrication of materials</u> with <u>embedded computational capabilities in everyday objects</u>"
-      - "disposable computing artefacts like post-it ntoes"
+      - "disposable computing artefacts like post-it notes"
 
     Computational Skin:
       - "<u>surface of any object</u> being able to perform basic <u>computational operations</u> - store information, compute logical operations, communicate within and between surfaces through contact, sense and actuate, harvest their own power to perform the above"
@@ -288,8 +324,8 @@ Theories and Concepts:
       - "<u>proxemic interaction challenges</u> (Greenberg et al., DIS'14'): opt-in/opt-out choices, physical space is imbued with dual meanings, ownership of the physical space is ambiguous, attention is inherently sought after (being in a space but opted out of the interactive system), accidental proxemics (interaction with context-aware systems), balancing between implicit and explicit interaction, making users aware of what is happening, "
       - "<u>design implications</u> for the Physical Web and IoT. Cloud vs. local infrastructures."
       - "Proxemic theory also applies to the dis-abled (visually impaired/blind people have good spatial awareness, they know whether the other person talking is facing them, and more) but most cross-device interactions still rely heavily on visual cues. Would be very interesting to work on <u>accessibility issues</u> in cross-device interaction (This is a big topic, perhaps a PhD by itself) so it'd require collaboration. I think the big problem is helping them connect with people, feel loved, do essential/meaningful work, and enhance their own abilities/interests (ability-based design), etc (somewhat universal to all humans). Technologies (e.g., cross-device interaction) are just tools, so creating the right tool for the right purpose/problem is important (inclusive design)."
-  - Name: Gradual Engagement
 
+  - Name: Gradual Engagement
     Figures:
       - "gradual-framework.png"
       - "gradual-1.png"
@@ -355,7 +391,6 @@ Theories and Concepts:
       - "Is there an <u>advanced mode</u> where users can perform information transfer gestures at a distance (explicitly breaking the intended flow of interaction)?"
 
   - Name: Interactive Public Ambient Displays
-
     Figures:
       - "ambient-fig1.png"
       - "ambient-reach.png"

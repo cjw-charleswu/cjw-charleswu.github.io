@@ -9,11 +9,14 @@ Problems:
 
 Research Questions:
   - "What are the technical and social constructs of interactive spaces? Is it a layered structure? How can it be visualized? Does it help for people to see what's in a space?"
+  - "What is reconfigurability in interactive spaces? contextual reconfiguration and configuration work"
   - "Design interactive systems/spaces that support social differences (social relationships) and various contexts (public vs private scenarios): adaptive interfaces and personalized preferences (or interaction modes)?"
-  - "Design cross-device interaction techniques that enables groups to create, distribute, store, resume, reconfigure, remove work (also allows forming new groups and spliting existing groups) in interactive spaces"
+  - "Design cross-device interaction techniques that enables groups to create, distribute, store, resume, reconfigure, remove work (also allows forming new groups and splitting existing groups) in interactive spaces"
   - "How can high-level, long-term, dynamic human goals or activities be supported across spaces and devices (always at hand)? How does it integrate with the physical world? How can malleable interactive spaces support these kinds of high-level goals? potentially multiple goals for multiple people?"
-  - "sensing high-level activities and actions: action inference and social inference (keep human in the loop)"
-  - "really really need long-term in-the-field studies and evaluation"
+  - "Informing users what they are doing and what the system is doing"
+  - "What are the killer apps?"
+  - "Sensing high-level activities and actions: action inference and social inference (keep human in the loop)"
+  - "Really really need long-term in-the-field studies and evaluation"
 
 Contributions:
   - "C1"
