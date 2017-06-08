@@ -188,9 +188,18 @@ Theories and Concepts:
         Authors: "Jakob E. Bardram, PUC'05"
 
     Overview:
-      - "support human activity by managing its collection of work tasks on a computer"
-      - "support mobility by distributing activities across heterogeneous computing environments"
-      - "support asynchronous collaboration by allowing several people to participate in an activity"
+      - "support <u>human activity</u> by managing its collection of work tasks on a computer"
+      - "support <u>mobility</u> by distributing activities across heterogeneous computing environments"
+      - "support <u>asynchronous collaboration</u> by allowing several people to participate in an activity"
+      - "support <u>synchronous, real-time collaboration</u> by enabling desktop conferencing by sharing the activity across several clients"
+      - "user activities become <u>first-class entities</u>"
+      - "<u>abstraction</u>: activity, application, and data"
+
+    Activity-based Computing Principles:
+      - "<u>task and material</u>: activity as a collection of tasks which uses or manipulates some materials"
+      - "<u>time and space</u>: "
+      - "<u>users</u>: "
+
 
   - Name: "Time-Centric Computing"
 
