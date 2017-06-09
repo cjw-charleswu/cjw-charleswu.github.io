@@ -181,11 +181,23 @@ Theories and Concepts:
       - "<u>simple sensor to complex/smart interaction</u> or <u>complex mechanism to simple interaction</u>"
 
   - Name: "Activity-Based Computing (ABC)"
+    Figures:
+      - "abc-infrastructure-1.png"
+      - "abc-infrastructure-2.png"
 
     Papers:
       - Title: "Activity-based computing: support for mobility and collaboration in ubiquitous computing"
         Link: "https://link.springer.com/article/10.1007/s00779-004-0335-2"
         Authors: "Jakob E. Bardram, PUC'05"
+      - Title: "Support for activity-based computing in a personal computing operating system"
+        Link: "http://dl.acm.org/citation.cfm?id=1124805"
+        Authors: "Bardram, Bunde-Pedersen, Soegaard, CHI'06"
+      - Title: "Plans as Situated Action: An Activity Theory Approach to Workflow Systems"
+        Link: "https://link.springer.com/chapter/10.1007/978-94-015-7372-6_2"
+        Authors: "Jakob E. Bardram, ECSCW'97"
+      - Title: "A human activity approach to user interfaces"
+        Link: "http://dl.acm.org/citation.cfm?id=1455744&CFID=772151661&CFTOKEN=96969483"
+        Authors: "Susanne Bodker, HCI'89"
 
     Overview:
       - "support <u>human activity</u> by managing its collection of work tasks on a computer"
@@ -195,11 +207,51 @@ Theories and Concepts:
       - "user activities become <u>first-class entities</u>"
       - "<u>abstraction</u>: activity, application, and data"
 
-    Activity-based Computing Principles:
-      - "<u>task and material</u>: activity as a collection of tasks which uses or manipulates some materials"
-      - "<u>time and space</u>: "
-      - "<u>users</u>: "
+    Activity Theory:
+      - "human activity <u>directed towards a material or ideal object</u> which distinguishes one activity from another (satisfying a need and the subject's reflection of, and expectation to, this object characterises the <u>motive of the activity</u>)"
+      - "activity <u>mediated by artifacts</u> (tools, language, etc)"
+      - "<u>social within a culture</u>; computer artifacts mediate human activity within a practice"
+      - "human knowledge about the world is <u>reflection obtained through activity</u>"
+      - "activities realized through <u>chains of actions</u>, which are carried out through <u>operations</u>, and yield <u>objective results</u>. These actions are controlled by the subject's <u>conscious goals</u>. "
+      - "<u>anticipation</u>: the motive of the activity, the goal of the action, and the orienting basis of the operation"
 
+    A Human Activity Approach to User Interfaces:
+      - "a computer application is not something that the user operates on but something that the user operates through on objects or subjects of interest in the work activity"
+      - our repertoire of actions and operations is evolving continuously and is based on the experiences that we gain as individuals and as group"
+
+    Activity-based Computing Principles:
+      - "<u>task and material</u>: activity as a collection of tasks which uses or manipulates some materials; decoupling between services and applications"
+      - "<u>time and space</u>: a user has a range of activities which s/he alternates between; activities are stateful; activities can be initiated, suspended, resumed, or finalized; interruptions and multi-tasking; activities support mobility in time and space"
+      - "<u>users</u>: activities are shared and collaborative, synchronous and asynchronous"
+
+    Activity-based Computing Framework:
+      - "<u>development and deployment</u> of ABC applications - a programming framework and a runtime infrastructure"
+      - "<u>activity store</u>, <u>activity manager</u>, <u>activity controller</u>, and <u>collaboration controller</u>"
+      - "<u>a workflow system</u> is not just mediating the workflow, but is used for additional managerial purposes - a technology of accountability aimed at inscription and documentation of actions to which parties are accountable"
+
+    Mobility:
+      - "activity suspend and resume across devices, spaces, and time"
+      - "enabling users to move between publicly available devices (activities can be suspended in one place on one device and resumed in another place on another device)"
+
+    Collaboration:
+      - "synchronous (real-time activity sharing) and asynchronous (resuming and working within a shared activity)"
+      - "session management"
+      - "state management"
+      - "shared state synchronization"
+      - "peer-to-peer collaboration"
+
+    Plans and Work:
+      - "plans as <u>an artifact of our reasoning about actions</u>, not ... the generative mechanism of action (used to <u>reflect on work, before and after</u>)"
+      - "based on experience about <u>recurrent structures in life</u>; a series of <u>expectations to future results</u>"
+      - "plans as situated actions; <u>situated planning</u>: building, altering, sharing, executing, and monitoring plans within the cooperative work activities"
+      - "involving <u>coordination</u> and <u>collaboration</u>"
+      - "<u>informal vs. formal</u> work"
+      - "<u>actions are polymotivated</u>"
+
+    So What:
+      - "Thought-provoking: <u>activity as first-class entities</u> (human activity as the basic component in purposeful human work)"
+      - "An organization has to be viewed as <u>a collection of multiple activities</u>, each realizing different needs. Some of these activities are directed toward the object of the organization, and others are directed toward an organizational accountability of work. Motives of all involved actors should be recognized and satisfied."
+      - "We do multiple activities - How do we lay out all of our activiites?"
 
   - Name: "Time-Centric Computing"
 

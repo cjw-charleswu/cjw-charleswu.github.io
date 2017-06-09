@@ -37,7 +37,7 @@
     {% for section in rw %}
         - <a href="#{{ section[0] | upcase }}">{{ section[0] | upcase }}</a> <br/>
         {% for work in section[1] %}
-            &emsp; * <a href="#{{ section[0] | upcase }}" style="color:#2c3e50;">{{ work["Name"] }}</a><br/>
+            &emsp; * <a href="#{{ work['Name'] | upcase }}" style="color:#2c3e50;">{{ work["Name"] }}</a><br/>
         {% endfor %}
         <br/>
     {% endfor %}
@@ -52,7 +52,7 @@
         <h1 class="display-4" id="{{ section[0] | upcase }}">{{ section[0] | upcase }}</h1>
         
         {% for work in section[1] %}
-            <table class="table table-bordered " style="font-size:14px; font-family:Helvetica; color:black;">
+            <table id="{{ work['Name'] | upcase }}" class="table table-bordered " style="font-size:14px; font-family:Helvetica; color:black;">
             <thead class="thead-inverse">
             <tr>
                 <th colspan="2" class="col-md-8">
