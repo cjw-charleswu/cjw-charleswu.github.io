@@ -180,10 +180,14 @@ Theories and Concepts:
       - "<u>physical</u> virtual user interfaces"
       - "<u>simple sensor to complex/smart interaction</u> or <u>complex mechanism to simple interaction</u>"
 
+  - Name: "New Theoretical Approaches for HCI"
+
+
   - Name: "Activity-Based Computing (ABC)"
     Figures:
       - "abc-infrastructure-1.png"
       - "abc-infrastructure-2.png"
+      - "activity-artifact.png"
 
     Papers:
       - Title: "Activity-based computing: support for mobility and collaboration in ubiquitous computing"
@@ -209,15 +213,20 @@ Theories and Concepts:
 
     Activity Theory:
       - "human activity <u>directed towards a material or ideal object</u> which distinguishes one activity from another (satisfying a need and the subject's reflection of, and expectation to, this object characterises the <u>motive of the activity</u>)"
-      - "activity <u>mediated by artifacts</u> (tools, language, etc)"
+      - "activity is <u>mediated by artifacts</u> (tools, language, etc)"
       - "<u>social within a culture</u>; computer artifacts mediate human activity within a practice"
       - "human knowledge about the world is <u>reflection obtained through activity</u>"
       - "activities realized through <u>chains of actions</u>, which are carried out through <u>operations</u>, and yield <u>objective results</u>. These actions are controlled by the subject's <u>conscious goals</u>. "
       - "<u>anticipation</u>: the motive of the activity, the goal of the action, and the orienting basis of the operation"
 
     A Human Activity Approach to User Interfaces:
-      - "a computer application is not something that the user operates on but something that the user operates through on objects or subjects of interest in the work activity"
-      - our repertoire of actions and operations is evolving continuously and is based on the experiences that we gain as individuals and as group"
+      - "a computer application is not something that the user operates on but <u>something that the user operates through on objects or subjects of interest in the work activity</u>"
+      - our repertoire of <u>actions and operations is evolving continuously</u> and is <u>based on the experiences</u> that we gain as individuals and as group"
+      - "<u>operations are triggered by specific situations</u>"
+      - "<u>situation breakdowns</u>: unforseen changes in the material conditions in the activity; they provide learning opportunities"
+      - "various situations for handling the an object or subject through computer-based artifact"
+      - "an user interface should <u>support the intended or operationalized shifts</u> in relation to the <u>use activity</u> (often inefficient and restrictive for more competent users)"
+      - "specific or general <u>domain of competence</u>"
 
     Activity-based Computing Principles:
       - "<u>task and material</u>: activity as a collection of tasks which uses or manipulates some materials; decoupling between services and applications"
@@ -251,7 +260,8 @@ Theories and Concepts:
     So What:
       - "Thought-provoking: <u>activity as first-class entities</u> (human activity as the basic component in purposeful human work)"
       - "An organization has to be viewed as <u>a collection of multiple activities</u>, each realizing different needs. Some of these activities are directed toward the object of the organization, and others are directed toward an organizational accountability of work. Motives of all involved actors should be recognized and satisfied."
-      - "We do multiple activities - How do we lay out all of our activiites?"
+      - "How do users lay out all of their activiites?"
+      - "How can the user achieve what he or she wants and how this relates to his or her practice within the domain"
 
   - Name: "Time-Centric Computing"
 
