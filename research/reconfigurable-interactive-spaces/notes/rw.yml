@@ -182,12 +182,104 @@ Theories and Concepts:
 
   - Name: "New Theoretical Approaches for HCI"
 
+    Papers:
+      - Title: "New Theoretical Approaches for HCI"
+        Link: "https://link.springer.com/article/10.1007/s00779-004-0335-2"
+        Authors: "Yvonne Rogers, ARIST'04"
+
+    Overview:
+      - "HCI is an <u>expanding</u> field (new demands and challenges): the <u>theory</u> driving the research is changing, a flurry of <u>new concepts</u> are emerging, the <u>domains and type of users</u> being studied are diversifying, and many of the <u>ways of doing designs</u> are new and much of <u>what is being designed</u> is significantly different."
+      - "Also an increasing <u>lack of direction, structure, and purpose in the field</u>. What is the <u>purpose of HCI</u>? What criteria is used to assess its <u>contribution and value to knowledge and practice</u>."
+      - "<u>interaction design</u> as a way of focusing more on what is being done rather the components it is being done to (human-computer interaction) - <i>the design of iteractive products to support people in their everyday and working lives</i> and <i>designing spaces for human communication and interaction</i>"
+
+    Applying Basic Research:
+      - "<u>cannot simply lift theories out of an established field (Cognitive Psychology)</u>, that have been developed to explain specific phenomena about cognition, and then <u>apply them to explain other kinds of seemingly related phenomena in a different domain (HCI)</u>"
+      - "real world <u>human-computer interaction is messy</u>"
+      - "research on learnability and memorability command names led to inconclusive results for a generalizable design rule"
+
+    Cognitive Modeling:
+      - "directness, theory of action, MHP (model human processor) GOMS (Goals, Operators, Methods, and Selection rules)"
+      - "limited scope: only reliably model computer-based tasks that involve a small set of highly routine data-entry type tasks"
+      - "only modeling of performance but not error"
+      - "more successful in their utility in practice"
+    
+    Popular Concepts:
+      - "<u>explanations</u> of the capabilities and limitations of users, in terms of what they can and cannot do when performing computer-based tasks."
+      - "recognition is better than recall"
+      - "7 +- 2"
+      - "potential catch-phrase open to interpretation"
+      - "<u>informative</u> (providing useful research findings), <u>predictive</u> (providing tools to model user behaviour), <u>prescriptive</u> (providing advice as to how to design or evaluate)"
+
+    Ecological Approach:
+      - "Gaver, Kirsh, Norman, Rasmussen and Rouse, Vicente, and Woods"
+      - "invariant structures in the environment in relation to human perception and action"
+      - "<u>ecological constraints</u>: structures in the external world that guide people's actions rather than those that are determined by internal cognition"
+      - "<u>affordances</u>: attributes of objects that allow people to know how to use them"
+      - "articulating certain properties about objects at the interface in terms of their behaviour and appearance"
+      - "<u>largely descriptive</u>"
+
+    Activity Theory:
+      - "<u>analyzing actions and interactions with artifacts</u> within a <u>historical and cultural context</u>; explaining cultural practices in the developmental, cultural, and historical context in which they occur, by describing them in terms of <u>activities</u>"
+      - "newspaper production (Bodker), medical care in hospital (Engestrom), design of educational technology (Bellamy), and groupware (Fjeld et al.)"
+      - "Engestrom's developmental work research (including concepts like contradictions, community, rules and division of labor), Halloran's Activity Space collaborative learning framework, Spasser's realist apporach for the design and use of digital libraries, and Collin's model for user requirement engineering."
+      - "<u>analytic</u>: interconnected concepts that can be used to identify and explore interesting problems"
+    
+    External Cognition Approach:
+      - "theoretical constructs that unite <u>knowledge in the head</u> with <u>knowledge in the world</u>"
+      - "interaction between <u>internal and external representations</u> when performing cognitive task (e.g., learning)"
+      - "indepdent concepts that map a <u>theoretical space</u> specifically in terms of a <u>design space</u>"
+      - "<u>cognitive dimensions</u>: design vocabulary (high-level concepts) to take about design issues"
+      - "<u>computational offloading</u> (how external representations reduce the amount of cognitive effort required to solve informationally equivalent problems), <u>re-representation</u> (how external representations make problem-solving easier), <u>graphical constraining</u> (the inferences that can be made about the underlying represented concept), <u>temporal and spatial constraining</u> (making relevant aspects more salient when distributed over time and space), <u>explicitness and visibility</u> (making salient aspects appropriately perceived and comprehended), <u>cognitive tracing</u> (externally manipulate and make marks on different representations), <u>ease of production</u> (of external representations), <u>combinability and modifiability</u> (of hybrid representations)"
+      - "<u>largely generative</u>"
+
+    Distributed Cognition:
+      - "extending the conceptual framework to a range of cognitive systems, including socio-technical systems at large (groups of individuals interacting with each other in a particular environment)"
+      - "requiring an <u>ethnographic field study</u> of the setting and paying close attention to <u>the activities of people and their interactions with material media</u>"
+      - "examining how information is propagated through different media"
+      - "weaving together <u>the data, the actions, the interpretations, and the ethnographic grounding</u>"
+      - "explication of the complex <u>interdependencies between people and artifacts in their work activities</u>"
+      - "the need for extensive field work before being able to come to any conclusions or design decisions for a given work setting"
+      - "<u>largely descriptive</u> and to a lesser extent generative"
+
+    Situated Action Approach:
+      - "relations among people, and between people and the historically and culturally constituted worlds that they inhabit"
+      - "relationship between <u>structures of action</u> and <u>the resources and constraints</u> afforded by physical and social circumstances"
+      - "studying <u>how people use their circumstances</u> to achieve intelligent action"
+      - "predominantly ethnographic"
+      - "people do not act or interact with technology in the way prescribed by prescribed ideal models - carrying out extensive observations, interviews, and note-taking to understand this"
+      - "focusing on the particulars of a given setting, making it difficult to generalize"
+      - "<u>descriptive</u> and providing a <u>backdrop</u> for high level concepts such as context"
+
+    Ethnomethodological Approach:
+      - "<u>bottom-up sociology approach</u>, whereby working practices are described from <u>the practical acoomplishment of the people</u>"
+      - "<u>thick descriptive</u> of work practices"
+      - "high-level socially-based concepts of <u>practical action, order, accountability, and coordination</u>"
+      - "<u>system designs</u> to take on board generally operative process like situatedness, practical action, order and accountability"
+      - "<u>ethnomethodology</u> to take on system design concepts like generalization, configuration, data, process and mutability"
+
+    So What:
+      - "<u>people are constantly interrupted or interrupt their own activities</u>, by talking to others, taking breaks, starting new activities, resuming other, and so on."
+      - "people use technology differently than it was envisioned"
+      - "<u>integrating multiple theories</u> at different levels of analysis"
+      - "<u>juxtaposing and interweaving different concepts</u> from different traditions to create new perspectives and ways of thinking about a problem space"
+      - "providing <u>a epistemological grounding</u> for your work"
+      - "although they are familiar with the theories and approaches, <u>very few practiioners use theories</u> to interpret their findings (but <u>they use concepts derived from the theories</u>)"
+      - "<u>popular concepts</u>: affordances, context, awareness, situatedness, and cognitive offloading"
+      - "I also find it really difficult to apply these theories fully (in the sense that the design largely leverages them as opposed to doing good HCI work) - What do the theories (or applications of concepts from the theories) add to the existing set of ideas about design and systems>"
+      - "<u>theories do not do design</u>"
+      - "<u>considerable time, effort, and skill</u> are required to understand and know how to use them"
+      - "<u>which is potentially most useful</u> for the problem at hand?"
+      - "<u>Five kinds of theories</u>: <u>descriptive</u> (providing concepts, clarifying terminology, and guide further inquiry), <u>explanatory</u> (explicating relationships and processes), <u>predictive</u> (enabling predictions to be made about user performance), <u>prescriptive</u> (providing guidance for design), <u>generative</u> (enabling practitioners to create or invent or discover something new)"
+      - "new theoretical approaches can progress further with <u>rethinking new mechanisms of knowledge transfer</u>. A <u>lingua franca</u> so that different parties in research and design can use to refer to common referents."
+      - "theoretically-based approaches -> new accounts, frameworks and concepts -> extensive design language that can be used in research and design"
+      - "determining which of the new terms, metaphors, and other abstractions are useful for articulating design concerns -> new dialogues identifying areas of <u>conceptual richness</u> and <u>design articulation</u>"
 
   - Name: "Activity-Based Computing (ABC)"
     Figures:
       - "abc-infrastructure-1.png"
       - "abc-infrastructure-2.png"
       - "activity-artifact.png"
+      - "activity-engestrom.png"
 
     Papers:
       - Title: "Activity-based computing: support for mobility and collaboration in ubiquitous computing"
