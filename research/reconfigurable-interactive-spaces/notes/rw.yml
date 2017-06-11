@@ -166,7 +166,7 @@ Theories and Concepts:
       2. Infrastructure:
         - "to promote the design, implementation, and evolution of context-aware applications"
       3. Discovery:
-        - "compelling context-aware applications that assist our everyday interactions w/ ubiquitous computation services"
+        - "compelling context-aware applications that assist our everyday interactions with ubiquitous computation services"
         - "focus on whole solution rather than on part solutions: people don't want X, they want solutions; bringing together technologies, including underlying database, information retrieval, theoretical foundation, HCI issues, hard AI, distributed systems"
 
     So What:
@@ -190,7 +190,7 @@ Theories and Concepts:
     Overview:
       - "HCI is an <u>expanding</u> field (new demands and challenges): the <u>theory</u> driving the research is changing, a flurry of <u>new concepts</u> are emerging, the <u>domains and type of users</u> being studied are diversifying, and many of the <u>ways of doing designs</u> are new and much of <u>what is being designed</u> is significantly different."
       - "Also an increasing <u>lack of direction, structure, and purpose in the field</u>. What is the <u>purpose of HCI</u>? What criteria is used to assess its <u>contribution and value to knowledge and practice</u>."
-      - "<u>interaction design</u> as a way of focusing more on what is being done rather the components it is being done to (human-computer interaction) - <i>the design of iteractive products to support people in their everyday and working lives</i> and <i>designing spaces for human communication and interaction</i>"
+      - "<u>interaction design</u> as a way of focusing more on what is being done rather the components it is being done to (human-computer interaction) - <i>the design of interactive products to support people in their everyday and working lives</i> and <i>designing spaces for human communication and interaction</i>"
 
     Applying Basic Research:
       - "<u>cannot simply lift theories out of an established field (Cognitive Psychology)</u>, that have been developed to explain specific phenomena about cognition, and then <u>apply them to explain other kinds of seemingly related phenomena in a different domain (HCI)</u>"
@@ -220,14 +220,14 @@ Theories and Concepts:
 
     Activity Theory:
       - "<u>analyzing actions and interactions with artifacts</u> within a <u>historical and cultural context</u>; explaining cultural practices in the developmental, cultural, and historical context in which they occur, by describing them in terms of <u>activities</u>"
-      - "newspaper production (Bodker), medical care in hospital (Engestrom), design of educational technology (Bellamy), and groupware (Fjeld et al.)"
-      - "Engestrom's developmental work research (including concepts like contradictions, community, rules and division of labor), Halloran's Activity Space collaborative learning framework, Spasser's realist apporach for the design and use of digital libraries, and Collin's model for user requirement engineering."
-      - "<u>analytic</u>: interconnected concepts that can be used to identify and explore interesting problems"
+      - "newspaper production (Bødker), medical care in hospital (Engestrom), design of educational technology (Bellamy), and groupware (Field et al.)"
+      - "Engestrom's developmental work research (including concepts like contradictions, community, rules and division of labor), Halloran's Activity Space collaborative learning framework, Spasser's realist approach for the design and use of digital libraries, and Collin's model for user requirement engineering."
+      - "<u>analytical</u>: interconnected concepts that can be used to identify and explore interesting problems"
     
     External Cognition Approach:
       - "theoretical constructs that unite <u>knowledge in the head</u> with <u>knowledge in the world</u>"
       - "interaction between <u>internal and external representations</u> when performing cognitive task (e.g., learning)"
-      - "indepdent concepts that map a <u>theoretical space</u> specifically in terms of a <u>design space</u>"
+      - "independent concepts that map a <u>theoretical space</u> specifically in terms of a <u>design space</u>"
       - "<u>cognitive dimensions</u>: design vocabulary (high-level concepts) to take about design issues"
       - "<u>computational offloading</u> (how external representations reduce the amount of cognitive effort required to solve informationally equivalent problems), <u>re-representation</u> (how external representations make problem-solving easier), <u>graphical constraining</u> (the inferences that can be made about the underlying represented concept), <u>temporal and spatial constraining</u> (making relevant aspects more salient when distributed over time and space), <u>explicitness and visibility</u> (making salient aspects appropriately perceived and comprehended), <u>cognitive tracing</u> (externally manipulate and make marks on different representations), <u>ease of production</u> (of external representations), <u>combinability and modifiability</u> (of hybrid representations)"
       - "<u>largely generative</u>"
@@ -251,7 +251,7 @@ Theories and Concepts:
       - "<u>descriptive</u> and providing a <u>backdrop</u> for high level concepts such as context"
 
     Ethnomethodological Approach:
-      - "<u>bottom-up sociology approach</u>, whereby working practices are described from <u>the practical acoomplishment of the people</u>"
+      - "<u>bottom-up sociology approach</u>, whereby working practices are described from <u>the practical accomplishment of the people</u>"
       - "<u>thick descriptive</u> of work practices"
       - "high-level socially-based concepts of <u>practical action, order, accountability, and coordination</u>"
       - "<u>system designs</u> to take on board generally operative process like situatedness, practical action, order and accountability"
@@ -262,23 +262,77 @@ Theories and Concepts:
       - "people use technology differently than it was envisioned"
       - "<u>integrating multiple theories</u> at different levels of analysis"
       - "<u>juxtaposing and interweaving different concepts</u> from different traditions to create new perspectives and ways of thinking about a problem space"
-      - "providing <u>a epistemological grounding</u> for your work"
-      - "although they are familiar with the theories and approaches, <u>very few practiioners use theories</u> to interpret their findings (but <u>they use concepts derived from the theories</u>)"
+      - "providing <u>an epistemological grounding</u> for your work"
+      - "although they are familiar with the theories and approaches, <u>very few practitioners use theories</u> to interpret their findings (but <u>they use concepts derived from the theories</u>)"
       - "<u>popular concepts</u>: affordances, context, awareness, situatedness, and cognitive offloading"
-      - "I also find it really difficult to apply these theories fully (in the sense that the design largely leverages them as opposed to doing good HCI work) - What do the theories (or applications of concepts from the theories) add to the existing set of ideas about design and systems>"
-      - "<u>theories do not do design</u>"
+      - "I also find it really difficult to apply these theories fully (in the sense that the design largely leverages them as opposed to simply incorporating good HCI principles) - <u>What do the theories</u> (or applications of concepts from the theories) <u>actually add to the existing set of ideas about design and systems?</u>"
+      - "theories do not do design"
       - "<u>considerable time, effort, and skill</u> are required to understand and know how to use them"
       - "<u>which is potentially most useful</u> for the problem at hand?"
       - "<u>Five kinds of theories</u>: <u>descriptive</u> (providing concepts, clarifying terminology, and guide further inquiry), <u>explanatory</u> (explicating relationships and processes), <u>predictive</u> (enabling predictions to be made about user performance), <u>prescriptive</u> (providing guidance for design), <u>generative</u> (enabling practitioners to create or invent or discover something new)"
-      - "new theoretical approaches can progress further with <u>rethinking new mechanisms of knowledge transfer</u>. A <u>lingua franca</u> so that different parties in research and design can use to refer to common referents."
+      - "new theoretical approaches can progress further with <u>rethinking new mechanisms of knowledge transfer</u>. <u>A lingua franca</u> so that different parties in research and design can use to refer to common referents."
       - "theoretically-based approaches -> new accounts, frameworks and concepts -> extensive design language that can be used in research and design"
-      - "determining which of the new terms, metaphors, and other abstractions are useful for articulating design concerns -> new dialogues identifying areas of <u>conceptual richness</u> and <u>design articulation</u>"
+      - "determining which of the new terms, metaphors, and other abstractions are useful for articulating design concerns -> <u>new dialogues</u> identifying areas of <u>conceptual richness</u> and <u>design articulation</u>"
+
+  - Name: "Three Waves of HCI"
+    Figures:
+      - "waves-ekkomaten-machine.png"
+      - "waves-ekkomaten-echos.png"
+      - "waves-local-area-artwork.png"
+      - "waves-ink.png"
+
+    Papers:
+      - Title: "From human factors to human actors: The role of psychology and human-computer interaction studies in system design"
+        Link: "https://link.springer.com/article/10.1007/s00779-004-0335-2"
+        Authors: "Liam Bannon, Design at Work'91"
+      - Title: "When second wave HCI meets third wave challenges"
+        Link: "http://dl.acm.org/citation.cfm?id=1182476&CFID=773010158&CFTOKEN=88675694"
+        Authors: "Susanne Bødker, NordiCHI'06"
+      - Title: "Third-wave HCI, 10 years later---participation and sharing"
+        Link: "http://dl.acm.org/citation.cfm?id=2804405"
+        Authors: "Susanne Bødker, Interactions'15"
+
+    First Wave (Liam Bannon):
+      - "cognitive science and human factors"
+      - "model-driven and focused on the human being as a subject to be studied through rigid guidelines, formal methods, and systematic testing"
+    
+    Second Wave (Liam Bannon):
+      - "from human factors to human actors"
+      - "groups working with a collection of applications, work settings and interaction within well-established communities of practice"
+      - "cooperation, learnining, and participation"
+      - "situated action, distributed cognition, and activity theory"
+      - "important concepts like context and affordances, and methods like participatory design, prototyping"
+
+    Third Wave (Bødker):
+      - "context and application types broadened and intermixed, technology spread from the workplace to our homes and everyday lives and culture"
+      - "experience and meaning-making"
+      - "individual experience vs. sharing and learning from each other within communities of practice, and participation in shared development and appropriation of technology (second wave)"
+
+    Ten Years Later:
+      - "<i>Whether we have become better at studying these multiple, experience-based use situations, <u>methodically, empirically, or conceptually</u></i>"
+      - "configuration of multitudes of artifacts"
+      - "technologies are appropriated and reappropriated into networks of technological infrastructures and use situations, or using participatory methods to rethink design in these cases"
+      - "bringing technologies, experiences, and users across domains, some of which ware work, others not, and how we may conceptualize and study these open-ended relationships; new connections between rationality and work, between work and leisure"
+      - "go beyond embracing individual experience as it develops over time"
+
+    Interaction As Common:
+      - "how technological artifacts are brought together in configurations that change over time; they come and go due to changing circumstances, activities, or newly acquired skills"
+      - "users' shared capacities and experiences are bound to shared practices, joint activities, and so on in artifact ecologies"
+      - "shared and equal participation (activity) of professioanls and rest-of-life users"
+      - "visibility of the emergent forms of devices, and the visibility of meaning and meaning-making"
+      - "participation and sharing are together"
+
+    So What:
+      - "What is the role of technology in the midst of constant multi-tasking of and switching between activities?"
+      - "HCI is in the middle of a chaos of multiplicity in terms of technologies, use situations, methods, and concepts"
 
   - Name: "Activity-Based Computing (ABC)"
     Figures:
       - "abc-infrastructure-1.png"
       - "abc-infrastructure-2.png"
       - "activity-artifact.png"
+      - "activity-subject-object-community.png"
+      - "activity-structure.png"
       - "activity-engestrom.png"
 
     Papers:
@@ -293,7 +347,13 @@ Theories and Concepts:
         Authors: "Jakob E. Bardram, ECSCW'97"
       - Title: "A human activity approach to user interfaces"
         Link: "http://dl.acm.org/citation.cfm?id=1455744&CFID=772151661&CFTOKEN=96969483"
-        Authors: "Susanne Bodker, HCI'89"
+        Authors: "Susanne Bødker, HCI'89"
+      - Title: "Through the Interface: A Human Activity Approach To User Interface Design"
+        Link: "http://ojs.statsbiblioteket.dk/index.php/daimipb/article/view/7586"
+        Authors: "Susanne Bødker, DAIMI Report Series'87"
+      - Title: "Context and consciousness: activity theory and human-computer interaction"
+        Link: "http://ojs.statsbiblioteket.dk/index.php/daimipb/article/view/7586"
+        Authors: "Bonnie A. Nardi, MIT Press'96"
 
     Overview:
       - "support <u>human activity</u> by managing its collection of work tasks on a computer"
@@ -311,11 +371,37 @@ Theories and Concepts:
       - "activities realized through <u>chains of actions</u>, which are carried out through <u>operations</u>, and yield <u>objective results</u>. These actions are controlled by the subject's <u>conscious goals</u>. "
       - "<u>anticipation</u>: the motive of the activity, the goal of the action, and the orienting basis of the operation"
 
+    Leontiev:
+      - "<u>subject-object</u> model"
+      - "<u>subjects have needs, and they carry out activities</u> (interaction with the world through interaction with objects) <u>to meet these needs</u>."
+      - "activities and their subjects <u>mutually determine one another</u>"
+      - "objects have objective meaning determined by their relationship with other entities existing in the world, including the subject"
+      - "<u>the objectives of objects</u> include not only the <u>physical propoerties</u> but also the <u>social and cultural properties</u>."
+      - "<u>predmet</u>: object with a relevance of the entity to certain human purposes or interests"
+      - "<u>tool mediation</u>: a form of accumulation and transmission of social, cultural knowledge."
+      - "interrnalization and externalization and development"
+      - "individuals as social creatures acting in social contexts"
+
+    Engestrom:
+      - "<u>activity system model</u>: a model of collective activity"
+      - "<u>subject-object-community</u> model -> networks of activity systems"
+      - "activity systems are <u>constantly developing</u>"
+      - "collective activities carried out by groups and organizations"
+
+    Activity Theory in HCI:
+      - "dealing with issues of motivation, meaning, culture, and social interactions"
+      - "general theoretical insights from a richer conceptual framewwork"
+      - "analytical framework for design and devaluation of interactive systems and the development of analytical tools"
+      - "activity-centric computing/systems"
+      - "people (subjects) interact with the world through computers (objects)"
+      - "artefacts defined in terms of mediating means (activity theory), equipment (phenomenology), or processing and transmission of information (distributed cognition and external cognition)"
+      - "human agency"
+
     A Human Activity Approach to User Interfaces:
       - "a computer application is not something that the user operates on but <u>something that the user operates through on objects or subjects of interest in the work activity</u>"
       - our repertoire of <u>actions and operations is evolving continuously</u> and is <u>based on the experiences</u> that we gain as individuals and as group"
       - "<u>operations are triggered by specific situations</u>"
-      - "<u>situation breakdowns</u>: unforseen changes in the material conditions in the activity; they provide learning opportunities"
+      - "<u>situation breakdowns</u>: unforeseen changes in the material conditions in the activity; they provide learning opportunities"
       - "various situations for handling the an object or subject through computer-based artifact"
       - "an user interface should <u>support the intended or operationalized shifts</u> in relation to the <u>use activity</u> (often inefficient and restrictive for more competent users)"
       - "specific or general <u>domain of competence</u>"
@@ -353,10 +439,10 @@ Theories and Concepts:
       - "Thought-provoking: <u>activity as first-class entities</u> (human activity as the basic component in purposeful human work)"
       - "An organization has to be viewed as <u>a collection of multiple activities</u>, each realizing different needs. Some of these activities are directed toward the object of the organization, and others are directed toward an organizational accountability of work. Motives of all involved actors should be recognized and satisfied."
       - "<u>We design new conditions for collective activity</u> (e.g., new division of labor and other ways of coordination, control, and communication)."
-      - "<u>The user interface cannot be seen independently of the goal or object of the activity</u> and of other conditions of the use activity. Analysis and design should be done by people with enough domain knowledge to help intepret the occurring breakdowns."
+      - "<u>The user interface cannot be seen independently of the goal or object of the activity</u> and of other conditions of the use activity. Analysis and design should be done by people with enough domain knowledge to help interpret the occurring breakdowns."
       - "<u>A good user interface is flexible</u> so that the user is able to conduct an activity as different actions and operations depending on <u>the user's repertoire of operations and the actual material conditions</u>. This seems related to the ideas of <u>inclusive design</u>."
-      - "How do users lay out all of their activiites? at a certain point in time and across time."
-      - "How can the user achieve what he or she wants and how this relates to his or her practice within the domain?"
+      - "How do users lay out all of their activities? at a certain point in time and across time. Cross-activity integration across social contexts and digital and non-digital artefacts"
+      - "How can the user achieve what he or she wants and how this relates to his or her practice within the domain? How can activity theory be operationalized? How can we analyze and improve subjective experiences of everyday activities through technology"
 
   - Name: "Time-Centric Computing"
 
@@ -391,6 +477,7 @@ Theories and Concepts:
       - "disposable computing artefacts like post-it notes"
 
     Computational Skin:
+      - "the 5th generation of computing"
       - "<u>surface of any object</u> being able to perform basic <u>computational operations</u> - store information, compute logical operations, communicate within and between surfaces through contact, sense and actuate, harvest their own power to perform the above"
       - "rethink wireless communication"
 
@@ -401,7 +488,9 @@ Theories and Concepts:
       - "<u>computational skins</u>: classrooms (maker's activities, exams, prototyping, collaboration), asset tracking (indoor localization), food safety, voting (paper + digital ballot), whole living spaces"
 
     So What:
-      - ""
+      - "the groups of people in interactive spaces are <u>crowds at a smaller scale</u>"
+      - "<u>collective interactive spaces?</u>"
+      - "How does one establish a presence/identity in such spaces? Or register his or her collection of private or shared devices?"
 
   - Name: "Proxemic Interaction"
     Figures:
@@ -655,8 +744,6 @@ Theories and Concepts:
       - "<u>What is the new medium for understanding systems?</u>"
       - "get away from 'pencil-and-paper' thinking!!!"
       - "seeing inside, seeing across time, and seeing across possibilities"
- 
-
 
 Discovering Devices:
   - Name: "RELATE"
