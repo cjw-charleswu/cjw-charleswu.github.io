@@ -16,10 +16,11 @@ Research Questions:
   - "Design interactive systems/spaces that support <u>changing contexts</u> - identity, location, status (activity), time - adaptive interfaces and personalized preferences (or interaction modes)?"
   - "Design <u>cross-device interaction techniques</u> that enables groups to create, distribute, store, resume, reconfigure, and remove work, as well as to form new groups and split existing groups."
   - "How can <u>high-level, long-term, dynamic human goals or activities</u> be supported across spaces and devices (e.g., always at hand)? How does it integrate with the physical world? How can <u>malleable interactive spaces</u> support these kinds of high-level goals? Potentially supporting multiple goals for multiple people?"
+  - "Gestures for <u>opting in and out</u> of interactive systems or spaces"
   - "<u>Informing users</u> what they are doing and what the system is doing"
   - "What are the <u>killer apps/interaction techniques/designs/experiences?</u>"
   - "<u>Sensing high-level activities and actions</u>: action inference and social inference <u>(keep human in the loop)</u>"
-  - "Really really need <u>long-term in-the-field/in-the-wild studies and evaluation</u>"
+  - "Really really need <u>long-term in-the-field/in-the-wild studies and evaluation</u>, e.g., challenges and opportunities in the classrooms"
 
 Contributions:
   - "C1"

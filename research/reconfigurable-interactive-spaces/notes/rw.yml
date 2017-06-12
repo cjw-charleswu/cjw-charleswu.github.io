@@ -745,13 +745,19 @@ Theories and Concepts:
       - "get away from 'pencil-and-paper' thinking!!!"
       - "seeing inside, seeing across time, and seeing across possibilities"
 
-Awareness in Interactive Spaces:
+Sensing and Visualizing Awareness in Interactive Spaces:
   - Name: Surface Ghosts
 
     Papers:
       - Title: "Surface Ghosts: Promoting Awareness of Transferred Objects during Pick-and-Drop Transfer in Multi-Surface Environments"
         Link: "http://dl.acm.org/citation.cfm?id=2669508"
         Authors: "Scott, Beasacier, Tournet, Goyal, Haller, ITS'14"
+      - Title: "Comparing visual feedback techniques for object transfer between private and shared surfaces"
+        Link: "http://dl.acm.org/citation.cfm?id=2512403"
+        Authors: "Tournet, Besacier, Goyal, McCelland, Scott, ITS'13"
+      - Title: "Object and ARM shadows: visual feedback for cross device transfer"
+        Link: "http://dl.acm.org/citation.cfm?id=2574832"
+        Authors: "Besacier, Tournet, Goyal, Cento, Scott, CHI EA'14"
 
   - Name: SpiderEyes
 
@@ -1048,21 +1054,6 @@ Connecting Devices:
       - "I think there's a concept gap - a person associates multiple devices by performing multiple <u>one-to-one</u> techniques but proposes <u>one-to-many</u> (or <u>collaborative</u>) techniques when they are in a group. How can a single person associate multiple devices using <u>many-to-many</u> techniques on their own?"
       - "What if there are <u>multiple ways</u> of associating devices, <u>like multiple ways of bringing papers together</u>? How can a group coordinate which technique to use? How can technologies support this decision process? Same for configuration work and cross-device interaction."
 
-  - Name: Gestures for Connecting Mobile Phones, Public Displays, and Tabletops
-
-    Papers:
-      - Title: "User-defined gestures for connecting mobile phones, public displays, and tabletops"
-        Link: "http://dl.acm.org/citation.cfm?id=1851640"
-        Authors: "Kray, Nesbitt, Dawson, Rohs, MobileHCI'10"
-
-  - Name: Personal Device as a Controller for Interactive Surfaces
-
-    Papers:
-      - Title: "Personal Device as a Controller for Interactive Surfaces –
-Usability and Utility of Different Connection Methods"
-        Link: "http://dl.acm.org/citation.cfm?id=2817745"
-        Authors: "Vepsäläinen, Rienzo, Nelimarkka, Ojala, Savolainen, Kuikkaniemi, Tarkoma, Jacucci, ITS'15"
-
 Small-Group Cross-Device Interaction:
   - Name: "Pick-and-Drop"
     Figures:
@@ -1278,6 +1269,14 @@ Small-Group Cross-Device Interaction:
       - "exploiting hand postures and gestures (e.g, two-handed input) for new cross-device interaction"
 
   - Name: "HuddleLamp"
+    Figures:
+      - "huddlelamp-setup.png"
+      - "huddlelamp-fig1.png"
+      - "huddlelamp-tracking.png"
+      - "huddlelamp-peephole.png"
+      - "huddlelamp-synchronous.png"
+      - "huddlelamp-spatial-aware.png"
+      - "huddlelamp-cross-device.png"
 
     Papers:
       - Title: "HuddleLamp: Spatially-Aware Mobile Displays for Ad-hoc Around-the-Table Collaboration"
@@ -1299,22 +1298,76 @@ Small-Group Cross-Device Interaction:
         Link: "http://dl.acm.org/citation.cfm?id=2992182"
         Authors: "Xiao, Hudson, Harrison, ISS'16"
 
+  - Name: PhoneTouch
+    Figures:
+      - "phonetouch-fig1.png"
+      - "phonetouch-photo.png"
+      - "phonetouch-system.png"
+      - "phonetouch-scroll.png"
+
+    Papers:
+      - Title: "PhoneTouch: a technique for direct phone interaction on surfaces"
+        Link: "http://dl.acm.org/citation.cfm?id=1866034"
+        Authors: "Schmidt, Chehimi, Rukzio, Gellersen, UIST'10"
+
   - Name: "CurationSpace"
     Papers:
       - Title: "CurationSpace: Cross-Device Content Curation Using Instrumental Interaction"
         Link: "http://dl.acm.org/citation.cfm?id=2992175"
         Authors: "Brudy, Houben, Marquardt, Rogers, ISS'16"
 
+  - Name: Enabling Collocated Collaboration
+    Figures:
+      - "mobisurf-fig1-a.png"
+      - "mobisurf-fig1-b.png"
+      - "mobisurf-fig1-c.png"
+
+    Papers:
+      - Title: "MobiSurf: improving co-located collaboration through integrating mobile devices and interactive surfaces"
+        Link: "http://dl.acm.org/citation.cfm?id=2396644"
+        Authors: "Seifert, Simeone, Schmidt, Holleis, Reinartz, Wagner, Gellersen, Rukzio, ITS'12"
+      - Title: "Ad-hoc co-located collaborative work with mobile devices"
+        Link: "http://dl.acm.org/citation.cfm?id=1378061"
+        Authors: "Luyten, Verpoorten, Coninx, MobileHCI'07"
+
+    Overview:
+      - "<u>combination of personal and a shared device</u> allows users to fluently switch between individual and group work phases and to take advantage of both device classes"
+      - "seamless integration of personal mobile devices and shared interactive surfaces for collocated collaboration"
+
+    So What:
+      - "cross-device interaction techniques can be intuitive"
+
+  - Name: Gesture Elicitation
+    Figures:
+      - "gestures-transfer.png"
+      - "gestures-examples.png"
+
+    Papers:
+      - Title: "User-defined gestures for connecting mobile phones, public displays, and tabletops"
+        Link: "http://dl.acm.org/citation.cfm?id=1851640"
+        Authors: "Kray, Nesbitt, Dawson, Rohs, MobileHCI'10"
+      - Title: "Eliciting usable gestures for multi-display environments"
+        Link: "http://dl.acm.org/citation.cfm?id=2396643"
+        Authors: "Seyed, Burns, Sousa, Maurer, Tang, ITS'12"
+      - Title: "Personal Device as a Controller for Interactive Surfaces –
+Usability and Utility of Different Connection Methods"
+        Link: "http://dl.acm.org/citation.cfm?id=2817745"
+        Authors: "Vepsäläinen, Rienzo, Nelimarkka, Ojala, Savolainen, Kuikkaniemi, Tarkoma, Jacucci, ITS'15"
+
+    Overview:
+      - "close contact"
+      - "selection"
+      - "borrowed interactions"
+      - "moving objecs"
+
 Room-Scale Cross-Device Interaction:
   - Name: "Augmented Surfaces"
-
     Papers:
       - Title: "Augmented Surfaces: A Spatially Continuous Workspace for Hybrid Computing Environments"
         Link: "http://dl.acm.org/citation.cfm?id=303113"
         Authors: "Rekimoto, Saitoh, CHI'99"
 
   - Name: "iLand"
-
     Figures:
       - "iroom-visualization.png"
       - "iroom-dynawall.png"
@@ -1378,21 +1431,51 @@ Room-Scale Cross-Device Interaction:
       - "another <u>very inspiring work!!!</u> I like how the old papers have really good ideas."
 
   - Name: "Drag-and-Pop and Drag-and-Pick"
-
     Papers:
       - Title: "Pick-and-drop: a direct manipulation technique for multiple computer environments"
         Link: "https://books.google.com.tw/books?hl=en&lr=&id=PTg0fVYqgCcC&oi=fnd&pg=PA57&ots=O9SOAEkBsV&sig=j_vfYAp0TPDemaHEUxH329CPNCw&redir_esc=y#v=onepage&q&f=false"
         Authors: "Baudisch, Cutrell, Robbins, Czerwinski, Tandler, Bederson, Zierlinger, Interact'03"
 
   - Name: "Drag-and-Throw"
-
     Papers:
       - Title: "Throwing Models for Large Displays"
         Link: "https://hal.archives-ouvertes.fr/lirmm-00269751/"
         Authors: "Mountaz Hascoet, HCI'03"
 
-  - Name: "CoReach"
+  - Name: "Touch + Air Gestures"
+    Figures:
+      - "codespace-fig1.png"
+      - "codespace-point-manipulate.png"
+      - "codespace-swpie.png"
+      - "codespace-transfer.png"
+      - "codespace-preview.png"
+      - "codespace-tertiary-display.png"
+      - "codespace-palette-1.png"
+      - "codespace-palette-2.png"
 
+    Papers:
+      - Title: "Code space: touch + air gesture hybrid interactions for supporting developer meetings"
+        Link: "http://dl.acm.org/citation.cfm?id=2076393/"
+        Authors: "Bragdon, DeLine, Hinckley, Morris, ITS'11"
+
+    Overivew:
+      - "combining touch, devices, and skeletal tracking to support developer meetings"
+      - "touch manipulation and digital ink on surfaces"
+      - "workflow templates (visual buckets)"
+      - "pointing and manipulating via pointing using skeletal tracking"
+      - "manipulating and inking with a phone; phone manipulation as an alternative to posture manipulation"
+      - "gesturing from the audience"
+      - "pulling objects to a phone and enabling local manipulation on the phone"
+      - "pushing objects to the shared display (metaphor: package)"
+      - "transient sharing"
+      - "transferring to and from a laptop"
+      - "peer-to-peer sharing"
+      - "tertiary display"
+      - "workspace split"
+      - "posture palette via open palm posture"
+      - "posture-moded touch and pen gestures"
+
+  - Name: "CoReach"
     Papers:
       - Title: "CoReach: Cooperative Gestures for Data Manipulation on Wall-sized Displays"
         Link: "http://dl.acm.org/citation.cfm?id=3025594"
