@@ -283,7 +283,7 @@ Theories and Concepts:
 
     Papers:
       - Title: "From human factors to human actors: The role of psychology and human-computer interaction studies in system design"
-        Link: "https://link.springer.com/article/10.1007/s00779-004-0335-2"
+        Link: "https://www.researchgate.net/publication/242569963_From_Human_Factors_to_Human_Actors_The_Role_of_Psychology_and_Human-Computer_Interaction_Studies_in_System_Design"
         Authors: "Liam Bannon, Design at Work'91"
       - Title: "When second wave HCI meets third wave challenges"
         Link: "http://dl.acm.org/citation.cfm?id=1182476&CFID=773010158&CFTOKEN=88675694"
@@ -717,7 +717,10 @@ Theories and Concepts:
     Papers:
       - Title: "Media for Thinking the Unthinkable"
         Link: "https://www.youtube.com/watch?v=oUaOucZRlmE"
-        Authors: "Bret Victor, talk at the MIT Media Lab 2013."
+        Authors: "Bret Victor, talk at MIT Media Lab 2013"
+      - Title: "The Humane Representation of Thought"
+        Link: "https://www.youtube.com/watch?v=agOdP2Bmieg"
+        Authors: "Bret Victor, talk at UIST 2014"
 
     Figures:
       - "media-system-theory.png"
@@ -739,14 +742,55 @@ Theories and Concepts:
       - "thinking visually instead of thinking in a language (geometrically vs. algebraically)"
       - "<u>tinkering</u> -> <u>engineering</u> -> <u>science</u>"
 
+    Dynamic Medium:
+      - "computational, responsive, and connected"
+      - "visual, aural, tactile, kinesthetic, and spatial"
+      - "enactive, iconic, and symbolic"
+      - "<u>dynamic conversaiton/modeling</u> - content of realtime conversation"
+      - "<u>dynamic presentation</u> - improvising dynamic models, using the space, mapping concept space into physical space. exploring with other people"
+      - "<u>dynamic reading</u> - context sensitive reading materials, explorable models, a working thing, a program that reader actively explores, dynamic spatial media (e.g., reading a book by walking a physical space through it, interacting with the tangible forms, dynamic museum)"
+      - "<u>engineering</u> as thing to thing and <u>authoring</u> as person-to-person"
+      - "direct manipulation of behaviour"
+
     So What:
       - "<u>EXCELLENT TALK, EXCELLENT SPEAKER!!</u> I will probably watch all of his talks."
       - "<u>What is the new medium for understanding systems?</u>"
+      - "getting us out of the cage"
       - "get away from 'pencil-and-paper' thinking!!!"
       - "seeing inside, seeing across time, and seeing across possibilities"
+      - "representations that enable people to think about new ideas"
+      - "what should we build, why we are building it, what are we doing with it? what is it doing to us?"
+      - "dynamic environment to think in, new forms of knowledge work that incorporates the body"
+
+Reconfiguration:
+  - Name: Doppio
+    Figures:
+      - "doppio-configurations.png"
+      - "doppio-transitions.png"
+      - "doppio-manipulations.png"
+      - "doppio-notifications.png"
+      - "doppio-multitask.png"
+      - "doppio-weather.png"
+      - "doppio-applications.png"
+
+    Papers:
+      - Title: "Doppio: A Reconfigurable Dual-Face Smartwatch for Tangible Interaction"
+        Link: "http://dl.acm.org/citation.cfm?id=2858256"
+        Authors: "Seyed et al., CHI'16"
+
+    Overview:
+      - "dual display and tangible interactions"
+      - "unified or separate displays (input and output)"
+      - "location and tangibility"
+      - "configurations, transition, and manipulations"
 
 Sensing and Visualizing Awareness in Interactive Spaces:
   - Name: Surface Ghosts
+    Figures:
+      - "surfaceghost-pd.png"
+      - "surfaceghost-object-embodiment.png"
+      - "surfaceghost-cardgame.png"
+      - "surfaceghost-cardgame-tablet.png"
 
     Papers:
       - Title: "Surface Ghosts: Promoting Awareness of Transferred Objects during Pick-and-Drop Transfer in Multi-Surface Environments"
@@ -759,12 +803,32 @@ Sensing and Visualizing Awareness in Interactive Spaces:
         Link: "http://dl.acm.org/citation.cfm?id=2574832"
         Authors: "Besacier, Tournet, Goyal, Cento, Scott, CHI EA'14"
 
+    Overview:
+      - "awareness of transferred objects for Pick and Drop"
+      - "shadow casting"
+
+    So What:
+      - "persistent feedback during cross-device information transfer"
+      - "explict ownership"
+
   - Name: SpiderEyes
+    Figures:
+      - "spidereyes-1.png"
+      - "spidereyes-2.png"
+      - "spidereyes-3.png"
+      - "spidereyes-vis-active.png"
+      - "spidereyes-details-active.png"
+      - "spidereyes-physical-zoom.png"
+      - "spidereyes-vis-active-constant-zoom.png"
+      - "spidereyes-vis-active-amplified-zoom.png"
 
     Papers:
       - Title: "SpiderEyes: designing attention- and proximity-aware collaborative interfaces for wall-sized displays"
         Link: "http://dl.acm.org/citation.cfm?id=2557541"
         Authors: "Dostal, Hinrichs, Kristensson, Quigley, IUI'14"
+
+    Overview:
+      - "collaborative proxemics for large wall displays"
 
   - Name: Callout Bubble
 
@@ -1053,6 +1117,106 @@ Connecting Devices:
       - "I like <u>guessability study</u>. Could it be applied to something for <u>cross-device / device ecologies concepts</u>? Need more thoughts."
       - "I think there's a concept gap - a person associates multiple devices by performing multiple <u>one-to-one</u> techniques but proposes <u>one-to-many</u> (or <u>collaborative</u>) techniques when they are in a group. How can a single person associate multiple devices using <u>many-to-many</u> techniques on their own?"
       - "What if there are <u>multiple ways</u> of associating devices, <u>like multiple ways of bringing papers together</u>? How can a group coordinate which technique to use? How can technologies support this decision process? Same for configuration work and cross-device interaction."
+  
+  - Name: "Corona"
+    Figures:
+      - "corona-ble.png"
+      - "corona-devices.png"
+
+    Papers:
+      - Title: "Corona: Positioning Adjacent Device with Asymmetric Bluetooth Low Energy RSSI Distributions"
+        Link: "http://dl.acm.org/citation.cfm?id=2807485"
+        Authors: "Jin et al., UIST'15"
+
+    Overview:
+      - "spatial sensing for locating adjacent mobile devices via asymmetric Bluetooth Low Energy RSSI distributions"
+
+Distributed User Interface:
+  - Name: "Customizable Dynamic User Interface Distribution"
+    Figures:
+      - "customizable-fig1.png"
+      - "customizable-ui.png"
+      - "customizable-ui-distributed.png"
+      - "customizable-example.png"
+      - "customizable-authoring-environment.png"
+      - "customizable-ui-specification.png"
+      - "customizable-tool.png"
+
+    Papers:
+      - Title: "Customizable dynamic user interface distribution"
+        Link: "http://dl.acm.org/citation.cfm?id=2933259"
+        Authors: "Manca and Paterno, EICS'16"
+
+    Overview:
+      - "authoring environment allowing the specification of the distribution of user interfaces"
+      - "customization tools for end users to dynamically change how the user interface elements are distributed across multiple devices"
+
+  - Name: "4C Reference Model"
+    Papers:
+      - Title: "The 4C Reference Model for Distributed User Interfaces"
+        Link: "http://ieeexplore.ieee.org/abstract/document/4488323/"
+        Authors: "Demeure et al., ICAS'08"
+
+    Overview:
+      - "<u>computation</u>: what is distributed?"
+      - "<u>communication</u>: who is distributed?"
+      - "<u>coordination</u>: what is distributed?"
+      - "<u>configuration</u>: from where and to where is the distribution operated?"
+      - "reference framework for DUIs"
+    
+    Habitat:
+      - "the configuration of the interactive system"
+      - "represented as a graph consisting of nodes (logical space, zone, CPU, actuator, functional core, user interface) and edges (relations)"
+
+    Computation:
+      - "what elements are distributed during the operation"
+      - "<u>splittability</u>: all graphical individual components could be presented separately depending on the constraints imposed by the user's task corresponding to the container"
+
+    Communication:
+      - "distribution time: when are the elements of an interactive system distributed, executed at design-time or at execution-time or between"
+      - "<u>static</u> and <u>dynamic</u> distribution"
+      - "<u>tunable UI</u>: tuned according to user's needs (known only at run-time)"
+      - "<u>mutable UI</u>: be submitted to a change of its underlying code (decomposition and recomposition of components)"
+    Coordination:
+      - "distribution responsibility: who is distributing the interactive system"
+      - "meta-user interface: UI for controlling the UI distribution"
+      - "system, initiated, user-initiated, or mixed-initiated"
+    
+    Configuration:
+      - "where a UI is distributed and how to distribute it"
+
+  - Name: "Distributed User Interface Elements"
+    Papers:
+      - Title: "Distributed User Interface Elements to support Smart Interaction Spaces"
+        Link: "http://ieeexplore.ieee.org/document/1565844/"
+        Authors: "Luyten and Coninx, Multimedia'05"
+
+    Overview:
+      - "lack of suitable (task-centered) user interface design approach"
+      - "lack of support for DUI in ubiquitous environments"
+      - "<u>distributed interaction space</u> consisting of various resources available in the user's environment (which can be accessed by the user)"
+      - "<u>personal</u> and <u>collaborative</u> interaction spaces"
+      - "distribution manager"
+      - "interface <u>completeness</u> and <u>continuitu</u>"
+
+    Device-Independent User Interface Elements:
+      - "user interface markup language, separation of the user interface, its concent, the mapping of its abstract concepts onto concrete widgets and the application logic"
+      - "associating multiple UIML documents with an interaction task, creating a composite user interface that distributes the user interface elements for a set of tasks over a federation of devices"
+      - "devices selected according to the constraints of the user and requirements"
+
+    Distributed Interaction Space:
+      - "<u>task</u>, <u>device</u>, and <u>location</u>-distribution"
+    
+    User Interface Distribution:
+      - "<u>user-driven</u>, <u>system-driven</u>, and <u>continuous interaction</u> (devices entering and exiting the interaction space)"
+
+    Interaction Distribution Metircs:
+      - "<u>completeness</u>: all interaction tasks needed to reach a goal at a particular moment are made accessible to the user"
+      - "<u>continuity</u>: user can interpret and evaluate the internal state of the system while using different input/output devices"
+
+    So What:
+      - "continuous interaction with devices / distributed user interfaces"
+      - "increasing awareness of distributed user interface components"
 
 Small-Group Cross-Device Interaction:
   - Name: "Pick-and-Drop"
@@ -1359,6 +1523,41 @@ Usability and Utility of Different Connection Methods"
       - "selection"
       - "borrowed interactions"
       - "moving objecs"
+
+  - Name: SurfaceLink and AirLink
+    Figures:
+      - "surfacelink-fig1.png"
+      - "surfacelink-gestures.png"
+      - "surfacelink-gestures-2.png"
+      - "airlink-fig1.png"
+      - "airlink-doppler.png"
+
+    Papers:
+      - Title: "SurfaceLink: using inertial and acoustic sensing to enable multi-device interaction on a surface"
+        Link: "http://dl.acm.org/citation.cfm?id=2557120"
+        Authors: "Goel et al., CHI'14"
+      - Title: "AirLink: sharing files between multiple devices using in-air gestures"
+        Link: "http://dl.acm.org/citation.cfm?id=2632090"
+        Authors: "Ashbrook et al., Ubicomp'14"
+
+    Overview:
+      - "surfaces used as communication channel between devices"
+      - "dragging on a flat surface for information transfer"
+      - "directionality, speed, length, and multi-touch combined to enable multi-device interaction"
+    
+    SurfaceLink:
+      - "detecting the presence, arrangment, and interaction"
+      - "accelerometers (inertial sensing) and microphones (acoustic sensing)"
+      - "<u>presence</u>: what devices share the same flat surface"
+      - "vibration to connect devices on a flat surface (used external contact microphone)"
+      - "<u>interactions</u>: swiping across on uninstrumented surface (sensing away and towards gestures), pinch and expand, grouping"
+      - "touch modes: finger tip, fist, and nail"
+      - "sensing <u>arrangement</u> via stereo speakers (inaudiable tone - 18kHz from left speaker and 18.5kHz from right speaker), enabling touchscreen gestures for cross-device interaction"
+      - "detecting arrangement using gestures on the surface"
+      - "evaluation on different surfaces: wood, laminate, and metal (lower bound)"
+    
+    AirLink:
+      - "detecting mid-air gestures by leveraging Doppler Effect"
 
 Room-Scale Cross-Device Interaction:
   - Name: "Augmented Surfaces"
