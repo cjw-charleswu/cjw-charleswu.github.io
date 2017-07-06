@@ -784,7 +784,7 @@ Reconfiguration:
       - "location and tangibility"
       - "configurations, transition, and manipulations"
 
-  - Name: Doppio
+  - Name: Chronicle
     Figures:
       - "chronicle-fig1.png"
       - "chronicle-data-probe.png"
@@ -802,12 +802,16 @@ Reconfiguration:
     Chronicle:
       - "controls for viewing and navigating the revisions (chronicles), before and after information"
       - "interactive timeline"
-      - "playback video for what happened"
+      - "playback video for what happened (fast forward )"
       - "probes (lens into the past)"
       - "filters by time, layer, user, tool, and workflow"
+      - "timelines of various tracks (events including how tools were configured, dialogs, actions, and tool completion)"
+      - "who were working on the document and who saved it"
+      - "annotations and activities"
 
     So What:
       - "playback workflows and tumeline of events, tools, activity, etc..."
+      - "however, activity here only refers to the amount of work done"
 
 Sensing and Visualizing Awareness in Interactive Spaces:
   - Name: Surface Ghosts
