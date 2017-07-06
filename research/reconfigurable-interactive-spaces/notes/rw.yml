@@ -784,6 +784,31 @@ Reconfiguration:
       - "location and tangibility"
       - "configurations, transition, and manipulations"
 
+  - Name: Doppio
+    Figures:
+      - "chronicle-fig1.png"
+      - "chronicle-data-probe.png"
+      - "chronicle-timeline.png"
+
+    Papers:
+      - Title: "Chronicle: capture, exploration, and playback of document workflow histories"
+        Link: "http://dl.acm.org/citation.cfm?id=1866054"
+        Authors: "Grossman et al., UIST'10"
+
+    Overview:
+      - "interactive tools for the entire history of a document"
+      - "playback overlays the application"
+
+    Chronicle:
+      - "controls for viewing and navigating the revisions (chronicles), before and after information"
+      - "interactive timeline"
+      - "playback video for what happened"
+      - "probes (lens into the past)"
+      - "filters by time, layer, user, tool, and workflow"
+
+    So What:
+      - "playback workflows and tumeline of events, tools, activity, etc..."
+
 Sensing and Visualizing Awareness in Interactive Spaces:
   - Name: Surface Ghosts
     Figures:
@@ -1558,6 +1583,29 @@ Usability and Utility of Different Connection Methods"
     
     AirLink:
       - "detecting mid-air gestures by leveraging Doppler Effect"
+
+  - Name: Open Project
+    Figures:
+      - "openproject-fig1a.png"
+      - "openproject-fig1b.png"
+      - "openproject-fig1c.png"
+      - "openproject-multiusers.png"
+      - "openproject-map.png"
+      - "openproject-gallery.png"
+      - "openproject-ttt.png"
+      - "openproject-drawing.png"
+
+    Papers:
+      - Title: "Open project: a lightweight framework for remote sharing of mobile applications"
+        Link: "http://dl.acm.org/citation.cfm?id=2502030"
+        Authors: "Negulescu and Li, UIST'13"
+
+    Overview:
+      - "projecting native mobile applications onto a display using a phone camera (projection metaphor with QR code)"
+      - "support for multiple users simultaneously sharing content on one or many displays"
+      - "decentralized architecture and communication protocol"
+      - "impromptu sharing on public, shared displays"
+      - "visual synchronization protocol"
 
 Room-Scale Cross-Device Interaction:
   - Name: "Augmented Surfaces"
