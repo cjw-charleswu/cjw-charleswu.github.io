@@ -1612,11 +1612,71 @@ Usability and Utility of Different Connection Methods"
       - "visual synchronization protocol"
 
 Room-Scale Cross-Device Interaction:
+  - Name: "LightSpace"
+    Figures:
+      - "lightspace-fig1a.png"
+      - "lightspace-fig1b.png"
+      - "lightspace-fig1c.png"
+      - "lightspace-fig1d.png"
+      - "office-of-the-future.png"
+    
+    Papers:
+      - Title: "Combining multiple depth cameras and projectors for interactions on, above and between surfaces"
+        Link: "http://dl.acm.org/citation.cfm?id=1866073"
+        Authors: "Wilson and Benko, UIST'10"
+
+    Overview:
+      - "depth-sensing cameras and projects, calibrated to real coordinates of an office space"
+      - "interactions on, above, and between surfaces"
+      - "simulating desk as tabletop and wall as display"
+      - "moving objects by touching or sweeping (and onto the body)"
+      - "carrying objects as user walks inside a room, for example towards an interactive wall display"
+      - "handing objects to another person via physical interaction (objects projected onto the object such as paper) or placing objects on the display"
+      - "spatial menu (hands moving up and down)"
+
+    LightSpace:
+      - "<u>Surface everywhere</u>: all physical surfaces should be interactive displays"
+      - "<u>The room is the computer</u>: the sapce between interactive physical surfaces is active"
+      - "<u>body as display</u>: graphics may be projected onto the user's bodyto enable interactions in mid-air, such as holding a virtual object or making a selection by a menu projected on the hand"
+      - "simulated interactive surfaces, through-body-transitions between surfaces, picking up objects, spatial menus"
+      - "plan view of the room sensing the user in the entire interactive volume, and wall and table orthographic virtual cameras sensing interactions above these displays surfaces (connectivity sensed by connected components)"
+
+    So What:
+      - "combining depth cameras and projects to move interactions from computer screens into the space around us"
+
   - Name: "Augmented Surfaces"
+    Figures:
+      - "augmentedsurfaces-fig1a.png"
+      - "augmentedsurfaces-fig1b.png"
+      - "augmentedsurfaces-fig1c.png"
+      - "augmentedsurfaces-hyper-draggin.png"
+      - "augmentedsurfaces-infotable-infowall.png"
+      - "augmentedsurfaces-anchor.png"
+      - "augmentedsurfaces-object.png"
+      - "augmentedsurfaces-cameras.png"
+
     Papers:
       - Title: "Augmented Surfaces: A Spatially Continuous Workspace for Hybrid Computing Environments"
         Link: "http://dl.acm.org/citation.cfm?id=303113"
         Authors: "Rekimoto, Saitoh, CHI'99"
+
+    Overview:
+      - "interchange digital information among portable computers, table and wall displays, and other physical objects"
+      - "the interactive space as an extension of personal computers or a shared workspace between users"
+
+    Augmented Surfaces:
+      - "camera-based object recognition of physical artifacts (sensing printed visual marker)"
+      - "hyperdragging (dragging objects from the computer to the surface, wall display, or physical object) and utilizing the space between devices on a surface"
+      - "anchored cursor"
+      - "pick and beam objects on the surface to the wall display"
+      - "digital attachment of objects onto a physical artifact (such as a book)"
+      - "object aura as the data space of the physical object (digital data is displayed when the object is placed on the surface again)"
+
+    So What:
+      - "a spatially continuous workspace"
+      - "hyperdragging is interesting but perhaps more intuitive to use hand gestures to perform this task (although a pointing device would be more accurate due to indirect mapping)"
+      - "I also like other concepts including anchored cursor and object aura (I've been thinking about visualizing/projecting action capabilities in interactive spaces)"
+      - ""
 
   - Name: "iLand"
     Figures:
@@ -1682,10 +1742,18 @@ Room-Scale Cross-Device Interaction:
       - "another <u>very inspiring work!!!</u> I like how the old papers have really good ideas."
 
   - Name: "Drag-and-Pop and Drag-and-Pick"
+    Figures:
+      - "drag-and-pop.png"
+      - "dynawall.png"
+
     Papers:
-      - Title: "Pick-and-drop: a direct manipulation technique for multiple computer environments"
+      - Title: "Drag-and-Pop and Drag-and-Pick: techniques for accessing remote screen content on touch- and pen-operated systems"
         Link: "https://books.google.com.tw/books?hl=en&lr=&id=PTg0fVYqgCcC&oi=fnd&pg=PA57&ots=O9SOAEkBsV&sig=j_vfYAp0TPDemaHEUxH329CPNCw&redir_esc=y#v=onepage&q&f=false"
         Authors: "Baudisch, Cutrell, Robbins, Czerwinski, Tandler, Bederson, Zierlinger, Interact'03"
+
+    Overview:
+      - "drag-and-pop: dragging documents into an application"
+      - "drag-and-pick: all icons located in the direction of drag will pop up, and as the user drags the mouse cursor over one of the targets and releases the mouse button, the folder, file, or application associated with icon is activated"
 
   - Name: "Drag-and-Throw"
     Papers:
