@@ -23,6 +23,9 @@ Theories and Concepts:
       - Title: "Plans and situated actions: The problem of human-machine communication"
         Link: "https://books.google.com.tw/books?hl=en&lr=&id=AJ_eBJtHxmsC&oi=fnd&pg=PR7&dq=Plans+and+situated+actions:+The+problem+of+humanmachine+communication&ots=KqPqlIJLOQ&sig=RuVe0sEAtbuK3PGRUQEY7omEpa0&redir_esc=y#v=onepage&q=Plans%20and%20situated%20actions%3A%20The%20problem%20of%20humanmachine%20communication&f=false"
         Authors: "Lucy A. Suchman, Cambridge University Press'87"
+      - Title: "Charting past, present, and future research in ubiquitous computing"
+        Link: "http://dl.acm.org/citation.cfm?id=344988"
+        Authors: "Abowd and Mynatt, TOCHI'00"
 
     Overview:
       - "<i>The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it.</i>"
@@ -97,6 +100,7 @@ Theories and Concepts:
       - "interaction techniques for ad hoc collaboration in device ecologies"
       - "How do users of various abilities perceive interactive spaces? and interaction techniques for multi-device environments?"
       - "How do users (or groups) spatially distribute devices in interactive spaces?"
+      - "activities as unit of analysis for everyday computing (tools reflect their role in longer-term activities)"
 
   - Name: "Context-Aware Computing"
     Figures:
