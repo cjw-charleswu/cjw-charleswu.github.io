@@ -1,0 +1,15 @@
+layouts_dir:  _layouts
+includes_dir: _includes
+data_dir: research
+collections:
+  research:
+    output: true
+    permalink: /:collection/:name
+
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
